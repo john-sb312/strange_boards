@@ -1,0 +1,1841 @@
+
+Xbf
+0x00000000 0x1026002b
+f
+12 @0x00000000 0xaaaaaaaa/0x746f6f62/0x0076fe03 
+11 @0x00000000 0xaaaaaaaa/0x746f6f62/0x0076fe03 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 72857032418d7891cf2893beaa36331108428590 rc=6
+I?
+I90
+BORG mlc0,11@0x00000000 [_ftext=0x80140000 etext=0x80144e6c]
+[_fdata=0x80144e6c edata=0x80145584] [_fbss=0x80145584 end=0x801457c8] sp=0x80157c88 gp=0x8014d580
+pll1=0x01002029 premux=0x00000101 mux=0x19000001 [32m[mips@282MHz][0m
+!xxenv xload3 rc=6
+#chpll 0x01002029/0x00000001 -> 0x0100003a/0x00000101... [32mok[0m
+********* Rudimentary ddr-3 test, bank#0: ORG = 0xd455db39
+0x8000e000 <- 0x80006000
+0x8001e000 <- 0x8000e000
+0x8003e000 <- 0x8001e000
+0x8007e000 <- 0x8003e000
+0x800fe000 <- 0x8007e000
+0x801fe000 <- 0x800fe000
+0x803fe000 <- 0x801fe000
+0x807fe000 <- 0x803fe000
+0x80ffe000 <- 0x807fe000
+0x81ffe000 <- 0x80ffe000
+0x83ffe000 <- 0x81ffe000
+0x87ffe000 <- 0x83ffe000
+0x8fffe000 <- 0x87ffe000
+0x8fffe000 <- 0x8fffe000
+0xafffe000 <- 0x8fffe000
+********* Rudimentary ddr-3 test: ~0 bit failures!
+
+Boot from NAND...
+jdec id=569590dcad
+mlcnand_if_init() returned OK
+device read in virtual offset 0x000c0000 for ZXENV succeeded!
+device read in physical offset of xos3 succeeded!
+device read in virtual offset 0x00040000 for ezboot xload succeeded!
+!Cezboot xload3 rc=6
+!X
+
+#ezb3o2b (1010confi000(8an30s02 / acbial0x0u=@7feMH 0x000300M2 ) ys[3e8Mal)246o9e8d4cbc4eeEb1784cci1 9x00b ]2=0o0mi00222 d900a0805c3e7
+acbs0ecf8
+fcd8fc040d78e1d6059a58ab156511466d7b]
+#step22
+ruamm0 [0x98000000,0xbf2f0000[ (~657391616 bytes)
+[0xbf2b0000,xos_public_ga=0xbf2c0000[ and [0xbf2e0000,0xbf2f0000[ are lost for alignment)
+channel_index_ga=#xb
+2afcd4
+[0xbec00000,ios_ga=0xbec00000[ and [0xbf000000,0xbf29fcbc[ are lost for alignment)
+GW32 0x0006f008 0x80000000 [va=0x84000000]
+GW32 0x0006f00c 0x84000000 [va=0x88000000]
+GW32 0x0006f010 0x88000000 [va=0x8c000000]
+step33
+xos version = 0x2b
+xos serial = 24649e3d4cbc4ee7b6784cc2109603b9
+Using zbootxenv ga=0xbebfbff4 (va=0xbabfbff4)
+Chip identified as SMP8673B00 (03) rev 1 prod (oemid: 2225d90faa825c3e70acb50fcf86fcd8fc040d78e1d6059a58ab156511466d7b)
+
+**************************************
+* SMP86xx zboot start ...
+* Version: 3.1.0
+* Started at 0xd00fba98.
+* Configurations (chip revision: 1):
+*    Enabled checkpoints.
+**************************************
+DRAM0 dunit_cfg/delay0_ctrl (0x20d9e01d/0x67bf1e82).
+DRAM1 dunit_cfg/delay0_ctrl (NA/NA).
+Using UART port 0 as console.
+Board ID.: 1212-E1 MTD
+Setting up H/W from XENV block at 0xbabfbff4.
+  Setting <SYSCLK avclk_mux> to 0x17400000.
+  Setting <SYSCLK hostclk_mux> to 0x00000131.
+  Setting <IRQ rise edge trigger lo> to 0xff28ca06.
+  Setting <IRQ fall edge trigger lo> to 0x0000c000.
+  Setting <IRQ rise edge trigger hi> to 0x8c10001f.
+  Setting <IRQ fall edge trigger hi> to 0x00000000.
+  Setting <IRQ GPIO map> to 0x000a0800.
+  Setting <PB default timing> to 0x03080202.
+  Setting <PB timing0> to 0x03060002.
+  Keeping <PB Use timing0> to 0x000003f3.
+  Keeping <PB CS Config> to 0x00330003.
+  Setting <PB CS Ctrl> to 0x00000022.
+  Enabled Devices: 0x000303f8
+    Ethernet IR FIP I2CM I2CS SDIO USB SATA SCARD
+  Smartcard pin assignments:
+    OFF pin = 0
+    5V pin = 2
+    CMD pin = 1
+PLL#1 postdivider = 0x0000060f
+cd#0 disabled
+cd#1 disabled
+cd#2 want 96000000Hz: setting of 0x0000000043800000-2^28
+cd#2 cannot measure
+cd#3 want 60000000Hz: setting of 0x000000006c000000-2^28
+cd#3 cannot measure
+cd#4 disabled
+cd#5 disabled
+cd#6 want 96000000Hz: setting of 0x0000000043800000-2^28
+cd#6 measured to 0kHz
+cd#7 disabled
+cd#8 disabled
+cd#9 disabled
+cd#10 disabled
+cd#11 disabled
+  GPIO dir/data = 0x0000c980/0x000088c0
+  UART1 GPIO mode/dir/data = 0x00/0x00/0x00
+  UART2 GPIO mode/dir/data = 0x00/0x00/0x00
+  MAC0: 0c:96:e6:c9:4e:d4
+XENV block processing completed.
+Default boot index: 1
+IPU Stage0 booted from devtype: 0, chipsel: 0, phyblocknum: 2, zxenv block#: 6
+Explicit boot order specified:
+  0x00 : devtype=0, CS=0
+ezboot buffers, setup in DRAM bank#0:
+  Alloting 2097152 bytes for heap.
+  Alloting 16777216 bytes for reading.
+  Alloting 16777216 bytes for decryption.
+Checking for DRM key ROMFS... at offset 0x00140000 in virtual zone, size of 131072 bytes
+Trying devtype=0 chipsel=0
+nandlib_init(cs=0, reserved_phyblocks=4096, pagesize_shift=0, extecc=0
+nand_probe 0x0xd0107ce8
+reserved phyblocks exceeds range, skipping ..
+Reading NAND CS0, addr 0x00140000, size 0x00020000 to 0x01840000
+Reading NAND CS0, addr 0x00140800, size 0x00001000 to 0x01840800
+Processing files in ROMFS...
+ROMFS found at 0x0x01840000, Volume name = DRMKEYS
+Found 2 file(s) to be processed in ROMFS.
+Processing hdcpkeys_8903_5bfbc1e08ec43bf2c4cecbe49b5c0440.02d0.xload3 (start: 0x018400b0, size: 0x000009c8)
+xloading... ga=0x818400b0
+DRM key loaded.
+Processing iptoken4_00000279_SMP8673B00_2015-12-18.5bfbc1e08ec43bf2c4cecbe49b5c0440.02db.xload3 (start: 0x01840af0, size: 0x00000a78)
+xloading... ga=0x81840af0
+DRM key loaded.
+Checking for HDCP key... no z.hdcp_key_offset found in ZXENV
+hdcp key loading process failed.
+xmat romfs goes to 0xbe8fbfe0 (ga)
+xmat romfs goes to 0xb68fbfe0 (va)
+Trying devtype=0 chipsel=0
+Reading xmaterial from BBA physical zone
+Reading NAND CS0, addr 0x00200000, size 0x00000800 to 0xb68fbfe0
+Reading NAND CS0, addr 0x00200800, size 0x0006dc00 to 0xb68fc7e0
+File xtask_loader.xload3 found
+found imat romfs @ 0x00500000
+imap romfs goes to 0xbdcfbfc0 (ga)
+imap romfs goes to 0xb5cfbfc0 (va)
+Trying devtype=0 chipsel=0
+Reading imaterial from BBA physical zone
+Reading NAND CS0, addr 0x00500000, size 0x00000800 to 0xb5cfbfc0
+Reading NAND CS0, addr 0x00500800, size 0x003ca400 to 0xb5cfc7c0
+File itask_loader.iload found
+Trying devtype=0 chipsel=0
+reading z.boot1 (vzx=0xbabfbff4) is 0x01100000, BBA physical zone
+Reading NAND CS0, addr 0x01100000, size 0x00000800 to 0x01840000
+Reading NAND CS0, addr 0x01100800, size 0x00931000 to 0x01840800
+Found.
+ROMFS found at 0x0x01840000, Volume name = MIPSLINUX_XLOAD
+Found 1 file(s) to be processed in ROMFS.
+Processing vmlinux_xload.zbf (start: 0x01840090, size: 0x00931498)
+  Checking zboot file signature .. OK.
+  Warning: header version mismatched.
+   *** Signed Only.
+src_addr = 0x018400b0, dest addr = 0x00000000
+XLOADING src=0x818400b0, dest=0x00000000, size=0x00931478
+  Decompressing to 0x84000000 .. OK (13247668/0xca24b4).
+  Load time total 0/0 msec.
+xload.c:68: Waiting for XLOAD completion.
+xload.c:78: XLOAD done, status = 0x6.
+Execute at 0x84007e90 ..
+Linux version 2.6.35.9-32-sigma (hiennguyen@sv-linuxuc03) (gcc version 4.3.2 (Sourcery G++ Lite 4.3-51) ) #274 PREEMPT Tue Dec 5 11:41:16 ICT 2017
+Configured for SMP867x, detected SMP8673 (revision ES1).
+Detected CPU/System/DSP Frequencies: 796.50/398.25/398.25MHz
+SMP86xx Enabled Devices under Linux/XENV 0xbebfbff4 = 0x000303f8
+ Ethernet IR FIP I2CM I2CS SDIO USB SATA SCARD
+Desired kernel memory size: 0x04000000
+Max. DRAM0/1 size allowed: 0x18000000/0x00000000
+ Mapped 0x80000000(size 0x04000000) via remap2
+Final kernel memory size: 0x04000000
+CPU revision is: 00019750 (MIPS 74Kc)
+FPU revision is: 01739700
+Determined physical RAM map:
+ memory: 04000000 @ 04000000 (usable)
+parsing kernel command line for memory options ..
+Desired kernel memory size: 0x18000000
+Max. DRAM0/1 size allowed: 0x18000000/0x00000000
+ Mapped 0x80000000(size 0x04000000) via remap2
+ Mapped 0x84000000(size 0x04000000) via remap3
+ Mapped 0x88000000(size 0x04000000) via remap4
+ Mapped 0x8c000000(size 0x04000000) via remap5
+ Mapped 0x90000000(size 0x04000000) via remap6
+ Mapped 0x94000000(size 0x04000000) via remap7
+Final kernel memory size: 0x18000000
+User-defined physical RAM map:
+ memory: 18000000 @ 04000000 (usable)
+Wasting 524288 bytes for tracking 16384 unused pages
+Initrd not found or empty - disabling initrd
+Zone PFN ranges:
+  DMA      0x00004000 -> 0x00020000
+  Normal   empty
+  HighMem  empty
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00004000 -> 0x0001c000
+On node 0 totalpages: 98304
+free_area_init_node: node 0, pgdat 845feff0, node_mem_map 84cfe000
+  DMA zone: 768 pages used for memmap
+  DMA zone: 0 pages reserved
+  DMA zone: 97536 pages, LIFO batch:31
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 97536
+Kernel command line: console=ttyS0 mem=384M
+PID hash table entries: 2048 (order: 1, 8192 bytes)
+Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Primary instruction cache 32kB, 4-way, VIPT, linesize 32 bytes.
+Primary data cache 16kB, 4-way, VIPT, no aliases, linesize 32 bytes
+MIPS secondary cache 256kB, 4-way, linesize 32 bytes.
+Writing ErrCtl register=00000000
+Readback ErrCtl register=00000000
+Memory: 376452k/393216k available (4903k kernel code, 16764k reserved, 1240k data, 6792k init, 0k highmem)
+Hierarchical RCU implementation.
+	RCU-based detection of stalled CPUs is disabled.
+	Verbose stalled-CPUs detection is disabled.
+NR_IRQS:256
+Console: colour dummy device 80x25
+console [ttyS0] enabled
+Calibrating delay loop... 397.31 BogoMIPS (lpj=198656)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+devtmpfs: initialized
+NET: Registered protocol family 16
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+libata version 3.00 loaded.
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+Switching to clocksource TANGOX
+NET: Registered protocol family 2
+IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+TCP bind hash table entries: 16384 (order: 4, 65536 bytes)
+TCP: Hash tables configured (established 16384 bind 16384)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+timer0: interrupt registered.
+registering mbus interrupt routines.
+SMP86xx zxenv (254:0): driver loaded.
+Slow work thread pool: Starting up
+Slow work thread pool: Ready
+ROMFS MTD (C) 2007 Red Hat, Inc.
+msgmni has been set to 735
+alg: No test for stdrng (krng)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+Serial: 8250/16550 driver, 3 ports, IRQ sharing disabled
+serial8250: ttyS0 at MMIO 0x0 (irq = 9) is a 16550A
+serial8250: ttyS1 at MMIO 0x0 (irq = 10) is a 16550A
+serial8250: ttyS2 at MMIO 0x0 (irq = 71) is a 16550A
+loop: module loaded
+[SMP_NAND] SMP8xxx NAND Driver 0.3 (multi-bits ECC: enabled)
+[SMP_NAND]: checking NAND device on CS0 ..
+ONFI flash detected
+ONFI param page 0 valid
+NAND device: Manufacturer ID: 0xad, Chip ID: 0xdc (Hynix NAND 512MiB 3,3V 8-bit)
+Scanning device for bad blocks
+[SMP_NAND]: detected NAND on CS0, 512MiB, erasesize 128KiB, pagesize 2048B, oobsize 128B, oobavail 66B
+[SMP_NAND]: checking NAND device on CS1 ..
+No NAND device found.
+[SMP_NAND]: detection completed, load partition information from XENV ..
+[SMP_NAND]: load partition information for CS0 ..
+Creating 7 MTD partitions on "H27U4G8F2EKA-BM":
+0x000000000000-0x000000200000 : "bootblocks"
+0x000000200000-0x000000500000 : "xmaterial"
+0x000000500000-0x000001100000 : "imaterial"
+0x000001100000-0x000002500000 : "kernel"
+0x000002500000-0x000003900000 : "kernelbackup"
+0x000003900000-0x000004300000 : "userdata"
+0x000004300000-0x000020000000 : "sdk"
+tangox_enet0: detected phy unknown at address 0x00
+tangox_enet0: Ethernet driver for SMP8xxx internal MAC core 0: 100Mbps Base at 0x26000
+tangox_enet0: mac address 0c:96:e6:c9:4e:d4
+tangox_enet1: ethernet mac_core 1 support is disabled from XENV
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Initializing Tangox EHCI USB Host Controller
+TangoX USB initializing...
+tangox-ehci-hcd-0 tangox-ehci-hcd-0: TangoX USB 2.0
+tangox-ehci-hcd-0 tangox-ehci-hcd-0: new USB bus registered, assigned bus number 1
+tangox-ehci-hcd-0 tangox-ehci-hcd-0: irq 48, io mem 0xa0021500
+tangox-ehci-hcd-0 tangox-ehci-hcd-0: USB 0.0 started, EHCI 1.00
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+Initializing Tangox EHCI USB Host Controller
+TangoX USB initializing...
+tangox-ehci-hcd-1 tangox-ehci-hcd-1: TangoX USB 2.0
+tangox-ehci-hcd-1 tangox-ehci-hcd-1: new USB bus registered, assigned bus number 2
+tangox-ehci-hcd-1 tangox-ehci-hcd-1: irq 15, io mem 0xa0025500
+tangox-ehci-hcd-1 tangox-ehci-hcd-1: USB 0.0 started, EHCI 1.00
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 1 port detected
+No OHCI in SMP8652/SMP8653/SMP8646/SMP8647/SMP867X.
+mice: PS/2 mouse device common for all mice
+i2c /dev entries driver
+tangoxdog: Hardware Watchdog Timer for SMP864x/SMP865x/SMP867x/SMP868x/SMP89xx 0.2 (def. timeout: 30 sec)
+Netfilter messages via NETLINK v0.30.
+nf_conntrack version 0.5.0 (5882 buckets, 23528 max)
+ctnetlink v0.93: registering with nfnetlink.
+IPVS: Registered protocols ()
+IPVS: Connection hash table configured (size=4096, memory=32Kbytes)
+IPVS: ipvs loaded.
+TCP cubic registered
+NET: Registered protocol family 10
+lo: Disabled Privacy Extensions
+Mobile IPv6
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+IPv6 over IPv4 tunneling driver
+sit0: Disabled Privacy Extensions
+ip6tnl0: Disabled Privacy Extensions
+NET: Registered protocol family 17
+lib80211: common routines for IEEE802.11 drivers
+lib80211_crypt: registered algorithm 'NULL'
+lib80211_crypt: registered algorithm 'WEP'
+lib80211_crypt: registered algorithm 'CCMP'
+lib80211_crypt: registered algorithm 'TKIP'
+Freeing unused kernel memory: 6792k freed
+Using rootfs from initramfs/initrd ...
+yaffs built Sep 20 2016 11:54:55 Installing. 
+yaffs: dev is 32505862 name is "mtdblock6" rw
+yaffs: passed flags "inband-tags"
+yaffs: Attempting MTD mount of 31.6,"mtdblock6"
+yaffs: dev is 32505863 name is "mtdblock7" rw
+yaffs: passed flags "inband-tags"
+yaffs: Attempting MTD mount of 31.7,"mtdblock7"
+yaffs: restored from checkpoint
+yaffs_read_super: is_checkpointed 1
+[SMP_NAND]: ecc error detected (code=0x86)
+[SMP_NAND]: ecc error detected (code=0x8700)
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+usbcore: registered new interface driver hiddev
+usbcore: registered new interface driver usbhid
+USB Mass Storage support registered.
+USB GO TO SLEEP HHHH
+usbhid: USB HID core driver
+[USB update - v3.1.x - 2017/11/08] Wait 10 seconds time up
+yaffs: restored from checkpoint
+yaffs_read_super: is_checkpointed 1
+Configuring network interfaces...
+tangox_enet0: PHY autonegotiation does not complete...
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+[USB update] Exit script...
+Start allow user run root cmd HHHH
+----------->>>>> [19/02/2016] LOG_POWER_CONTROL (GPIO 6 = 1, GPIO 7 = 0) !!!<<<<<-----------
+Done allow user run root cmd HHHH
+Run check_for_update.sh in /tango/app/ .........
+SCRIPT VERSION: 3.1.x_20171115
+...
+SMP86xx ir (253:0): driver loaded (wait_period = 150ms, buffer_size = 6)
+fctrl: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+Tango3 frequency scaling module installed, (standby mode supported).
+No need updating file ...
+ir: Enable NEC decoder (0x00000000)
+ir: Enable RC5 decoder (0x00000000)
+FIRMWARE_VERSION=3.3.72
+app.tgz_PKG=success
+apir: Enable RC6 decoder
+p.tgz_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.72.ccplus/app.tgz
+app.tgz_CKSUM=435938500
+sop.tgz_PKG=success
+sop.tgz_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.67.ccplus/sop.tgz
+sop.tgz_CKSUM=2595887218
+mrua.tgz_PKG=success
+mrua.tgz_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.69.ccplus/mrua.tgz
+mruanw>|gz_ToÇ=success
+mruafw.tïz_]RÌ=lttp:/fbox-fw.fpt.v/rom9673B/v3.3.14.cãplus>æuln/mruafw.tçú
+mrwaf÷.|÷zCËSUM=3769404707
+FPT­KEÒNEL.bin_PKG}s}ccess
+FP\-kERNEL.bin_WrL=xttp://fbx-ö?gpt.vn?òom8673B/v3.3.14/ccp|}s/æuln/FPÔ-KEZNEL.binFÐt-ËEZNÅ\/âm~_CËSuM}241917|>¶5ÊFPT-BOOT-yIMON.rin_POW=sucgewsFPT=ÂÏOTmYAMON®binß}VL=j~|pº/?fboz-f÷.fpt.vn/ro}8673B/v3.0.28.ccpîu{/FPT¿BOÏt­YAOoN.ãinŠFPT-BOOT-YAMOo.bin_COSuM=33=¹129·=4
+wPT-ÉVASK.cin_ÐKg=succe{s
+FPT-ITASK.bin_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.67.ccplus/FPT-ITASK.bin
+FPTíÉTAWK.bin_CKsUM=3371451715*FPT-xTASK/bén_PKÇ?ó}ccess
+FPT=ØÜAÛK.binßCKSUM=2943223´0
+tango.tgz_X[G¿{uccessŠtango®tgz_UZL=htôq:/ofbox-fw.fpt.vî/rom8673B/v3.3.5.ccplus.bg/tang.tgz
+tango>tgz_CKSÕO?32682·4745
+smpßupda|ernóh_PKG=success
+sp_updctgr.sl_]RL=èvôp://fbox-fw.fpu.vn/ro}<¶73B//v³.³®54.cãpìus/smpuðdaüer.óh
+smp_updaôes/shCKWuM=3789<99773
+smp_updater.shURL=http://fbox-fw.fpt.vn/rom8673B//v3.3.60.ccplus/smp_uPdater.sh
+smp_updater.sh_CKÓUM=3789499773
+smp_updater.sh_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.72.ccplus/smp_updater.sh
+smp_updater.sh_CKSUM=2298396954
+FPT-ITASK.bin_CKSUM=2745139468
+FPT-ITASK.bin_PKG=success
+FPT-XTASK.bin_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.67.ccplus/FPT-XTASK.bin
+FPT-XTASK.bin_CKSUM=1490943102
+FPT-XTASK.bin_PKG=success
+mrua.tgz_CKSUM=1690447871
+Proceed to normal boot sequence...
+Check CPU binding
+Found your list file: /etc/fpt/mylistenc.txt.
+Found the destination: /tmp/tango.
+Decrypting /tango/sop/clients/verimatrix/libs/libvmclient.so.enc to /tmp/tango/libvmclient.so
+
+
+Sigma Designs SMP8xxx development environment (based on buildroot project)
+
+1198_E1 login: Found your list file: /tmp/tango/mylist.txt.
+The digest consisting of sha1sums of the files in: /tmp/tango/mylist.txt, is in: /tmp/tango/appx.dgst.
+/tmp/tango /etc/init.d
+/etc/init.d
+Verified OK
+Authentication pass, run run in /tango .........
+save exit: is_checkpointed 1
+save exit: is_checkpointed 1
+Configuring network interfaces...
+/tango /tango/mrua
+/tango/mrua
+Creating /dev/mum0
+Creating /dev/em8xxx0
+Loading llad.ko
+Chip identified as SMP8672 prod (certificate id unused, t3iptv family)
+34418
+fw_reload SMP8672
+Killing splashscreen
+ikc: kill fails with status=9
+Unloading splashscreen
+Killing iloader (ok to fail)
+ikc: kill fails with status=9
+Failed, assuming that the loader died of natural causes
+Unloading iloader
+Freeing splashscreen buffer
+rmfree 0 0xbdcfaf5c
+Freeing imat romfs buffer
+rmfree 0 0xbdcfbfbc
+Freeing xmat romfs buffer
+rmfree 0 0xbe8fbfd8
+/tango/mrua/MRUA_src/llad_xtest/genxenv2
+/tango/mrua/MRUA_src/llad_smallapps/gbus_read_bin_to_file
+ios_ga=0xbec00000, ios_size=0x00400000, log2_ios=20
+To ga=0xbef00000
+/tango/mrua/bin/xkc
+Unloading ios
+Stopping audio0... OK
+Stopping audio1... OK
+Stopping audio2... FAILED
+Stopping video0... OK
+Stopping video1... FAILED
+Stopping demux0... OK
+Stopping demux1... FAILED
+Unloading of demuxpsf ucode... FAILED
+Unloading of audio ucode... FAILED
+Unloading of video ucode... FAILED
+config_byte decimal=0 noreal nodts dd
+Using scratch=0xbe9c083c
+Loading video ucode
+Loading audio ucode
+Loading demuxpsf ucode
+Starting demux0
+Starting demux1
+   starting demux1 failed. 864x, 8652, 8670, 868x have no demux1.
+Starting video0
+Starting video1
+   starting video1 failed. 8652, 8654, 8670, 868x have no video1.
+Starting audio0
+Starting audio1
+Starting audio2
+   starting audio2 failed. 8652, 8654, 8670, 868x have no audio2.
+/tango/mrua/MRUA_src/llad_xtest/genxenv2
+/tango/mrua/MRUA_src/llad_smallapps/gbus_read_bin_to_file
+ios_ga=0xbec00000, ios_size=0x00400000, log2_ios=20
+To ga=0xbef00000
+mumk_register_tasklet: (0) tasklet c03cd000 status @c03442dc
+em8xxx  [...kernel_src/krua.c:  1779] init_module: done. Found 1 em8xxx
+demux0   is  alive
+audio0   is  alive
+audio1   is  alive
+mpeg0    is  alive
+ipu      is  alive
+ih       is  alive
+firmware reload successful
+killall: telnetd: no process killed
+Fri Apr  8 00:00:00 GMT-7 2022
+set time deault at boot 2022.04.08-00:00:00
+********************************************************************************
+* smpoutd run.env
+********************************************************************************
+LD_LIBRARY_PATH=/tango/mrua/MRUA_src/lib:/usr/lib:/lib::/tango/sop/smpoutd/build/lib
+OUTD_DIR=/tango/sop/smpoutd/build
+PATH=/tango/mrua/MRUA_src/rmchannel/ios_client/:/tango/mrua/MRUA_src/rmchannel/test/:/tango/mrua/MRUA_src/rmchannel/xos2k_client/:/tango/mrua/MRUA_src/llad_xtest/:/tango/mrua/MRUA_src/llad_smallapps:/tango/mrua/MRUA_src/xbin/:/tango/mrua/MRUA_src/rmfp/test/:/tango/mrua/MRUA_src/rmoutports/test/:/tango/mrua/MRUA_src/rmedid/test/:/tango/mrua/MRUA_src/rmoutput/test/:/tango/mrua/MRUA_src/bin/:/tango/mrua/MRUA_src/samples/:/tango/mrua/bin/:/sbin:/usr/sbin:/bin:/usr/bin:/etc/init.d/:/usr/local/bin/:/tango/sop/smpoutd/build/bin
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+Error : Name or service not known
+ 8 Apr 00:00:00 ntpdate[1260]: can't find host ntp.fbox.fpt.vn
+
+ 8 Apr 00:00:00 ntpdate[1260]: no servers can be used, exiting
+[Config][internal_smp_config_gencmdline_video_auto_mode_50Hz] No EDID - reschedule this config when connection is done
+[Config][local_smp_config_gencmdline_generic_video] 
+Auto mode
+save exit: is_checkpointed 1
+save exit: is_checkpointed 1
+
+disp_cmdline = -o hdmi cav cvbs -vdac_mux 000000Mv -sdcav -r pref -cs YCC709 -v warning -cs YCC709 -sdbuf 
+HDMI code complied without thread support! Will use polling for HDMI updates.
+start update NTP with: ntp2.fbox.fpt.vn
+Error : Name or service not known
+ 8 Apr 00:00:01 ntpdate[1273]: can't find host ntp2.fbox.fpt.vn
+
+ 8 Apr 00:00:01 ntpdate[1273]: no servers can be used, exiting
+
+
+
+
+------------------ smpoutd brief configuration -------------------
+HDMI:   enabled[ ] connected[ ] hdcp[ ] vmode[N/A]
+CAV:    enabled[X] vmode[NTSC_M]
+CVBS:   enabled[X] vmode[NTSC_M]
+audio:  HDMI[ ] SPDIF[ ] Analog[ ], crt.bitstream HDMI[ ] SPDIF[ ]
+------------------------------------------------------------------
+
+not exist  /tmp/videomode_line . Creating...
+[Output][hdmicsf_disconnected_entry]  --- HDMI state changed: [Disconnected] ---
+[Output][smp_out_update_outputs_status] HDMI State [0]: Pluggedin[0] ConnOk[0] ConnErr[0] - HdcpAct[0] HdcpErr[0] - HdcpSup[0] EDIDvalid[0] - caps[0]
+[Config][internal_smp_config_gencmdline_video_auto_mode_50Hz] No EDID - reschedule this config when connection is done
+[Config][local_smp_config_gencmdline_generic_video] 
+Auto mode
+save exit: is_checkpointed 1
+
+
+
+
+------------------ smpoutd brief configuration -------------------
+HDMI:   enabled[ ] connected[ ] hdcp[ ] vmode[N/A]
+CAV:    enabled[X] vmode[NTSC_M]
+CVBS:   enabled[X] vmode[NTSC_M]
+audio:  HDMI[X] SPDIF[X] Analog[X], crt.bitstream HDMI[u] SPDIF[u]
+------------------------------------------------------------------
+
+
+disp_cmdline = -o hdmi cav cvbs -sdcav -r pref -cs YCC709 -v warning -cs YCC709 -sdbuf 
+start update NTP with: 118.69.252.17
+ 8 Apr 00:00:02 ntpdate[1286]: no servers can be used, exiting
+Installing the Fusion Driver
+Starting fusion driver v9.0.3
+  -> initializing shared area at 84ad4000
+Installing the Framebuffer Driver from /tango/sop/directfb/install/lib/modules
+SMPFB: [smpfb_probe] start
+em8xxx0 [...kernel_src/krua.c:  1288] Emhwlibregistercleanable ERROR : cannot find CURRENT_EM8XXX_ID 1359 in openers. Continuing but cleanable will be attached to pseudo-ID 0.
+SMPFB: [smpfb_probe] allocated and acquired video mem @ 0xb492ecf8 in DRAM #0, size 67108864
+SMPFB: [smpfb_probe] rounded videomem to page boundary, now videomem_size=67104768, lost 4096 bytes
+start update NTP with: 118.69.252.22
+ 8 Apr 00:00:03 ntpdate[1367]: no servers can be used, exiting
+SMPFB: [smpfb_probe] locked 16383 regions, starting from region 0x0 at offset 0x00000000 @ 0xb492f000 67104768 bytes
+em8xxx0 [...kernel_src/krua.c:  1288] Emhwlibregistercleanable ERROR : cannot find CURRENT_EM8XXX_ID 1359 in openers. Continuing but cleanable will be attached to pseudo-ID 0.
+em8xxx0 [...kernel_src/krua.c:  1288] Emhwlibregistercleanable ERROR : cannot find CURRENT_EM8XXX_ID 1359 in openers. Continuing but cleanable will be attached to pseudo-ID 0.
+em8xxx  [...kernel_src/krua.c:  1094] Registering event callback with module_id 0x00000020 and mask 0x00000001 
+SMPFB/GFX: [gfx_init] GFX uncached addr 0xb4921000, size 52936
+SMPFB: [smpfb_probe] check smp ptr: smp=c04a0fc8, from fbinfo=c04a0fc8
+SMPFB: [smpfb_setup_fb_info] Setting up fb_info
+SMPFB: [smpfb_probe] call local_init_osd0_layer
+SMPFB/DISP: [smpfb_disp_init_layer_surface] Initializing layer 0 surface
+em8xxx0 [...kernel_src/krua.c:  1288] Emhwlibregistercleanable ERROR : cannot find CURRENT_EM8XXX_ID 1359 in openers. Continuing but cleanable will be attached to pseudo-ID 0.
+em8xxx0 [...kernel_src/krua.c:  1288] Emhwlibregistercleanable ERROR : cannot find CURRENT_EM8XXX_ID 1359 in openers. Continuing but cleanable will be attached to pseudo-ID 0.
+SMPFB: [local_init_osd0_layer] layer OSD0 surface dram=0xb492f000, size 0x384000, pic count 1
+SMPFB: [smpfb_probe] call register_framebuffer
+SMPFB: [smpfb_probe] fb0: smpfb frame buffer device @ 0xb492f000 size 67104768
+PATH		= /tango/mrua/MRUA_src/rmchannel/ios_client/:/tango/mrua/MRUA_src/rmchannel/test/:/tango/mrua/MRUA_src/rmchannel/xos2k_client/:/tango/mrua/MRUA_src/llad_xtest/:/tango/mrua/MRUA_src/llad_smallapps:/tango/mrua/MRUA_src/xbin/:/tango/mrua/MRUA_src/rmfp/test/:/tango/mrua/MRUA_src/rmoutports/test/:/tango/mrua/MRUA_src/rmedid/test/:/tango/mrua/MRUA_src/rmoutput/test/:/tango/mrua/MRUA_src/bin/:/tango/mrua/MRUA_src/samples/:/tango/mrua/bin/:/sbin:/usr/sbin:/bin:/usr/bin:/etc/init.d/:/usr/local/bin/:/tango/sop/smpoutd/build/bin
+LD_LIBRARY_PATH	= /tango/sop/directfb/install/lib:/tango/mrua/MRUA_src/lib:/usr/lib:/lib::/tango/sop/smpoutd/build/lib
+DFB_INSTALL_DIR	= /tango/sop/directfb/install
+
+********************************************************************************
+* gstreamer run.env
+********************************************************************************
+GSTREAMER_DIR=/tango/sop/gstreamer
+GSTREAMER_INSTALL_DIR=/tango/sop/gstreamer/install
+GSTREAMER_PATH_SUFFIX=1.0
+GST_PLUGIN_PATH=/tango/sop/gstreamer/install/lib/gstreamer-1.0
+GST_PLUGIN_SCANNER=/tango/sop/gstreamer/install/libexec/gstreamer-1.0/gst-plugin-scanner
+LD_LIBRARY_PATH=/tango/sop/gstreamer/install/lib:/tango/sop/sapi/lib:/tango/sop/directfb/install/lib:/tango/mrua/MRUA_src/lib:/usr/lib:/lib::/tango/sop/smpoutd/build/lib:/tango/sop/clients/verimatrix/libs
+PATH=/tango/sop/gstreamer/install/bin:/tango/sop/sapi/bin:/tango/mrua/MRUA_src/rmchannel/ios_client/:/tango/mrua/MRUA_src/rmchannel/test/:/tango/mrua/MRUA_src/rmchannel/xos2k_client/:/tango/mrua/MRUA_src/llad_xtest/:/tango/mrua/MRUA_src/llad_smallapps:/tango/mrua/MRUA_src/xbin/:/tango/mrua/MRUA_src/rmfp/test/:/tango/mrua/MRUA_src/rmoutports/test/:/tango/mrua/MRUA_src/rmedid/test/:/tango/mrua/MRUA_src/rmoutput/test/:/tango/mrua/MRUA_src/bin/:/tango/mrua/MRUA_src/samples/:/tango/mrua/bin/:/sbin:/usr/sbin:/bin:/usr/bin:/etc/init.d/:/usr/local/bin/:/tango/sop/smpoutd/build/bin
+********************************************************************************
+* qt run.env
+********************************************************************************
+LD_LIBRARY_PATH=/tango/sop/gstreamer/install/lib:/tango/sop/sapi/lib:/tango/sop/directfb/install/lib:/tango/mrua/MRUA_src/lib:/usr/lib:/lib::/tango/sop/smpoutd/build/lib:/tango/sop/clients/verimatrix/libs:/tango/sop/qtwebkit/install/lib
+PATH=/tango/sop/gstreamer/install/bin:/tango/sop/sapi/bin:/tango/mrua/MRUA_src/rmchannel/ios_client/:/tango/mrua/MRUA_src/rmchannel/test/:/tango/mrua/MRUA_src/rmchannel/xos2k_client/:/tango/mrua/MRUA_src/llad_xtest/:/tango/mrua/MRUA_src/llad_smallapps:/tango/mrua/MRUA_src/xbin/:/tango/mrua/MRUA_src/rmfp/test/:/tango/mrua/MRUA_src/rmoutports/test/:/tango/mrua/MRUA_src/rmedid/test/:/tango/mrua/MRUA_src/rmoutput/test/:/tango/mrua/MRUA_src/bin/:/tango/mrua/MRUA_src/samples/:/tango/mrua/bin/:/sbin:/usr/sbin:/bin:/usr/bin:/etc/init.d/:/usr/local/bin/:/tango/sop/smpoutd/build/bin:/tango/sop/qtwebkit/install/bin:/tango/sop/qtwebkit/install/demos/browser_library/test/:/tango/sop/qtwebkit/install/demos/browser/:/tango/sop/qtwebkit/install/demos/QtGstPlayer/
+QT_DIR=/tango/sop/qtwebkit
+QT_INSTALL_DIR=/tango/sop/qtwebkit/install
+QT_QPA_PLATFORM=DfbEglFS
+QT_QPA_PLATFORM_PLUGIN_PATH=/tango/sop/qtwebkit/install/plugins/platforms
+WEBKIT_BROWSER_LIB_PATH=/tango/sop/qtwebkit/install/demos/browser_library/browser/libbrowser.so
+save exit: is_checkpointed 1
+status sync ntp =====================:0
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+ 8 Apr 00:00:04 ntpdate[1406]: no servers can be used, exiting
+process_id of child process 1415 
+ir: Disable NEC decoder
+ir: Disable RC5 decoder
+ir: Disable RC6 decoder
+start update NTP with: ntp2.fbox.fpt.vn
+ 8 Apr 00:00:05 ntpdate[1421]: no servers can be used, exiting
+start update NTP with: 118.69.252.17
+ 8 Apr 00:00:07 ntpdate[1427]: no servers can be used, exiting
+[INFO__]-[2022-4-8 0:0:7:258:258237] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:23 registerApp() :     REGISTER MODULE 
+[INFO__]-[2022-4-8 0:0:7:265:265456] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:23 registerApp() :     REGISTER MODULE 
+[INFO__]-[2022-4-8 0:0:7:265:265728] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:23 registerApp() :     REGISTER MODULE 
+ErroData: constructor
+
+Compile_version: Apr  8 2022-10:11:58
+
+Ignore_signal_SIGPIPE
+[INFO__]-[2022-4-8 0:0:7:300:300830] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsApp.cpp:595 CAbsApp() :  Constructor of App
+commandline read: CBox
+
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~| DirectFB 1.6.3 |~~~~~~~~~~~~~~~~~~~~~~~~~~
+        (c) 2012-2013  DirectFB integrated media GmbH
+        (c) 2001-2013  The world wide DirectFB Open Source Community
+        (c) 2000-2004  Convergence (integrated media) GmbH
+      ----------------------------------------------------------------
+
+(*) DirectFB/Core: Multi Application Core. (2017-12-14 09:20) 
+(*) Fusion/SHM: Using MADV_REMOVE (2.6.35.9 >= 2.6.19.2)
+(*) Direct/Thread: Started 'Fusion Dispatch' (-1) [MESSASMPFB: [smpfb_open] Open Minor = 0
+GING OTHER/OTHERSMPFB: [local_ref_current_pid] 64: PID=1416 smpfb_ref=1 (delta=1)
+ 0/0] <1048576>...
+(*) Direct/Thread: Started 'Fusion Deferred' (-1) [MESSAGING OTHER/OTHER 0/0] <1048576>...
+(*) Direct/Thread: Started 'VT SSMPFB: [smpfb_mmap] videomemory asked: 0x00000000 phys=0xb492f000 (videomem @ 0xb492f000)
+witcher' (-1) [Ckc_remap_page_range(84a36a14, 2eb03000, b492f000, 67104768, 84a36a28)
+RITICAL OTHER/OTHER 0/0] <104857kc_remap_page_range(84a36a14, 2eb03000, b492f000 (000b492f), 67104768, 84a36a28)
+6>...
+(*) Direct/Thread: StarteSMPFB: [smpfb_mmap] remapped 67104768 bytes in userland of process 1416 at address vma_start 0x2eb03000 to phys=0xb492f000
+d 'VT Flusher' (-1) [DEFAULT OTHER/OTHER 0/0] <1048576>...
+(*) DirectFB/FBDev: Found 'SMP86XXFB 0' (ID 60) with frame buffer at 0xb492f000, 65532k (MMIO 0x00000000, 0k)
+(*) Direct/Thread: Started 'Hotplug with Linux Iir: Enable NEC decoder (0x00000000)
+nput' (-1) [INPUT OTHER/OTHER 0/0] <1048576>...
+(*) DirectFB/Input: Hot-plug detection enabled ir: Enable RC5 decoder (0x00000000)
+with Linux Input Driver 
+(*) Direct/Thread: Started 'SMP86XX TCP Input' (-1) [INPUT OTHER/OTHERir: Enable RC6 decoder
+ 0/0] <1048576>...
+(*) DirectFB/Input: SMP86XX remote control over TCP 0.1 (SigmaDesigns)
+(*) Direct/Thread: Started 'SMP86XX IR Input' (-1) [INPUT OTHER/OTHER 0/0] <1048576>...
+(*) DirectFB/Input: SMP8XXX IR remote 1.0 (SigmaDesigns)
+(*) Direct/Thread: Started 'Virtual Input' (-1) [INPUT OTHER/OTHER 0/0] <1048576>SMPFB/GFX: [gfx_acquire_GFX_scaler] GFX scaler is used as a MV deinterlacing companion; removing !
+...
+(*) DirectFB/Input: Virtual Input 1.6 (ConvSMPFB/GFX: [gfx_acquire_GFX_scaler] Could not get GFX scaler mixer source index on mixer 13; ignoring
+ergence GmbH)
+(*) DirectFB/Input: SMP8XXX CEC rSMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_GET_GFXENGINE
+emote 1.0 (SigmaDesigns)
+(*) SMP86XX/Driver: drSMPFB: [smpfb_check_var]  check and alter fb_var_screeninfoiver_init_driver
+(*) SMP86XX/Driver: driver_init_device
+(*) DirectFB/Graphics: Sigma Designs SMP device 0.1 (Sigma Designs, Inc.)
+(*) DirectFB/Core/WM: SaWMan 0.2 (directfb.org)
+(*) SaWMan/Config: Parsing config file '/tango/
+SMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_ACQUIRE
+sdk/liemphamteamSMPFB/Event: [smpfb_cleanable_register] registering callback c0492204 with context (null) for PID 1416
+/smp8673B/fpt/toolkit_smp8673b/build/sop/directfSMPFB/Event: [local_get_or_acquire_cleanable]   -> allocating PID 1416 cleanables at 0
+b/install/etc/sawmanrc'.
+(*) SaSMPFB/Event: [smpfb_cleanable_register]   -> registered at 0:0
+WMan: Initializing stack 0x510aaSMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_SETPARAM
+200 for tier 0x524c3000, 0x0, laSMPFB: [smpfb_setcmap] set palette
+yer 0, context 0x500a1000 [6]...SMPFB: [smpfb_setcmap] surface format has no alpha; ignore request
+(*) FBDev/Mode: Setting 1280x720 ARGB
+(*) FBDev/Mode: Switched to 1280x720 (virtual 1280x720) at 32 bit (ARGB), pitch 5120
+(*) FBDev/Mode: Setting 1280x720 ARGB
+
+SMPFB: [smpfb_check_var]  check and alter fb_var_screeninfo
+SMPFB: [smpfb_set_par] 1280x720 (virtual 1280x1440), smpfb_disp_destroy_layer_surface & local_init_osd0_layer
+SMPFB/DISP: [smpfb_disp_init_layer_surface] Initializing layer 0 surface
+SMPFB/Event: ERROR: [smpfb_set_pending_property] Property 6033 on module 0xc still pending, trying again...
+SMPFB: [local_init_osd0_layer] layer OSD0 surface dram=0xb492f000, size 0x384000, pic count 1
+SMPFB: [smpfb_setcmap] set palette
+SMPFB: [smpfb_setcmap] surface format has no alpha; ignore request(*) FBDev/Mode: 
+SMPFB: [smpfb_setcmap] set palette
+Switched to 1280SMPFB: [smpfb_setcmap] surface format has no alpha; ignore requestx720 (virtual 1280x1440) at 32 bit (ARGB), pitch 5120
+(*) SaWMan: Initializing 
+SMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_ACQUIRE
+stack 0x510ae000SMPFB/Event: [smpfb_cleanable_register] registering callback c0492204 with context 00000001 for PID 1416
+ for tier 0x524c3800, 0x0, layerSMPFB/Event: [local_get_or_acquire_cleanable]   -> PID 1416 has cleanables at 0
+ 1, context 0x500a1400 [15]...
+SMPFB/Event: [smpfb_cleanable_register]   -> registered at 0:1
+SMPFB/DISP: [local_set_scaler_master] mixer source state is now MASTER
+SMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_SETPARAM
+SMPFB/DISP: [smpfb_disp_init_layer_surface] Initializing layer 1 surface
+SMPFB/Event: [local_get_or_acquire_cleanable]   -> PID 1416 has cleanables at 0
+SMPFB/Event: [smpfb_cleanable_unregister] unregistering callback c0490c88 with context 00000001 for PID 1416
+SMPFB/Event: [smpfb_cleanable_unregister] Couldn't find callback c0490c88 with context 00000001 for PID 1416 !
+(!) SMP86XX/OSD1SMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_SETPARAM
+: LAYER_SETPARAM(surface_desc) fSMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_RELEASE
+ailed!
+    --> SMPFB/Event: [local_get_or_acquire_cleanable]   -> PID 1416 has cleanables at 0
+Invalid argument
+SMPFB/Event: [smpfb_cleanable_unregister] unregistering callback c0492204 with context 00000001 for PID 1416
+SMPFB/Event: [smpfb_cleanable_unregister]   -> removing at 0:1
+ (!!!)  *** WARNING [could not activate region!] *** [layer_context.c:316 in dfb_layer_context_activate()]
+(*) SaWMan/Init: Layer  0:  1280x720, ARGB, options: 21
+(*) SaWMan/Init: Border 0:  1280x720, ARGB, options: 8
+(*) SaWMan/Init: Layer  1:  1280x720, ARGB, options: 0
+(*) SaWMan/Init: Border 1:  1280x720, ARGB, options: 8
+(*) FBDev/Mode: Setting 1280x720 ARGB
+start update NTP with: 118.69.252.22
+ 8 Apr 00:00:08 ntpdate[1448]: no servers can be used, exiting
+SMPFB: [smpfb_check_var]  check and alter fb_var_screeninfo
+SMPFB: [smpfb_set_par] 1280x720 (virtual 1280x1440), smpfb_disp_destroy_layer_surface & local_init_osd0_layer
+SMPFB/DISP: [smpfb_disp_init_layer_surface] Initializing layer 0 surface
+SMPFB: [local_init_osd0_layer] layer OSD0 surface dram=0xb492f000, size 0x384000, pic count 1
+SMPFB: [smpfb_setcmap] set palette
+SMPFB: [smpfb_setcmap] surface format has no alpha; ignore request(*) FBDev/Mode: 
+SMPFB: [smpfb_setcmap] set palette
+Switched to 1280SMPFB: [smpfb_setcmap] surface format has no alpha; ignore requestx720 (virtual 1280x1440) at 32 bit (ARGB), pitch 5120
+[INFO__]-[2022-4-8 0:0:8:173:173505] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AppManager.cpp:203 CAppManager() :  [32mConstructor of CAppManager TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT test 2020 [0m
+[INFO__]-[2022-4-8 0:0:8:173:173841] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/config/ConfigWriterDatFile.cpp:22 ConfigWriterDatFile() :  Constructor of ConfigWriterDatFile 
+[INFO__]-[2022-4-8 0:0:8:176:176939] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AppManager.cpp:412 OnInit() :  [32mONINIT [0m
+[INFO__]-[2022-4-8 0:0:8:178:178684] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/GstPlaybackProvide
+SMPFB: [smpfb_open] Open Minor = 0
+r.cpp:37 GetInstSMPFB: [local_ref_current_pid] 63: PID=1416 smpfb_ref=2 (delta=1)
+ance() :  Get static instance of CGstPlayProvider
+[INFO__]-[2022-4-8 0:0:8:179:179231] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/GstPlaybackProvider.cpp:27 CGstPlayProvider() :  Construct of CGstPlayProvider, creating a instance of GStreamerPlayer
+
+ [34m GStreamerPlayer::GStreamerPlayer  
+
+ [0m 
+
+ [34m GStreamerPlayer::initDefaultParam [0m 
+[INFO__]-[2022-4-8 0:0:8:179:179940] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/SmpPlaybackProvider.cpp:58 GetInstance() :  Get static instance of CSmpPlayProvider
+[INFO__]-[2022-4-8 0:0:8:180:180097] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/SmpPlaybackProvider.cpp:38 CSmpPlayProvider() :  Constructor of CSmpPlayProvider
+[INFO__]-[2022-4-8 0:0:8:180:180245] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/SmpPlaybackProvider.cpp:77 InitProvider() :  InitProvider
+
+ [31m >>>> InitThreadGST start <<<<<  
+
+ [0m 
+ilixi Engine start run loop
+[00:00.059][1416] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:62 StreamInitialize() (player) Looking for plugins in "/tango/sop/sapi/lib/plugins/"
+[00:00.063][1416] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:91 StreamInitialize() (player) Loading Plugin /tango/sop/sapi/lib/plugins//stream_tuner.so
+[00:00.180][1416] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:91 StreamInitialize() (player) Loading Plugin /tango/sop/sapi/lib/plugins//stream_mc.so
+[00:00.340][1416] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:91 StreamInitialize() (player) Loading Plugin /tango/sop/sapi/lib/plugins//stream_http.so
+[SMP_NAND]: ecc error detected (code=0x86)
+[SMP_NAND]: ecc error detected (code=0x86)
+[SMP_NAND]: ecc error detected (code=0x81)
+[SMP_NAND]: ecc error detected (code=0x88)
+[SMP_NAND]: ecc error detected (code=0x87)
+SMPFB: [smpfb_release] Release Minor = 0
+SMPFB: [local_ref_current_pid] 63: PID=1416 smpfb_ref=1 (delta=-1)
+ir: Disable NEC decoder
+ir: Disable RC5 decoder
+ir: Disable RC6 decoder
+em8xxx0 [...kernel_src/krua.c:   246] emergency_exit: #1 1416-0x00000004-6034-0x00000000-4
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #0 region @ 0xbebfbe34 size 436 with refcount 1 > 0 do not free
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #1 region @ 0xbeb7be28 size 524288 with refcount 1 > 0 do not free
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #2 region @ 0xbea56d9c size 1200256 with refcount 1 > 0 do not free
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #3 region @ 0xbe931d10 size 1200256 with refcount 1 > 0 do not free
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #4 region @ 0xb492ecf8 size 67108864 with refcount 1 > 0 do not free
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #5 region @ 0xb4920e24 size 57032 with refcount 3 > 0 do not free
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #6 region @ 0xb491c748 size 18128 with refcount 1 > 0 do not free
+em8xxx0 [...kernel_src/krua.c:   986] em8xxx_release: unclean exit (1 entries)
+SMPFB: [smpfb_release] Release Minor = 0
+SMPFB: [local_ref_current_pid] 63: PID=1416 smpfb_ref=0 (delta=-1)
+SMPFB/Event: [smpfb_cleanable_trigger_all] triggering and removing callback at 0:0
+SMPFB/Event: [local_get_or_acquire_cleanable]   -> PID 1416 has cleanables at 0
+SMPFB/Event: [smpfb_cleanable_unregister] unregistering callback c0492204 with context (null) for PID 1416
+SMPFB/Event: [smpfb_cleanable_unregister]   -> removing at 0:0
+SMPFB/Event: [smpfb_cleanable_unregister]   -> PID 1416 has no more cleanables; freeing entry at 0
+SMPFB/DISP: [smpfb_disp_release_layer]   -> PID 1416 is not the Content Provider of layer 0; ignoring request
+SMPFB/Event: [smpfb_cleanable_trigger_all] freeing PID 0 entry at 0
+Segmentation fault
+status sync ntp =====================:0
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+
+\033[1m >>>>>>>>>>CBox interupted........................\033[0m
+\033[1m >>>>>>>>>>Wait for sendlog debug.................\033[0m
+ 8 Apr 00:00:09 ntpdate[1465]: no servers can be used, exiting
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Error
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Error
+start update NTP with: ntp2.fbox.fpt.vn
+
+(gst-plugin-scanner:1455): GStreamer-WARNING **: Failed to load plugin '/tango/sop/gstreamer/install/lib/gstreamer-1.0/libgstrmfp.so': /lib/libgcc_s.so.1: version `\x80\u0004b|l' not found (required by /tango/mrua/MRUA_src/lib/libcurl_sigma.so)
+ 8 Apr 00:00:10 ntpdate[1476]: no servers can be used, exiting
+start update NTP with: 118.69.252.17
+ 8 Apr 00:00:11 ntpdate[1482]: no servers can be used, exiting
+start update NTP with: 118.69.252.22
+ 8 Apr 00:00:12 ntpdate[1488]: no servers can be used, exiting
+status sync ntp =====================:0
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+ 8 Apr 00:00:13 ntpdate[1494]: no servers can be used, exiting
+start update NTP with: ntp2.fbox.fpt.vn
+ 8 Apr 00:00:14 ntpdate[1500]: no servers can be used, exiting
+start update NTP with: 118.69.252.17
+ 8 Apr 00:00:15 ntpdate[1506]: no servers can be used, exiting
+start update NTP with: 118.69.252.22
+ 8 Apr 00:00:16 ntpdate[1512]: no servers can be used, exiting
+status sync ntp =====================:0
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+ 8 Apr 00:00:17 ntpdate[1518]: no servers can be used, exiting
+start update NTP with: ntp2.fbox.fpt.vn
+ 8 Apr 00:00:18 ntpdate[1524]: no servers can be used, exiting
+start update NTP with: 118.69.252.17
+\033[1m >>>>>>>>>>Rebooting..............................\033[0m
+save exit: is_checkpointed 1
+ 8 Apr 00:00:19 ntpdate[1531]: no servers can be used, exiting
+save exit: is_checkpointed 1
+
+The system is g
+Sent SIGKILL toem8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #0 region @ 0xbebfbe34 size 436 with refcount 1 > 0 do not free
+ all processes
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #1 region @ 0xbeb7be28 size 524288 with refcount 1 > 0 do not free
+
+Requesting system8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #2 region @ 0xbea56d9c size 1200256 with refcount 1 > 0 do not free
+em reboot
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #3 region @ 0xbe931d10 size 1200256 with refcount 1 > 0 do not free
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #4 region @ 0xb492ecf8 size 67108864 with refcount 1 > 0 do not free
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #5 region @ 0xb4920e24 size 57032 with refcount 3 > 0 do not free
+em8xxx0 [...kernel_src/krua.c:   300] emergency_exit: #6 region @ 0xb491c748 size 18128 with refcount 1 > 0 do not free
+tangoxdog: Stopped watchdog timer.
+Restarting system.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Xbf
+0x00000000 0x1026002b
+f
+12 @0x00000000 0xaaaaaaaa/0x746f6f62/0x0076fe03 
+11 @0x00000000 0xaaaaaaaa/0x746f6f62/0x0076fe03 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 72857032418d7891cf2893beaa36331108428590 rc=6
+I?
+I90
+BORG mlc0,11@0x00000000 [_ftext=0x80140000 etext=0x80144e6c]
+[_fdata=0x80144e6c edata=0x80145584] [_fbss=0x80145584 end=0x801457c8] sp=0x80157c88 gp=0x8014d580
+pll1=0x01002029 premux=0x00000101 mux=0x18000001 [32m[mips@282MHz][0m
+!xxenv xload3 rc=6
+#chpll 0x01002029/0x00000001 -> 0x0100003a/0x00000101... [32mok[0m
+********* Rudimentary ddr-3 test, bank#0: ORG = 0x3d70a7c7
+0x8000e000 <- 0x80006000
+0x8001e000 <- 0x8000e000
+0x8003e000 <- 0x8001e000
+0x8007e000 <- 0x8003e000
+0x800fe000 <- 0x8007e000
+0x801fe000 <- 0x800fe000
+0x803fe000 <- 0x801fe000
+0x807fe000 <- 0x803fe000
+0x80ffe000 <- 0x807fe000
+0x81ffe000 <- 0x80ffe000
+0x83ffe000 <- 0x81ffe000
+0x87ffe000 <- 0x83ffe000
+0x8fffe000 <- 0x87ffe000
+0x8fffe000 <- 0x8fffe000
+0xafffe000 <- 0x8fffe000
+********* Rudimentary ddr-3 test: ~0 bit failures!
+
+Boot from NAND...
+jdec id=569590dcad
+mlcnand_if_init() returned OK
+device read in virtual offset 0x000c0000 for ZXENV succeeded!
+device read in physical offset of xos3 succeeded!
+device read in virtual offset 0x00040000 for ezboot xload succeeded!
+!Cezboot xload3 rc=6
+!X
+
+#ezsoo2d  1010c0nfig00(86n30st2 / sutual c0u @79eMtz0d0p0300M2z/ ys=3erMal)24649e8d43br4ee7b17(4cc2109603b9]2=0o0mid#222 d900a0805c3e7
+acbs0ec186fcd8fc040d78e1d6059a58ab156511466d7b]
+#step22
+ruamm0 [0x98000000,0xbf2f0000[ (~657391616 bytes)
+[0xbf2b0000,xos_public_ga=0xbf2c0000[ and [0xbf2e0000,0xbf2f0000[ are lost for alignment)
+channel_index_ga=#ebf2afcd4
+[0xbec00000,ios_ga=0xbec00000[ and [0xbf000000,0xbf29fcbc[ are lost for alignment)
+GW32 0x0006f008 0x80000000 [va=0x84000000]
+GW32 0x0006f00c 0x84000000 [va=0x88000000]
+GW32 0x0006f010 0x88000000 [va=0x8c000000]
+step33
+xos version = 0x2b
+xos serial = 24649e3d4cbc4ee7b6784cc2109603b9
+Using zbootxenv ga=0xbebfbff4 (va=0xbabfbff4)
+Chip identified as SMP8673B00 (03) rev 1 prod (oemid: 2225d90faa825c3e70acb50fcf86fcd8fc040d78e1d6059a58ab156511466d7b)
+
+**************************************
+* SMP86xx zboot start ...
+* Version: 3.1.0
+* Started at 0xd00fba98.
+* Configurations (chip revision: 1):
+*    Enabled checkpoints.
+**************************************
+DRAM0 dunit_cfg/delay0_ctrl (0x20d9e01d/0x67bf1e82).
+DRAM1 dunit_cfg/delay0_ctrl (NA/NA).
+Using UART port 0 as console.
+Board ID.: 1212-E1 MTD
+Setting up H/W from XENV block at 0xbabfbff4.
+  Setting <SYSCLK avclk_mux> to 0x17400000.
+  Setting <SYSCLK hostclk_mux> to 0x00000131.
+  Setting <IRQ rise edge trigger lo> to 0xff28ca06.
+  Setting <IRQ fall edge trigger lo> to 0x0000c000.
+  Setting <IRQ rise edge trigger hi> to 0x8c10001f.
+  Setting <IRQ fall edge trigger hi> to 0x00000000.
+  Setting <IRQ GPIO map> to 0x000a0800.
+  Setting <PB default timing> to 0x03080202.
+  Setting <PB timing0> to 0x03060002.
+  Keeping <PB Use timing0> to 0x000003f3.
+  Keeping <PB CS Config> to 0x00330003.
+  Setting <PB CS Ctrl> to 0x00000022.
+  Enabled Devices: 0x000303f8
+    Ethernet IR FIP I2CM I2CS SDIO USB SATA SCARD
+  Smartcard pin assignments:
+    OFF pin = 0
+    5V pin = 2
+    CMD pin = 1
+PLL#1 postdivider = 0x0000060f
+cd#0 disabled
+cd#1 disabled
+cd#2 want 96000000Hz: setting of 0x0000000043800000-2^28
+cd#2 cannot measure
+cd#3 want 60000000Hz: setting of 0x000000006c000000-2^28
+cd#3 cannot measure
+cd#4 disabled
+cd#5 disabled
+cd#6 want 96000000Hz: setting of 0x0000000043800000-2^28
+cd#6 measured to 0kHz
+cd#7 disabled
+cd#8 disabled
+cd#9 disabled
+cd#10 disabled
+cd#11 disabled
+  GPIO dir/data = 0x0000c980/0x000088c0
+  UART1 GPIO mode/dir/data = 0x00/0x00/0x00
+  UART2 GPIO mode/dir/data = 0x00/0x00/0x00
+  MAC0: 0c:96:e6:c9:4e:d4
+XENV block processing completed.
+Default boot index: 1
+IPU Stage0 booted from devtype: 0, chipsel: 0, phyblocknum: 2, zxenv block#: 6
+Explicit boot order specified:
+  0x00 : devtype=0, CS=0
+ezboot buffers, setup in DRAM bank#0:
+  Alloting 2097152 bytes for heap.
+  Alloting 16777216 bytes for reading.
+  Alloting 16777216 bytes for decryption.
+Checking for DRM key ROMFS... at offset 0x00140000 in virtual zone, size of 131072 bytes
+Trying devtype=0 chipsel=0
+nandlib_init(cs=0, reserved_phyblocks=4096, pagesize_shift=0, extecc=0
+nand_probe 0x0xd0107ce8
+reserved phyblocks exceeds range, skipping ..
+Reading NAND CS0, addr 0x00140000, size 0x00020000 to 0x01840000
+Reading NAND CS0, addr 0x00140800, size 0x00001000 to 0x01840800
+Processing files in ROMFS...
+ROMFS found at 0x0x01840000, Volume name = DRMKEYS
+Found 2 file(s) to be processed in ROMFS.
+Processing hdcpkeys_8903_5bfbc1e08ec43bf2c4cecbe49b5c0440.02d0.xload3 (start: 0x018400b0, size: 0x000009c8)
+xloading... ga=0x818400b0
+DRM key loaded.
+Processing iptoken4_00000279_SMP8673B00_2015-12-18.5bfbc1e08ec43bf2c4cecbe49b5c0440.02db.xload3 (start: 0x01840af0, size: 0x00000a78)
+xloading... ga=0x81840af0
+DRM key loaded.
+Checking for HDCP key... no z.hdcp_key_offset found in ZXENV
+hdcp key loading process failed.
+xmat romfs goes to 0xbe8fbfe0 (ga)
+xmat romfs goes to 0xb68fbfe0 (va)
+Trying devtype=0 chipsel=0
+Reading xmaterial from BBA physical zone
+Reading NAND CS0, addr 0x00200000, size 0x00000800 to 0xb68fbfe0
+Reading NAND CS0, addr 0x00200800, size 0x0006dc00 to 0xb68fc7e0
+File xtask_loader.xload3 found
+found imat romfs @ 0x00500000
+imap romfs goes to 0xbdcfbfc0 (ga)
+imap romfs goes to 0xb5cfbfc0 (va)
+Trying devtype=0 chipsel=0
+Reading imaterial from BBA physical zone
+Reading NAND CS0, addr 0x00500000, size 0x00000800 to 0xb5cfbfc0
+Reading NAND CS0, addr 0x00500800, size 0x003ca400 to 0xb5cfc7c0
+File itask_loader.iload found
+Trying devtype=0 chipsel=0
+reading z.boot1 (vzx=0xbabfbff4) is 0x01100000, BBA physical zone
+Reading NAND CS0, addr 0x01100000, size 0x00000800 to 0x01840000
+Reading NAND CS0, addr 0x01100800, size 0x00931000 to 0x01840800
+Found.
+ROMFS found at 0x0x01840000, Volume name = MIPSLINUX_XLOAD
+Found 1 file(s) to be processed in ROMFS.
+Processing vmlinux_xload.zbf (start: 0x01840090, size: 0x00931498)
+  Checking zboot file signature .. OK.
+  Warning: header version mismatched.
+   *** Signed Only.
+src_addr = 0x018400b0, dest addr = 0x00000000
+XLOADING src=0x818400b0, dest=0x00000000, size=0x00931478
+  Decompressing to 0x84000000 .. OK (13247668/0xca24b4).
+  Load time total 0/0 msec.
+xload.c:68: Waiting for XLOAD completion.
+xload.c:78: XLOAD done, status = 0x6.
+Execute at 0x84007e90 ..
+Linux version 2.6.35.9-32-sigma (hiennguyen@sv-linuxuc03) (gcc version 4.3.2 (Sourcery G++ Lite 4.3-51) ) #274 PREEMPT Tue Dec 5 11:41:16 ICT 2017
+Configured for SMP867x, detected SMP8673 (revision ES1).
+Detected CPU/System/DSP Frequencies: 796.50/398.25/398.25MHz
+SMP86xx Enabled Devices under Linux/XENV 0xbebfbff4 = 0x000303f8
+ Ethernet IR FIP I2CM I2CS SDIO USB SATA SCARD
+Desired kernel memory size: 0x04000000
+Max. DRAM0/1 size allowed: 0x18000000/0x00000000
+ Mapped 0x80000000(size 0x04000000) via remap2
+Final kernel memory size: 0x04000000
+CPU revision is: 00019750 (MIPS 74Kc)
+FPU revision is: 01739700
+Determined physical RAM map:
+ memory: 04000000 @ 04000000 (usable)
+parsing kernel command line for memory options ..
+Desired kernel memory size: 0x18000000
+Max. DRAM0/1 size allowed: 0x18000000/0x00000000
+ Mapped 0x80000000(size 0x04000000) via remap2
+ Mapped 0x84000000(size 0x04000000) via remap3
+ Mapped 0x88000000(size 0x04000000) via remap4
+ Mapped 0x8c000000(size 0x04000000) via remap5
+ Mapped 0x90000000(size 0x04000000) via remap6
+ Mapped 0x94000000(size 0x04000000) via remap7
+Final kernel memory size: 0x18000000
+User-defined physical RAM map:
+ memory: 18000000 @ 04000000 (usable)
+Wasting 524288 bytes for tracking 16384 unused pages
+Initrd not found or empty - disabling initrd
+Zone PFN ranges:
+  DMA      0x00004000 -> 0x00020000
+  Normal   empty
+  HighMem  empty
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00004000 -> 0x0001c000
+On node 0 totalpages: 98304
+free_area_init_node: node 0, pgdat 845feff0, node_mem_map 84cfe000
+  DMA zone: 768 pages used for memmap
+  DMA zone: 0 pages reserved
+  DMA zone: 97536 pages, LIFO batch:31
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 97536
+Kernel command line: console=ttyS0 mem=384M
+PID hash table entries: 2048 (order: 1, 8192 bytes)
+Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+Primary instruction cache 32kB, 4-way, VIPT, linesize 32 bytes.
+Primary data cache 16kB, 4-way, VIPT, no aliases, linesize 32 bytes
+MIPS secondary cache 256kB, 4-way, linesize 32 bytes.
+Writing ErrCtl register=00000000
+Readback ErrCtl register=00000000
+Memory: 376452k/393216k available (4903k kernel code, 16764k reserved, 1240k data, 6792k init, 0k highmem)
+Hierarchical RCU implementation.
+	RCU-based detection of stalled CPUs is disabled.
+	Verbose stalled-CPUs detection is disabled.
+NR_IRQS:256
+Console: colour dummy device 80x25
+console [ttyS0] enabled
+Calibrating delay loop... 397.31 BogoMIPS (lpj=198656)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+devtmpfs: initialized
+NET: Registered protocol family 16
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+libata version 3.00 loaded.
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+Switching to clocksource TANGOX
+NET: Registered protocol family 2
+IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+TCP bind hash table entries: 16384 (order: 4, 65536 bytes)
+TCP: Hash tables configured (established 16384 bind 16384)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+timer0: interrupt registered.
+registering mbus interrupt routines.
+SMP86xx zxenv (254:0): driver loaded.
+Slow work thread pool: Starting up
+Slow work thread pool: Ready
+ROMFS MTD (C) 2007 Red Hat, Inc.
+msgmni has been set to 735
+alg: No test for stdrng (krng)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+Serial: 8250/16550 driver, 3 ports, IRQ sharing disabled
+serial8250: ttyS0 at MMIO 0x0 (irq = 9) is a 16550A
+serial8250: ttyS1 at MMIO 0x0 (irq = 10) is a 16550A
+serial8250: ttyS2 at MMIO 0x0 (irq = 71) is a 16550A
+loop: module loaded
+[SMP_NAND] SMP8xxx NAND Driver 0.3 (multi-bits ECC: enabled)
+[SMP_NAND]: checking NAND device on CS0 ..
+ONFI flash detected
+ONFI param page 0 valid
+NAND device: Manufacturer ID: 0xad, Chip ID: 0xdc (Hynix NAND 512MiB 3,3V 8-bit)
+Scanning device for bad blocks
+[SMP_NAND]: detected NAND on CS0, 512MiB, erasesize 128KiB, pagesize 2048B, oobsize 128B, oobavail 66B
+[SMP_NAND]: checking NAND device on CS1 ..
+No NAND device found.
+[SMP_NAND]: detection completed, load partition information from XENV ..
+[SMP_NAND]: load partition information for CS0 ..
+Creating 7 MTD partitions on "H27U4G8F2EKA-BM":
+0x000000000000-0x000000200000 : "bootblocks"
+0x000000200000-0x000000500000 : "xmaterial"
+0x000000500000-0x000001100000 : "imaterial"
+0x000001100000-0x000002500000 : "kernel"
+0x000002500000-0x000003900000 : "kernelbackup"
+0x000003900000-0x000004300000 : "userdata"
+0x000004300000-0x000020000000 : "sdk"
+tangox_enet0: detected phy unknown at address 0x00
+tangox_enet0: Ethernet driver for SMP8xxx internal MAC core 0: 100Mbps Base at 0x26000
+tangox_enet0: mac address 0c:96:e6:c9:4e:d4
+tangox_enet1: ethernet mac_core 1 support is disabled from XENV
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Initializing Tangox EHCI USB Host Controller
+TangoX USB initializing...
+tangox-ehci-hcd-0 tangox-ehci-hcd-0: TangoX USB 2.0
+tangox-ehci-hcd-0 tangox-ehci-hcd-0: new USB bus registered, assigned bus number 1
+tangox-ehci-hcd-0 tangox-ehci-hcd-0: irq 48, io mem 0xa0021500
+tangox-ehci-hcd-0 tangox-ehci-hcd-0: USB 0.0 started, EHCI 1.00
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+Initializing Tangox EHCI USB Host Controller
+TangoX USB initializing...
+tangox-ehci-hcd-1 tangox-ehci-hcd-1: TangoX USB 2.0
+tangox-ehci-hcd-1 tangox-ehci-hcd-1: new USB bus registered, assigned bus number 2
+tangox-ehci-hcd-1 tangox-ehci-hcd-1: irq 15, io mem 0xa0025500
+tangox-ehci-hcd-1 tangox-ehci-hcd-1: USB 0.0 started, EHCI 1.00
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 1 port detected
+No OHCI in SMP8652/SMP8653/SMP8646/SMP8647/SMP867X.
+mice: PS/2 mouse device common for all mice
+i2c /dev entries driver
+tangoxdog: Hardware Watchdog Timer for SMP864x/SMP865x/SMP867x/SMP868x/SMP89xx 0.2 (def. timeout: 30 sec)
+Netfilter messages via NETLINK v0.30.
+nf_conntrack version 0.5.0 (5882 buckets, 23528 max)
+ctnetlink v0.93: registering with nfnetlink.
+IPVS: Registered protocols ()
+IPVS: Connection hash table configured (size=4096, memory=32Kbytes)
+IPVS: ipvs loaded.
+TCP cubic registered
+NET: Registered protocol family 10
+lo: Disabled Privacy Extensions
+Mobile IPv6
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+IPv6 over IPv4 tunneling driver
+sit0: Disabled Privacy Extensions
+ip6tnl0: Disabled Privacy Extensions
+NET: Registered protocol family 17
+lib80211: common routines for IEEE802.11 drivers
+lib80211_crypt: registered algorithm 'NULL'
+lib80211_crypt: registered algorithm 'WEP'
+lib80211_crypt: registered algorithm 'CCMP'
+lib80211_crypt: registered algorithm 'TKIP'
+Freeing unused kernel memory: 6792k freed
+Using rootfs from initramfs/initrd ...
+yaffs built Sep 20 2016 11:54:55 Installing. 
+yaffs: dev is 32505862 name is "mtdblock6" rw
+yaffs: passed flags "inband-tags"
+yaffs: Attempting MTD mount of 31.6,"mtdblock6"
+yaffs: dev is 32505863 name is "mtdblock7" rw
+yaffs: passed flags "inband-tags"
+yaffs: Attempting MTD mount of 31.7,"mtdblock7"
+yaffs: restored from checkpoint
+yaffs_read_super: is_checkpointed 1
+[SMP_NAND]: ecc error detected (code=0x87)
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+usbcore: registered new interface driver hiddev
+USB GO TO SLEEP HHHH
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+[USB update - v3.1.x - 2017/11/08] Wait 10 seconds time up
+yaffs: restored from checkpoint
+yaffs_read_super: is_checkpointed 1
+Configuring network interfaces...
+tangox_enet0: PHY autonegotiation does not complete...
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+[USB update] Exit script...
+Start allow user run root cmd HHHH
+----------->>>>> [19/02/2016] LOG_POWER_CONTROL (GPIO 6 = 1, GPIO 7 = 0) !!!<<<<<-----------
+Done allow user run root cmd HHHH
+Run check_for_update.sh in /tango/app/ .........
+SCRIPT VERSION: 3.1.x_20171115
+...
+SMP86xx ir (253:0): driver loaded (wait_period = 150ms, buffer_size = 6)
+fctrl: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+Tango3 frequency scaling module installed, (standby mode supported).
+No need updating file ...
+FIRMWARE_VERSION=3.3.72
+app.tgzir: Enable NEC decoder (0x00000000)
+_PKG=success
+apir: Enable RC5 decoder (0x00000000)
+p.tgz_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.72.ccplus/app.tgz
+app.tgz_CKSUM=435938500
+sop.tir: Enable RC6 decoder
+gz_PKG=success
+sop.tgz_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.67.ccplus/sop.tgz
+sop.tgz_CKSUM=2595887218
+mrua.tgz_PKG=success
+mrua.tgz_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.69.ccplus/mrua.tgz
+mruanw>|gz_ToÇ=success
+mruafw.tïz_]RÌ=lttp:/fbox-fw.fpt.v/rom9673B/v3.3.14.cãplus>æuln/mruafw.tçú
+mrwaf÷.|÷zCËSUM=3769404707
+FPT­KEÒNEL.bin_PKG}s}ccess
+FP\-kERNEL.bin_WrL=xttp://fbx-ö?gpt.vn?òom8673B/v3.3.14/ccp|}s/æuln/FPÔ-KEZNEL.binFÐt-ËEZNÅ\/âm~_CËSuM}241917|>¶5ÊFPT-BOOT-yIMON.rin_POW=sucgewsFPT=ÂÏOTmYAMON®binß}VL=j~|pº/?fboz-f÷.fpt.vn/ro}8673B/v3.0.28.ccpîu{/FPT¿BOÏt­YAOoN.ãinŠFPT-BOOT-YAMOo.bin_COSuM=33=¹129·=4
+wPT-ÉVASK.cin_ÐKg=succe{s
+FPT-ITASK.bin_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.67.ccplus/FPT-ITASK.bin
+FPTíÉTAWK.bin_CKsUM=3371451715*FPT-xTASK/bén_PKÇ?ó}ccess
+FPT=ØÜAÛK.binßCKSUM=2943223´0
+tango.tgz_X[G¿{uccessŠtango®tgz_UZL=htôq:/ofbox-fw.fpt.vî/rom8673B/v3.3.5.ccplus.bg/tang.tgz
+tango>tgz_CKSÕO?32682·4745
+smpßupda|ernóh_PKG=success
+sp_updctgr.sl_]RL=èvôp://fbox-fw.fpu.vn/ro}<¶73B//v³.³®54.cãpìus/smpuðdaüer.óh
+smp_updaôes/shCKWuM=3789<99773
+smp_updater.shURL=http://fbox-fw.fpt.vn/rom8673B//v3.3.60.ccplus/smp_uPdater.sh
+smp_updater.sh_CKÓUM=3789499773
+smp_updater.sh_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.72.ccplus/smp_updater.sh
+smp_updater.sh_CKSUM=2298396954
+FPT-ITASK.bin_CKSUM=2745139468
+FPT-ITASK.bin_PKG=success
+FPT-XTASK.bin_URL=http://fbox-fw.fpt.vn/rom8673B//v3.3.67.ccplus/FPT-XTASK.bin
+FPT-XTASK.bin_CKSUM=1490943102
+FPT-XTASK.bin_PKG=success
+mrua.tgz_CKSUM=1690447871
+Proceed to normal boot sequence...
+Check CPU binding
+Found your list file: /etc/fpt/mylistenc.txt.
+Found the destination: /tmp/tango.
+Decrypting /tango/sop/clients/verimatrix/libs/libvmclient.so.enc to /tmp/tango/libvmclient.so
+
+
+Sigma Designs SMP8xxx development environment (based on buildroot project)
+
+1198_E1 login: Found your list file: /tmp/tango/mylist.txt.
+The digest consisting of sha1sums of the files in: /tmp/tango/mylist.txt, is in: /tmp/tango/appx.dgst.
+/tmp/tango /etc/init.d
+/etc/init.d
+Verified OK
+Authentication pass, run run in /tango .........
+save exit: is_checkpointed 1
+save exit: is_checkpointed 1
+Configuring network interfaces...
+/tango /tango/mrua
+/tango/mrua
+Creating /dev/mum0
+Creating /dev/em8xxx0
+Loading llad.ko
+Chip identified as SMP8672 prod (certificate id unused, t3iptv family)
+34418
+fw_reload SMP8672
+Killing splashscreen
+ikc: kill fails with status=9
+Unloading splashscreen
+Killing iloader (ok to fail)
+ikc: kill fails with status=9
+Failed, assuming that the loader died of natural causes
+Unloading iloader
+Freeing splashscreen buffer
+rmfree 0 0xbdcfaf5c
+Freeing imat romfs buffer
+rmfree 0 0xbdcfbfbc
+Freeing xmat romfs buffer
+rmfree 0 0xbe8fbfd8
+/tango/mrua/MRUA_src/llad_xtest/genxenv2
+/tango/mrua/MRUA_src/llad_smallapps/gbus_read_bin_to_file
+ios_ga=0xbec00000, ios_size=0x00400000, log2_ios=20
+To ga=0xbef00000
+/tango/mrua/bin/xkc
+Unloading ios
+Stopping audio0... OK
+Stopping audio1... OK
+Stopping audio2... FAILED
+Stopping video0... OK
+Stopping video1... FAILED
+Stopping demux0... OK
+Stopping demux1... FAILED
+Unloading of demuxpsf ucode... FAILED
+Unloading of audio ucode... FAILED
+Unloading of video ucode... FAILED
+config_byte decimal=0 noreal nodts dd
+Using scratch=0xbe9c083c
+Loading video ucode
+Loading audio ucode
+Loading demuxpsf ucode
+Starting demux0
+Starting demux1
+   starting demux1 failed. 864x, 8652, 8670, 868x have no demux1.
+Starting video0
+Starting video1
+   starting video1 failed. 8652, 8654, 8670, 868x have no video1.
+Starting audio0
+Starting audio1
+Starting audio2
+   starting audio2 failed. 8652, 8654, 8670, 868x have no audio2.
+/tango/mrua/MRUA_src/llad_xtest/genxenv2
+/tango/mrua/MRUA_src/llad_smallapps/gbus_read_bin_to_file
+ios_ga=0xbec00000, ios_size=0x00400000, log2_ios=20
+To ga=0xbef00000
+mumk_register_tasklet: (0) tasklet c03cd000 status @c03442dc
+em8xxx  [...kernel_src/krua.c:  1779] init_module: done. Found 1 em8xxx
+demux0   is  alive
+audio0   is  alive
+audio1   is  alive
+mpeg0    is  alive
+ipu      is  alive
+ih       is  alive
+firmware reload successful
+killall: telnetd: no process killed
+Fri Apr  8 00:00:00 GMT-7 2022
+set time deault at boot 2022.04.08-00:00:00
+********************************************************************************
+* smpoutd run.env
+********************************************************************************
+LD_LIBRARY_PATH=/tango/mrua/MRUA_src/lib:/usr/lib:/lib::/tango/sop/smpoutd/build/lib
+OUTD_DIR=/tango/sop/smpoutd/build
+PATH=/tango/mrua/MRUA_src/rmchannel/ios_client/:/tango/mrua/MRUA_src/rmchannel/test/:/tango/mrua/MRUA_src/rmchannel/xos2k_client/:/tango/mrua/MRUA_src/llad_xtest/:/tango/mrua/MRUA_src/llad_smallapps:/tango/mrua/MRUA_src/xbin/:/tango/mrua/MRUA_src/rmfp/test/:/tango/mrua/MRUA_src/rmoutports/test/:/tango/mrua/MRUA_src/rmedid/test/:/tango/mrua/MRUA_src/rmoutput/test/:/tango/mrua/MRUA_src/bin/:/tango/mrua/MRUA_src/samples/:/tango/mrua/bin/:/sbin:/usr/sbin:/bin:/usr/bin:/etc/init.d/:/usr/local/bin/:/tango/sop/smpoutd/build/bin
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+Error : Name or service not known
+ 8 Apr 00:00:00 ntpdate[1262]: can't find host ntp.fbox.fpt.vn
+
+ 8 Apr 00:00:00 ntpdate[1262]: no servers can be used, exiting
+[Config][internal_smp_config_gencmdline_video_auto_mode_50Hz] No EDID - reschedule this config when connection is done
+[Config][local_smp_config_gencmdline_generic_video] 
+Auto mode
+save exit: is_checkpointed 1
+save exit: is_checkpointed 1
+
+disp_cmdline = -o hdmi cav cvbs -vdac_mux 000000Mv -sdcav -r pref -cs YCC709 -v warning -cs YCC709 -sdbuf 
+HDMI code complied without thread support! Will use polling for HDMI updates.
+start update NTP with: ntp2.fbox.fpt.vn
+Error : Name or service not known
+ 8 Apr 00:00:01 ntpdate[1275]: can't find host ntp2.fbox.fpt.vn
+
+ 8 Apr 00:00:01 ntpdate[1275]: no servers can be used, exiting
+
+
+
+
+------------------ smpoutd brief configuration -------------------
+HDMI:   enabled[ ] connected[ ] hdcp[ ] vmode[N/A]
+CAV:    enabled[X] vmode[NTSC_M]
+CVBS:   enabled[X] vmode[NTSC_M]
+audio:  HDMI[ ] SPDIF[ ] Analog[ ], crt.bitstream HDMI[ ] SPDIF[ ]
+------------------------------------------------------------------
+
+not exist  /tmp/videomode_line . Creating...
+[Output][hdmicsf_disconnected_entry]  --- HDMI state changed: [Disconnected] ---
+[Output][smp_out_update_outputs_status] HDMI State [0]: Pluggedin[0] ConnOk[0] ConnErr[0] - HdcpAct[0] HdcpErr[0] - HdcpSup[0] EDIDvalid[0] - caps[0]
+[Config][internal_smp_config_gencmdline_video_auto_mode_50Hz] No EDID - reschedule this config when connection is done
+[Config][local_smp_config_gencmdline_generic_video] 
+Auto mode
+save exit: is_checkpointed 1
+
+
+
+
+------------------ smpoutd brief configuration -------------------
+HDMI:   enabled[ ] connected[ ] hdcp[ ] vmode[N/A]
+CAV:    enabled[X] vmode[NTSC_M]
+CVBS:   enabled[X] vmode[NTSC_M]
+audio:  HDMI[X] SPDIF[X] Analog[X], crt.bitstream HDMI[u] SPDIF[u]
+------------------------------------------------------------------
+
+
+disp_cmdline = -o hdmi cav cvbs -sdcav -r pref -cs YCC709 -v warning -cs YCC709 -sdbuf 
+start update NTP with: 118.69.252.17
+ 8 Apr 00:00:02 ntpdate[1288]: no servers can be used, exiting
+Installing the Fusion Driver
+Starting fusion driver v9.0.3
+  -> initializing shared area at 99ef4000
+Installing the Framebuffer Driver from /tango/sop/directfb/install/lib/modules
+SMPFB: [smpfb_probe] start
+em8xxx0 [...kernel_src/krua.c:  1288] Emhwlibregistercleanable ERROR : cannot find CURRENT_EM8XXX_ID 1361 in openers. Continuing but cleanable will be attached to pseudo-ID 0.
+SMPFB: [smpfb_probe] allocated and acquired video mem @ 0xb492ecf8 in DRAM #0, size 67108864
+SMPFB: [smpfb_probe] rounded videomem to page boundary, now videomem_size=67104768, lost 4096 bytes
+start update NTP with: 118.69.252.22
+ 8 Apr 00:00:03 ntpdate[1369]: no servers can be used, exiting
+SMPFB: [smpfb_probe] locked 16383 regions, starting from region 0x0 at offset 0x00000000 @ 0xb492f000 67104768 bytes
+em8xxx0 [...kernel_src/krua.c:  1288] Emhwlibregistercleanable ERROR : cannot find CURRENT_EM8XXX_ID 1361 in openers. Continuing but cleanable will be attached to pseudo-ID 0.
+em8xxx0 [...kernel_src/krua.c:  1288] Emhwlibregistercleanable ERROR : cannot find CURRENT_EM8XXX_ID 1361 in openers. Continuing but cleanable will be attached to pseudo-ID 0.
+em8xxx  [...kernel_src/krua.c:  1094] Registering event callback with module_id 0x00000020 and mask 0x00000001 
+SMPFB/GFX: [gfx_init] GFX uncached addr 0xb4921000, size 52936
+SMPFB: [smpfb_probe] check smp ptr: smp=c04a0fc8, from fbinfo=c04a0fc8
+SMPFB: [smpfb_setup_fb_info] Setting up fb_info
+SMPFB: [smpfb_probe] call local_init_osd0_layer
+SMPFB/DISP: [smpfb_disp_init_layer_surface] Initializing layer 0 surface
+em8xxx0 [...kernel_src/krua.c:  1288] Emhwlibregistercleanable ERROR : cannot find CURRENT_EM8XXX_ID 1361 in openers. Continuing but cleanable will be attached to pseudo-ID 0.
+em8xxx0 [...kernel_src/krua.c:  1288] Emhwlibregistercleanable ERROR : cannot find CURRENT_EM8XXX_ID 1361 in openers. Continuing but cleanable will be attached to pseudo-ID 0.
+SMPFB: [local_init_osd0_layer] layer OSD0 surface dram=0xb492f000, size 0x384000, pic count 1
+SMPFB: [smpfb_probe] call register_framebuffer
+SMPFB: [smpfb_probe] fb0: smpfb frame buffer device @ 0xb492f000 size 67104768
+PATH		= /tango/mrua/MRUA_src/rmchannel/ios_client/:/tango/mrua/MRUA_src/rmchannel/test/:/tango/mrua/MRUA_src/rmchannel/xos2k_client/:/tango/mrua/MRUA_src/llad_xtest/:/tango/mrua/MRUA_src/llad_smallapps:/tango/mrua/MRUA_src/xbin/:/tango/mrua/MRUA_src/rmfp/test/:/tango/mrua/MRUA_src/rmoutports/test/:/tango/mrua/MRUA_src/rmedid/test/:/tango/mrua/MRUA_src/rmoutput/test/:/tango/mrua/MRUA_src/bin/:/tango/mrua/MRUA_src/samples/:/tango/mrua/bin/:/sbin:/usr/sbin:/bin:/usr/bin:/etc/init.d/:/usr/local/bin/:/tango/sop/smpoutd/build/bin
+LD_LIBRARY_PATH	= /tango/sop/directfb/install/lib:/tango/mrua/MRUA_src/lib:/usr/lib:/lib::/tango/sop/smpoutd/build/lib
+DFB_INSTALL_DIR	= /tango/sop/directfb/install
+
+********************************************************************************
+* gstreamer run.env
+********************************************************************************
+GSTREAMER_DIR=/tango/sop/gstreamer
+GSTREAMER_INSTALL_DIR=/tango/sop/gstreamer/install
+GSTREAMER_PATH_SUFFIX=1.0
+GST_PLUGIN_PATH=/tango/sop/gstreamer/install/lib/gstreamer-1.0
+GST_PLUGIN_SCANNER=/tango/sop/gstreamer/install/libexec/gstreamer-1.0/gst-plugin-scanner
+LD_LIBRARY_PATH=/tango/sop/gstreamer/install/lib:/tango/sop/sapi/lib:/tango/sop/directfb/install/lib:/tango/mrua/MRUA_src/lib:/usr/lib:/lib::/tango/sop/smpoutd/build/lib:/tango/sop/clients/verimatrix/libs
+PATH=/tango/sop/gstreamer/install/bin:/tango/sop/sapi/bin:/tango/mrua/MRUA_src/rmchannel/ios_client/:/tango/mrua/MRUA_src/rmchannel/test/:/tango/mrua/MRUA_src/rmchannel/xos2k_client/:/tango/mrua/MRUA_src/llad_xtest/:/tango/mrua/MRUA_src/llad_smallapps:/tango/mrua/MRUA_src/xbin/:/tango/mrua/MRUA_src/rmfp/test/:/tango/mrua/MRUA_src/rmoutports/test/:/tango/mrua/MRUA_src/rmedid/test/:/tango/mrua/MRUA_src/rmoutput/test/:/tango/mrua/MRUA_src/bin/:/tango/mrua/MRUA_src/samples/:/tango/mrua/bin/:/sbin:/usr/sbin:/bin:/usr/bin:/etc/init.d/:/usr/local/bin/:/tango/sop/smpoutd/build/bin
+********************************************************************************
+* qt run.env
+********************************************************************************
+LD_LIBRARY_PATH=/tango/sop/gstreamer/install/lib:/tango/sop/sapi/lib:/tango/sop/directfb/install/lib:/tango/mrua/MRUA_src/lib:/usr/lib:/lib::/tango/sop/smpoutd/build/lib:/tango/sop/clients/verimatrix/libs:/tango/sop/qtwebkit/install/lib
+PATH=/tango/sop/gstreamer/install/bin:/tango/sop/sapi/bin:/tango/mrua/MRUA_src/rmchannel/ios_client/:/tango/mrua/MRUA_src/rmchannel/test/:/tango/mrua/MRUA_src/rmchannel/xos2k_client/:/tango/mrua/MRUA_src/llad_xtest/:/tango/mrua/MRUA_src/llad_smallapps:/tango/mrua/MRUA_src/xbin/:/tango/mrua/MRUA_src/rmfp/test/:/tango/mrua/MRUA_src/rmoutports/test/:/tango/mrua/MRUA_src/rmedid/test/:/tango/mrua/MRUA_src/rmoutput/test/:/tango/mrua/MRUA_src/bin/:/tango/mrua/MRUA_src/samples/:/tango/mrua/bin/:/sbin:/usr/sbin:/bin:/usr/bin:/etc/init.d/:/usr/local/bin/:/tango/sop/smpoutd/build/bin:/tango/sop/qtwebkit/install/bin:/tango/sop/qtwebkit/install/demos/browser_library/test/:/tango/sop/qtwebkit/install/demos/browser/:/tango/sop/qtwebkit/install/demos/QtGstPlayer/
+QT_DIR=/tango/sop/qtwebkit
+QT_INSTALL_DIR=/tango/sop/qtwebkit/install
+QT_QPA_PLATFORM=DfbEglFS
+QT_QPA_PLATFORM_PLUGIN_PATH=/tango/sop/qtwebkit/install/plugins/platforms
+WEBKIT_BROWSER_LIB_PATH=/tango/sop/qtwebkit/install/demos/browser_library/browser/libbrowser.so
+save exit: is_checkpointed 1
+status sync ntp =====================:0
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+ 8 Apr 00:00:04 ntpdate[1408]: no servers can be used, exiting
+process_id of child process 1417 
+ir: Disable NEC decoder
+ir: Disable RC5 decoder
+ir: Disable RC6 decoder
+start update NTP with: ntp2.fbox.fpt.vn
+ 8 Apr 00:00:05 ntpdate[1423]: no servers can be used, exiting
+start update NTP with: 118.69.252.17
+ 8 Apr 00:00:06 ntpdate[1429]: no servers can be used, exiting
+[INFO__]-[2022-4-8 0:0:7:238:238434] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:23 registerApp() :     REGISTER MODULE 
+[INFO__]-[2022-4-8 0:0:7:245:245656] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:23 registerApp() :     REGISTER MODULE 
+[INFO__]-[2022-4-8 0:0:7:245:245932] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:23 registerApp() :     REGISTER MODULE 
+ErroData: constructor
+
+Compile_version: Apr  8 2022-10:11:58
+
+Ignore_signal_SIGPIPE
+[INFO__]-[2022-4-8 0:0:7:281:281042] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsApp.cpp:595 CAbsApp() :  Constructor of App
+commandline read: CBox
+
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~| DirectFB 1.6.3 |~~~~~~~~~~~~~~~~~~~~~~~~~~
+        (c) 2012-2013  DirectFB integrated media GmbH
+        (c) 2001-2013  The world wide DirectFB Open Source Community
+        (c) 2000-2004  Convergence (integrated media) GmbH
+      ----------------------------------------------------------------
+
+(*) DirectFB/Core: Multi Application Core. (2017-12-14 09:20) 
+(*) Fusion/SHM: Using MADV_REMOVE (2.6.35.9 >= 2.6.19.2)
+(*) Direct/Thread: Started 'Fusion Dispatch' (-1) [MESSASMPFB: [smpfb_open] Open Minor = 0
+GING OTHER/OTHERSMPFB: [local_ref_current_pid] 64: PID=1418 smpfb_ref=1 (delta=1)
+ 0/0] <1048576>...
+(*) Direct/Thread: Started 'Fusion Deferred' (-1) [MESSAGING OTHER/OTHER 0/0] <1048576>...
+(*) Direct/Thread: Started 'VT SSMPFB: [smpfb_mmap] videomemory asked: 0x00000000 phys=0xb492f000 (videomem @ 0xb492f000)
+witcher' (-1) [Ckc_remap_page_range(99f71a14, 2eb03000, b492f000, 67104768, 99f71a28)
+RITICAL OTHER/OTHER 0/0] <104857kc_remap_page_range(99f71a14, 2eb03000, b492f000 (000b492f), 67104768, 99f71a28)
+6>...
+(*) Direct/Thread: StarteSMPFB: [smpfb_mmap] remapped 67104768 bytes in userland of process 1418 at address vma_start 0x2eb03000 to phys=0xb492f000
+d 'VT Flusher' (-1) [DEFAULT OTHER/OTHER 0/0] <1048576>...
+(*) DirectFB/FBDev: Found 'SMP86XXFB 0' (ID 60) with frame buffer at 0xb492f000, 65532k (MMIO 0x00000000, 0k)
+(*) Direct/Thread: Started 'Hotplug with Linux Iir: Enable NEC decoder (0x00000000)
+nput' (-1) [INPUT OTHER/OTHER 0/0] <1048576>...
+(*) DirectFB/Input: Hot-plug detection enabled with Linux Input Driver 
+(*) Direct/Thread: Started 'SMP86XX TCir: Enable RC5 decoder (0x00000000)
+P Input' (-1) [INPUT OTHER/OTHER 0/0] <1048576>...
+(*) DirectFB/Input: SMP86XX ir: Enable RC6 decoder
+remote control over TCP 0.1 (SigmaDesigns)
+(*) Direct/Thread: Started 'SMP86XX IR Input' (-1) [INPUT OTHER/OTHER 0/0] <1048576>...
+(*) DirectFB/Input: SMP8XXX IR remote 1.0 (SigmaDesigns)
+(*) Direct/Thread: Started 'Virtual Input' (-1) [INPUT OTHER/OTHER 0/0] <1048576>SMPFB/GFX: [gfx_acquire_GFX_scaler] GFX scaler is used as a MV deinterlacing companion; removing !
+...
+(*) DirectFB/Input: Virtual Input 1.6 (ConvSMPFB/GFX: [gfx_acquire_GFX_scaler] Could not get GFX scaler mixer source index on mixer 13; ignoring
+ergence GmbH)
+(*) DirectFB/Input: SMP8XXX CEC rSMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_GET_GFXENGINE
+emote 1.0 (SigmaDesigns)
+(*) SMP86XX/Driver: drSMPFB: [smpfb_check_var]  check and alter fb_var_screeninfoiver_init_driver
+(*) SMP86XX/Driver: driver_init_device
+(*) DirectFB/Graphics: Sigma Designs SMP device 0.1 (Sigma Designs, Inc.)
+(*) DirectFB/Core/WM: SaWMan 0.2 (directfb.org)
+(*) SaWMan/Config: Parsing config file '/tango/
+SMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_ACQUIRE
+sdk/liemphamteamSMPFB/Event: [smpfb_cleanable_register] registering callback c0492204 with context (null) for PID 1418
+/smp8673B/fpt/toolkit_smp8673b/build/sop/directfSMPFB/Event: [local_get_or_acquire_cleanable]   -> allocating PID 1418 cleanables at 0
+b/install/etc/sawmanrc'.
+(*) SaSMPFB/Event: [smpfb_cleanable_register]   -> registered at 0:0
+WMan: Initializing stack 0x510aaSMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_SETPARAM
+200 for tier 0x524c3000, 0x0, laSMPFB: [smpfb_setcmap] set palette
+yer 0, context 0SMPFB: [smpfb_setcmap] surface format has no alpha; ignore requestx500a1000 [6]...
+(*) FBDev/Mode: Setting 1280x720 ARGB
+(*) FBDev/Mode: Switched to 1280x720 (virtual 1280x720) at 32 bit (ARGB), pitch 5120
+(*) FBDev/Mode: Setting 1280x720 ARGB
+
+SMPFB: [smpfb_check_var]  check and alter fb_var_screeninfo
+SMPFB: [smpfb_set_par] 1280x720 (virtual 1280x1440), smpfb_disp_destroy_layer_surface & local_init_osd0_layer
+SMPFB/DISP: [smpfb_disp_init_layer_surface] Initializing layer 0 surface
+SMPFB/Event: ERROR: [smpfb_set_pending_property] Property 6033 on module 0xc still pending, trying again...
+SMPFB: [local_init_osd0_layer] layer OSD0 surface dram=0xb492f000, size 0x384000, pic count 1
+SMPFB: [smpfb_setcmap] set palette
+SMPFB: [smpfb_setcmap] surface format has no alpha; ignore request(*) FBDev/Mode: 
+SMPFB: [smpfb_setcmap] set palette
+Switched to 1280SMPFB: [smpfb_setcmap] surface format has no alpha; ignore requestx720 (virtual 1280x1440) at 32 bit (ARGB), pitch 5120
+(*) SaWMan: Initializing 
+SMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_ACQUIRE
+stack 0x510ae000SMPFB/Event: [smpfb_cleanable_register] registering callback c0492204 with context 00000001 for PID 1418
+ for tier 0x524c3800, 0x0, layerSMPFB/Event: [local_get_or_acquire_cleanable]   -> PID 1418 has cleanables at 0
+ 1, context 0x500a1400 [15]...
+SMPFB/Event: [smpfb_cleanable_register]   -> registered at 0:1
+SMPFB/DISP: [local_set_scaler_master] mixer source state is now MASTER
+SMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_SETPARAM
+SMPFB/DISP: [smpfb_disp_init_layer_surface] Initializing layer 1 surface
+SMPFB/Event: [local_get_or_acquire_cleanable]   -> PID 1418 has cleanables at 0
+SMPFB/Event: [smpfb_cleanable_unregister] unregistering callback c0490c88 with context 00000001 for PID 1418
+SMPFB/Event: [smpfb_cleanable_unregister] Couldn't find callback c0490c88 with context 00000001 for PID 1418 !
+(!) SMP86XX/OSD1SMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_SETPARAM
+: LAYER_SETPARAM(surface_desc) fSMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_RELEASE
+ailed!
+    --> SMPFB/Event: [local_get_or_acquire_cleanable]   -> PID 1418 has cleanables at 0
+Invalid argument
+SMPFB/Event: [smpfb_cleanable_unregister] unregistering callback c0492204 with context 00000001 for PID 1418
+SMPFB/Event: [smpfb_cleanable_unregister]   -> removing at 0:1
+ (!!!)  *** WARNING [could not activate region!] *** [layer_context.c:316 in dfb_layer_context_activate()]
+(*) SaWMan/Init: Layer  0:  1280x720, ARGB, options: 21
+(*) SaWMan/Init: Border 0:  1280x720, ARGB, options: 8
+(*) SaWMan/Init: Layer  1:  1280x720, ARGB, options: 0
+(*) SaWMan/Init: Border 1:  1280x720, ARGB, options: 8
+(*) FBDev/Mode: Setting 1280x720 ARGB
+start update NTP with: 118.69.252.22
+SMPFB: [smpfb_check_var]  check and alter fb_var_screeninfo
+SMPFB: [smpfb_set_par] 1280x720 (virtual 1280x1440), smpfb_disp_destroy_layer_surface & local_init_osd0_layer
+SMPFB/DISP: [smpfb_disp_init_layer_surface] Initializing layer 0 surface
+SMPFB: [local_init_osd0_layer] layer OSD0 surface dram=0xb492f000, size 0x384000, pic count 1
+SMPFB: [smpfb_setcmap] set palette
+SMPFB: [smpfb_setcmap] surface format has no alpha; ignore request 8 Apr 00:00:08 ntpdate[1450]: no servers can be used, exiting
+(*) FBDev/Mode: 
+SMPFB: [smpfb_setcmap] set palette
+Switched to 1280SMPFB: [smpfb_setcmap] surface format has no alpha; ignore requestx720 (virtual 1280x1440) at 32 bit (ARGB), pitch 5120
+[INFO__]-[2022-4-8 0:0:8:148:148240] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AppManager.cpp:203 CAppManager() :  [32mConstructor of CAppManager TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT test 2020 [0m
+[INFO__]-[2022-4-8 0:0:8:148:148576] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/config/ConfigWriterDatFile.cpp:22 ConfigWriterDatFile() :  Constructor of ConfigWriterDatFile 
+[INFO__]-[2022-4-8 0:0:8:151:151581] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AppManager.cpp:412 OnInit() :  [32mONINIT [0m
+[INFO__]-[2022-4-8 0:0:8:154:154344] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-co
+SMPFB: [smpfb_open] Open Minor = 0
+re-v2/source/adaSMPFB: [local_ref_current_pid] 63: PID=1418 smpfb_ref=2 (delta=1)
+ptersdk/sigma/GstPlaybackProvider.cpp:37 GetInstance() :  Get static instance of CGstPlayProvider
+[INFO__]-[2022-4-8 0:0:8:154:154897] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/GstPlaybackProvider.cpp:27 CGstPlayProvider() :  Construct of CGstPlayProvider, creating a instance of GStreamerPlayer
+
+ [34m GStreamerPlayer::GStreamerPlayer  
+
+ [0m 
+
+ [34m GStreamerPlayer::initDefaultParam [0m 
+[INFO__]-[2022-4-8 0:0:8:155:155562] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/SmpPlaybackProvider.cpp:58 GetInstance() :  Get static instance of CSmpPlayProvider
+[INFO__]-[2022-4-8 0:0:8:155:155709] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/SmpPlaybackProvider.cpp:38 CSmpPlayProvider() :  Constructor of CSmpPlayProvider
+[INFO__]-[2022-4-8 0:0:8:155:155745] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/SmpPlaybackProvider.cpp:77 InitProvider() :  InitProvider
+
+ [31m >>>> InitThreadGST start <<<<<  
+
+ [0m 
+ilixi Engine start run loop
+[00:00.059][1418] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:62 StreamInitialize() (player) Looking for plugins in "/tango/sop/sapi/lib/plugins/"
+[00:00.063][1418] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:91 StreamInitialize() (player) Loading Plugin /tango/sop/sapi/lib/plugins//stream_tuner.so
+[00:00.185][1418] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:91 StreamInitialize() (player) Loading Plugin /tango/sop/sapi/lib/plugins//stream_mc.so
+[00:00.335][1418] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:91 StreamInitialize() (player) Loading Plugin /tango/sop/sapi/lib/plugins//stream_http.so
+[SMP_NAND]: ecc error detected (code=0x87)
+[SMP_NAND]: ecc error detected (code=0x88)
+[SMP_NAND]: ecc error detected (code=0x82)
+[31;1m[00:00.538][1418] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:95 StreamInitialize() (player) Could not open plugin "/tango/sop/sapi/lib/plugins//stream_http.so": /lib/libgcc_s.so.1: version `GLIBC_2.0' not found (required by /tango/mrua/MRUA_src/lib/libcurl_sigma.so)
+[0m[00:00.539][1418] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:91 StreamInitialize() (player) Loading Plugin /tango/sop/sapi/lib/plugins//stream_file.so
+[00:00.552][1418] /home/cuongnq39/release/toolkit/build/8673B_QT/nadk/src/platform_glue_layer/player/playerlib/core/smplayer/stream.c:91 StreamInitialize() (player) Loading Plugin /tango/sop/sapi/lib/plugins//program_file.so
+[INFO__]-[2022-4-8 0:0:8:781:781961] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/SmpPlaybackProvider.cpp:80 InitProvider() :  
+
+ InitProvider end 
+/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/SigmaBrowserControl.cpp, 18, SigmaBrowserControl
+[INFO__]-[2022-4-8 0:0:9:46:46555] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AppManager.cpp:1768 callModule() :  [1mCall interface checkStatusConfirm in module CFirmwareApp[0m
+[INFO__]-[2022-4-8 0:0:9:46:46954] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:84 CheckAppRegisted() :  No registed module : CFirmwareApp
+[INFO__]-[2022-4-8 0:0:9:47:47319] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/CacheModule.cpp:64 getModule() :  load library file: apps/libfmodule_upgradefw.so
+[INFO__]-[2022-4-8 0:0:9:47:47363] [776736992]	/data/jenkins/workspSMPFB: [smpfb_setcmap] set palette
+ace/BuildFW-AES1SMPFB: [smpfb_setcmap] surface format has no alpha; ignore request28/cbox-core-v2/source/core/base/AbsModule.cpp:30 LoadLibrary() :  LoadLibrary: moduleID = CFirmwareApp, library file: apps/libfmodule_upgradefw.so
+[INFO__]-[2022-4-8 0:0:9:96:96851] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:23 registerApp() :     REGISTER MODULE 
+[INFO__]-[2022-4-8 0:0:9:97:97274] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:44 LoadLibrary() :  Load library successed
+(*) FBDev/Mode: Setting 1280x720 ARGB
+(*) FBDev/Mode: Switched to 1280x720 (virtual 1280x1440) at 32 bit (ARGB), pitch 5120
+ (!!!)  *** ONCE [dfb_gfxcard_batchstretchblit() should be used!] *** [gfxcard.c:3426 in dfb_gfxcard_stretchblit()]
+LIB_FPT_ILIXI_DIR: /tango/app
+ -> Map size: 0
+status sync ntp =====================:0
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+(*) Direct/Interface: Loaded 'FT2' implementation of 'IDirectFBFont'.
+ -> Cached key (1992620628) for (fonts/Roboto-Bold.ttf, 20)
+ -> Cached key (1013628654) for (fonts/Roboto-Regular.ttf, 18)
+ -> Cached key (1013628588) for (fonts/Roboto-Regular.ttf, 16)
+ -> Cached key (558542523) for (fonts/Roboto-Bold.ttf, 16)
+ -> Cached key (1013628456) for (fonts/Roboto-Regular.ttf, 12)
+
+ CFirmwareView::CFirmwareView<------------------------------------------
+------------CFirmwareApp::OnInit() -----------
+[31m[FATAL_]-[2022-4-8 0:0:9:256:256708] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AppManager.cpp:1812 callModule() :  [0m[1mInteface Null: checkStatusConfirm[0m
+[INFO__]-[2022-4-8 0:0:9:256:256860] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/config/ConfigWriterDatFile.cpp:66 ReadSysConfig() :  Read value of SysConfig from file /mnt/user_settings.json
+ 8 Apr 00:00:09 ntpdate[1466]: no servers can be used, exiting
+data 0
+data C
+data :
+data 9
+data 6
+data :
+data E
+data 6
+data :
+data C
+data 9
+data :
+data 4
+data E
+data :
+data D
+data 4
+start update NTP with: ntp2.fbox.fpt.vn
+ 8 Apr 00:00:10 ntpdate[1510]: no servers can be used, exiting
+
+(gst-plugin-scanner:1457): GStreamer-WARNING **: Failed to load plugin '/tango/sop/gstreamer/install/lib/gstreamer-1.0/libgstrmfp.so': /lib/libgcc_s.so.1: version `GLIBC_2.0' not found (required by /tango/mrua/MRUA_src/lib/libcurl_sigma.so)
+start update NTP with: 118.69.252.17
+ 8 Apr 00:00:11 ntpdate[1516]: no servers can be used, exiting
+defined WITH_SMPOUTPUT !!! 
+defined USE_SYSTEM_SOUNDS !!! 
+not defined USE_GFX_ONLY !!! 
+
+ function Initialize - line 366 
+
+ function Initialize - line 392 - prepare to call StreamInitialize() 
+
+
+[31m>>>>>>>>>>>>>NumberWindow Create w = 80, h = 80, size = 6400[0m
+
+ Cancel thread detectProcess success  
+path_tmp======================/IsUsbDemo.txt
+[INFO__]-[2022-4-8 0:0:11:936:936543] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/config/ConfigWriter.cpp:374 parseJson() :  Full MAC	: 0C:96:E6:C9:4E:D4
+[INFO__]-[2022-4-8 0:0:11:936:936610] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/config/ConfigWriter.cpp:375 parseJson() :  Short MAC	: 0C96E6C94ED4
+[INFO__]-[2022-4-8 0:0:11:938:938546] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/config/ConfigWriter.cpp:376 parseJson() :  Version	: 3.3.72
+
+ CAppManager::updatelanguage versionlanguageapp:20220408<-------->g_Sysconfig.sVersionLanguage:20220408<-------------------------
+[INFO__]-[2022-4-8 0:0:11:945:945119] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/language/LanguageManager.cpp:32 ImportLanguageFile() :  Import file language languages/media_vi.json
+[INFO__]-[2022-4-8 0:0:11:945:945195] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/language/LanguageManager.cpp:32 ImportLanguageFile() :  Import file language languages/media_en.json
+[INFO__]-[2022-4-8 0:0:11:945:945238] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/language/LanguageManager.cpp:96 UnLoadLanguage() :  Unload langauge if loaded
+[INFO__]-[2022-4-8 0:0:11:987:987315] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/language/LanguageManager.cpp:81 ReadAndParseFile() :  Load language /mnt/languages/media_vi.json is successful
+
+
+************ SetVolumeNoMSP() calling volume ******** volume =61 
+
+
+
+************ Set SetVolumeNoMSP 00000******** 
+
+************ findVolumeIndex(_idx: 41) ********  
+
+[INFO__]-[2022-4-8 0:0:12:2:2177] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AppManager.cpp:1768 callModule() :  [1mCall interface loadSettingConfig in module CSettingModule[0m
+[INFO__]-[2022-4-8 0:0:12:2:2558] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:84 CheckAppRegisted() :  No registed module : CSettingModule
+[INFO__]-[2022-4-8 0:0:12:2:2870] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/CacheModule.cpp:64 getModule() :  load library file: apps/libfmodule_setting.so
+[INFO__]-[2022-4-8 0:0:12:3:3025] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:30 LoadLibrary() :  LoadLibrary: moduleID = CSettingModule, library file: apps/libfmodule_setting.so
+[INFO__]-[2022-4-8 0:0:12:269:269083] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:23 registerApp() :     REGISTER MODULE 
+[INFO__]-[2022-4-8 0:0:12:269:269434] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/base/AbsModule.cpp:44 LoadLibrary() :  Load library successed
+[INFO__]-[2022-4-8 0:0:12:270:270123] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/config/ConfigWriterDatFile.cpp:22 ConfigWriterDatFile() :  Constructor of ConfigWriterDatFile 
+[INFO__]-[2022-4-8 0:0:12:270:270210] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/language/LanguageManager.cpp:32 ImportLanguageFile() :  Import file language languages/setting_vi.json
+[INFO__]-[2022-4-8 0:0:12:270:270260] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/language/LanguageManager.cpp:32 ImportLanguageFile() :  Import file language languages/setting_en.json
+[INFO__]-[2022-4-8 0:0:12:270:270320] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/language/LanguageManager.cpp:96 UnLoadLanguage() :  Unload langauge if loaded
+[INFO__]-[2022-4-8 0:0:12:278:278592] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/language/LanguageManager.cpp:81 ReadAndParseFile() :  Load language /mnt/languages/setting_vi.json is successful
+==========Start LoadSettingConfig()======2603
+
+
+
+
+
+
+/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/adaptersdk/sigma/SigmaOutputConfig.cpp, 258, setColorAdjustment
+
+[Config][internal_smp_config_gencmdline_video_auto_mode_50Hz] No EDID - reschedule this config when connection is done
+[Config][local_smp_config_gencmdline_generic_video] 
+Auto mode
+
+save exit: is_checkpointed 1
+save exit: is_checkpointed 1
+start update NTP with: 118.69.252.22
+ 8 Apr 00:00:12 ntpdate[1530]: no servers can be used, exiting
+
+
+
+
+------------------ smpoutd brief configuration -SMPFB: [smpfb_ioctl] SMP8XXXFB_IOCTL_LAYER_SETPARAM
+------------------
+HDMI:   enabled[ ] connected[ ] hdcp[ ] vmode[N/A]
+CAV:    enabled[X] vmode[NTSC_M]
+CVBS:   enabled[X] vmode[NTSC_M]
+audio:  HDMI[X] SPDIF[X] Analog[X], crt.bitstream HDMI[u] SPDIF[u]
+------------------------------------------------------------------
+
+
+disp_cmdline = -o hdmi cav cvbs -sdcav -r pref -cs YCC709 -v warning -cs YCC709 -sdbuf 
+
+ setColorAdjustment: brightness = 50 and contrast = 50
+		 Set Gpio 7 to 1 
+		 Set Gpio 8 to 0 
+
+
+************ [ToaiTran 6-10-2016]  Fun = set_HDMI_Connected******* 
+
+
+
+************ [HangDang 11-1-2018]  Fun = set_PassThrough_Downmix_Audio******* 
+
+
+
+************ [HangDang 11-1-2018]  Fun = ****** 
+
+---> PCM ---> Downmix -----> 
+----------- AUDIO_DIGITAL_PASSTHROUGH--end-----------------
+
+
+************ [HangDang 11-1-2018]  Fun = set_PassThrough_Downmix_Audio******* 
+
+
+
+************ [HangDang 11-1-2018]  Fun = ****** 
+
+---> AAC ---> DOWNMIX -----> 
+----------- AUDIO_DIGITAL_PASSTHROUGH--end-----------------
+
+
+************ [HangDang 11-1-2018]  Fun = set_PassThrough_Downmix_Audio******* 
+
+
+
+************ [HangDang 11-1-2018]  Fun = ****** 
+
+---> WMAPRO ---> DOWNMIX -----> 
+----------- AUDIO_DIGITAL_PASSTHROUGH--end-----------------
+
+
+***********save exit: is_checkpointed 1
+* [HangDang 11-1-2018]  Fun = set_PassThrough_Downmix_Audio******* 
+
+
+
+************ [HangDang 11-1-2018]  Fun = ****** 
+
+---> DTS ---> DOWNMIX -----> 
+----------- AUDIO_DIGITAL_PASSTHROUGH--end-----------------
+
+
+************ [HangDang 11-1-2018]  Fun = set_PassThrough_Downmix_Audio******* 
+
+
+
+************ [HangDang 11-1-2018]  Fun = ****** 
+
+
+
+
+---> AC3 ---> DOWNMIX -----> 
+
+
+----------- AUDIO_DIGITAL_PASSTHROUGH--end-----------------
+==========End LoadSettingConfig()======2603
+[31;1m[00:04.697][1418] smpsurface.c:7211 smpSurfaceLayerGeometrySet() (smp_surface) smpSurfaceLayerGeometrySet Start!
+[0m[31;1m[00:04.704][1418] smpsurface.c:7227 smpSurfaceLayerGeometrySet() (smp_surface) LAYER_SETPARAM(mixer_wnd) OK!
+[0m
+ SmpHal_VEffect_LayerGeometrySet()  calling (layerID = 0)
+
+ SmpHal_VEffect_LayerGeometrySet OK
+==========End LoadSettingConfig()======
+today dd 8 mm 3 yy 122
+date compare dd 0 mm 0 yy 0
+day_delta -1649350813.000000 range date = -19089
+[32m debugads begin show ads 1649350812908.905273, [0m
+[INFO__]-[2022-4-8 0:0:12:916:916466] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/config/ConfigWriterDatFile.cpp:22 ConfigWriterDatFile() :  Constructor of ConfigWriterDatFile 
+[31m[FATAL_]-[2022-4-8 0:0:12:916:916676] [776736992]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/config/ConfigWriterDatFile.cpp:94 SaveSysConfig() :  [0mSave value of SysConfig to file .json
+(*) Direct/Interface: Loaded 'JPEG' implementation of 'IDirectFBImageProvider'.
+status sync ntp =====================:0
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+ 8 Apr 00:00:13 ntpdate[1539]: no servers can be used, exiting
+[INFO__]-[2022-4-8 0:0:14:388:388582] [960124112]	/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/ui/Notification.cpp:71 CNotification() :  [tamdt12]-Init
+/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/ui/Notification.cpp:notify_handle_thread():138: text: Há»‡ thá»‘ng Ä‘ang káº¿t ná»‘i dá»¯ liá»‡u (1/20), 
+
+useHTML: 0, isMultipleLine: 0
+(*) Direct/Interface: Loaded 'PNG' implementation of 'IDirectFBImageProvider'.
+start update NTP with: ntp2.fbox.fpt.vn
+ 8 Apr 00:00:15 ntpdate[1554]: no servers can be used, exiting
+
+ [31m >>>> InitThreadGST : end <<<<<  
+
+ [0m 
+start update NTP with: 118.69.252.17
+ 8 Apr 00:00:16 ntpdate[1560]: no servers can be used, exiting
+ -> Releasing DirectFB window interface 0x56f118...
+/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/ui/Notification.cpp:notify_handle_thread():138: text: Há»‡ thá»‘ng Ä‘ang káº¿t ná»‘i dá»¯ liá»‡u (2/20), 
+
+useHTML: 0, isMultipleLine: 0
+start update NTP with: 118.69.252.22
+ 8 Apr 00:00:17 ntpdate[1571]: no servers can be used, exiting
+status sync ntp =====================:0
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+ 8 Apr 00:00:18 ntpdate[1577]: no servers can be used, exiting
+ -> Releasing DirectFB window interface 0x56f118...
+/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/ui/Notification.cpp:notify_handle_thread():138: text: Há»‡ thá»‘ng Ä‘ang káº¿t ná»‘i dá»¯ liá»‡u (3/20), 
+
+useHTML: 0, isMultipleLine: 0
+start update NTP with: ntp2.fbox.fpt.vn
+ 8 Apr 00:00:19 ntpdate[1588]: no servers can be used, exiting
+start update NTP with: 118.69.252.17
+ 8 Apr 00:00:20 ntpdate[1594]: no servers can be used, exiting
+ -> Releasing DirectFB window interface 0x56f118...
+/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/ui/Notification.cpp:notify_handle_thread():138: text: Há»‡ thá»‘ng Ä‘ang káº¿t ná»‘i dá»¯ liá»‡u (4/20), 
+
+useHTML: 0, isMultipleLine: 0
+start update NTP with: 118.69.252.22
+ 8 Apr 00:00:21 ntpdate[1605]: no servers can be used, exiting
+status sync ntp =====================:0
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+ 8 Apr 00:00:22 ntpdate[1611]: no servers can be used, exiting
+ -> Releasing DirectFB window interface 0x56f268...
+/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/ui/Notification.cpp:notify_handle_thread():138: text: Há»‡ thá»‘ng Ä‘ang káº¿t ná»‘i dá»¯ liá»‡u (5/20), 
+
+useHTML: 0, isMultipleLine: 0
+start update NTP with: ntp2.fbox.fpt.vn
+ 8 Apr 00:00:23 ntpdate[1622]: no servers can be used, exiting
+start update NTP with: 118.69.252.17
+ 8 Apr 00:00:24 ntpdate[1628]: no servers can be used, exiting
+ -> Releasing DirectFB window interface 0x56f268...
+/data/jenkins/workspace/BuildFW-AES128/cbox-core-v2/source/core/ui/Notification.cpp:notify_handle_thread():138: text: Há»‡ thá»‘ng Ä‘ang káº¿t ná»‘i dá»¯ liá»‡u (6/20), 
+
+useHTML: 0, isMultipleLine: 0
+start update NTP with: 118.69.252.22
+ 8 Apr 00:00:25 ntpdate[1635]: no servers can be used, exiting
+status sync ntp =====================:0
+debug ntpdomain _url_log========================= http://logs.fbox.fpt.vn/box/
+start update NTP with: ntp.fbox.fpt.vn
+ 8 Apr 00:00:26 ntpdate[1645]: no servers can be used, exiting

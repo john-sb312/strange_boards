@@ -1,0 +1,3809 @@
+
+Scan Time:     2022-04-04 10:47:20
+Target File:   /home/s-b312/Documents/work/WR886N/read3.bin
+MD5 Checksum:  386d7eb74d083908cf3d51ae197c8dde
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+13392         0x3450          U-Boot version string, "U-Boot 1.1.4 (May  8 2016 - 07:47:13)"
+13440         0x3480          CRC32 polynomial table, big endian
+14688         0x3960          uImage header, header size: 64 bytes, header CRC: 0xFA8BA7F7, created: 2016-05-08 14:47:22, image size: 56939 bytes, Data Address: 0x80010000, Entry Point: 0x80010000, data CRC: 0x673C4B05, OS: Linux, CPU: MIPS, image type: Firmware Image, compression type: lzma, image name: "u-boot image"
+14752         0x39A0          LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 140172 bytes
+175984        0x2AF70         U-Boot version string, "U-Boot 1.1.4 (May  8 2016 - 07:42:47)"
+176032        0x2AFA0         CRC32 polynomial table, big endian
+177260        0x2B46C         uImage header, header size: 64 bytes, header CRC: 0x773178DD, created: 2016-05-08 14:42:48, image size: 20788 bytes, Data Address: 0x80010000, Entry Point: 0x80010000, data CRC: 0x983BDABA, OS: Linux, CPU: MIPS, image type: Firmware Image, compression type: lzma, image name: "u-boot image"
+177324        0x2B4AC         LZMA compressed data, properties: 0x5D, dictionary size: 8388608 bytes, uncompressed size: 52148 bytes
+204800        0x32000         LZMA compressed data, properties: 0x6E, dictionary size: 8388608 bytes, uncompressed size: 2353648 bytes
+950336        0xE8040         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1731 bytes
+951533        0xE84ED         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7319 bytes
+953080        0xE8AF8         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 200 bytes
+953307        0xE8BDB         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 247 bytes
+953574        0xE8CE6         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 12213 bytes
+955276        0xE938C         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 493 bytes
+955727        0xE954F         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2823 bytes
+957241        0xE9B39         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 126680 bytes
+999528        0xF4068         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2621 bytes
+1000755       0xF4533         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1008 bytes
+1001366       0xF4796         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3705 bytes
+1002667       0xF4CAB         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3782 bytes
+1004040       0xF5208         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 822 bytes
+1004462       0xF53AE         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7836 bytes
+1007190       0xF5E56         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4547 bytes
+1008768       0xF6480         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 10998 bytes
+1012066       0xF7162         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 18680 bytes
+1016678       0xF8366         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6474 bytes
+1019020       0xF8C8C         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 22086 bytes
+1025388       0xFA56C         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 19940 bytes
+1031178       0xFBC0A         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3412 bytes
+1032081       0xFBF91         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 78 bytes
+1032179       0xFBFF3         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 898 bytes
+1032668       0xFC1DC         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1170 bytes
+1033197       0xFC3ED         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1197 bytes
+1033852       0xFC67C         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2438 bytes
+1034788       0xFCA24         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 5552 bytes
+1036723       0xFD1B3         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2359 bytes
+1037733       0xFD5A5         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2583 bytes
+1038768       0xFD9B0         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4235 bytes
+1040423       0xFE027         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4678 bytes
+1042272       0xFE760         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4215 bytes
+1043760       0xFED30         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2171 bytes
+1044698       0xFF0DA         LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 14667 bytes
+1048820       0x1000F4        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4008 bytes
+1050248       0x100688        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1061 bytes
+1050844       0x1008DC        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7267 bytes
+1053033       0x101169        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 8251 bytes
+1055316       0x101A54        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 13376 bytes
+1059005       0x1028BD        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 820 bytes
+1059484       0x102A9C        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 624 bytes
+1059856       0x102C10        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4720 bytes
+1061622       0x1032F6        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 5929 bytes
+1063808       0x103B80        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6103 bytes
+1065854       0x10437E        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 721 bytes
+1066293       0x104535        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2544 bytes
+1067397       0x104985        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3177 bytes
+1068605       0x104E3D        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2548 bytes
+1069663       0x10525F        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4488 bytes
+1070988       0x10578C        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4950 bytes
+1072807       0x105EA7        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4428 bytes
+1074213       0x106425        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 10635 bytes
+1077057       0x106F41        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7400 bytes
+1079124       0x107754        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4400 bytes
+1080921       0x107E59        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3280 bytes
+1082257       0x108391        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2370 bytes
+1083235       0x108763        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2659 bytes
+1084582       0x108CA6        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7366 bytes
+1087289       0x109739        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2568 bytes
+1088449       0x109BC1        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3764 bytes
+1089873       0x10A151        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6709 bytes
+1091984       0x10A990        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1028 bytes
+1092560       0x10ABD0        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1975 bytes
+1093518       0x10AF8E        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 561 bytes
+1093881       0x10B0F9        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1838 bytes
+1094631       0x10B3E7        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1809 bytes
+1095422       0x10B6FE        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4023 bytes
+1096689       0x10BBF1        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4931 bytes
+1098547       0x10C333        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 10681 bytes
+1101415       0x10CE67        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3305 bytes
+1102035       0x10D0D3        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2616 bytes
+1102668       0x10D34C        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 8688 bytes
+1103557       0x10D6C5        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 826 bytes
+1103870       0x10D7FE        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1058 bytes
+1104394       0x10DA0A        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 34750 bytes
+1111227       0x10F4BB        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 81542 bytes
+1131599       0x11444F        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6568 bytes
+1133062       0x114A06        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 42015 bytes
+1143882       0x11744A        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 13298 bytes
+1148354       0x1185C2        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3704 bytes
+1149704       0x118B08        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 15254 bytes
+1154759       0x119EC7        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6949 bytes
+1161837       0x11BA6D        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 22270 bytes
+1183345       0x120E71        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 737 bytes
+1184139       0x12118B        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1327 bytes
+1185287       0x121607        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1125 bytes
+1186211       0x1219A3        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1590 bytes
+1187514       0x121EBA        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2297 bytes
+1189482       0x12266A        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1657 bytes
+1190966       0x122C36        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 5050 bytes
+1195433       0x123DA9        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 5120 bytes
+1200001       0x124F81        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 5075 bytes
+1204497       0x126111        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 5086 bytes
+1208995       0x1272A3        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1150 bytes
+1209127       0x127327        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1069 bytes
+1209806       0x1275CE        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1735 bytes
+1210968       0x127A58        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2152 bytes
+1212538       0x12807A        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2633 bytes
+1214494       0x12881E        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 22721 bytes
+1236161       0x12DCC1        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1402 bytes
+1237232       0x12E0F0        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1481 bytes
+1238525       0x12E5FD        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3004 bytes
+1241218       0x12F082        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3018 bytes
+1244285       0x12FC7D        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2274 bytes
+1246639       0x1305AF        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1759 bytes
+1247934       0x130ABE        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 23354 bytes
+1271595       0x13672B        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 50079 bytes
+1321269       0x142935        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 389 bytes
+1321565       0x142A5D        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 304 bytes
+1321861       0x142B85        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 400 bytes
+1322166       0x142CB6        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1311 bytes
+1323146       0x14308A        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1038 bytes
+1324203       0x1434AB        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 902 bytes
+1325125       0x143845        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 576 bytes
+1325717       0x143A95        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2777 bytes
+1327721       0x144269        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2474 bytes
+1329520       0x144970        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 559 bytes
+1330092       0x144BAC        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 536 bytes
+1330639       0x144DCF        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 252 bytes
+1330941       0x144EFD        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1773 bytes
+1332387       0x1454A3        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2103 bytes
+1334173       0x145B9D        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2136 bytes
+1335985       0x1462B1        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2248 bytes
+1337916       0x146A3C        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2563 bytes
+1340168       0x147308        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 26632 bytes
+1365315       0x14D543        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1577 bytes
+1366719       0x14DABF        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7714 bytes
+1369260       0x14E4AC        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 60985 bytes
+1388305       0x152F11        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6993 bytes
+1390959       0x15396F        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 99522 bytes
+1424213       0x15BB55        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2779 bytes
+1425476       0x15C044        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3965 bytes
+1540160       0x178040        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 8560 bytes
+1547899       0x179E7B        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 138963 bytes
+1583462       0x182966        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 657 bytes
+1584153       0x182C19        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1405 bytes
+1584553       0x182DA9        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 9322 bytes
+1593551       0x1850CF        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3987 bytes
+1595290       0x18579A        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6102 bytes
+1597405       0x185FDD        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 22235 bytes
+1603898       0x18793A        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 10324 bytes
+1613845       0x18A015        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6565 bytes
+1615814       0x18A7C6        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 612 bytes
+1616458       0x18AA4A        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 406 bytes
+1616696       0x18AB38        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3015 bytes
+1619415       0x18B5D7        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7386 bytes
+1622343       0x18C147        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1593 bytes
+1623572       0x18C614        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 8311 bytes
+1630726       0x18E206        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7404 bytes
+1637777       0x18FD91        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 35608 bytes
+1647008       0x1921A0        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 959 bytes
+1647981       0x19256D        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1009 bytes
+1648342       0x1926D6        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 15967 bytes
+1653536       0x193B20        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 9957 bytes
+1662598       0x195E86        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1021 bytes
+1663274       0x19612A        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1033 bytes
+1663962       0x1963DA        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4058 bytes
+1667738       0x19729A        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 5508 bytes
+1669941       0x197B35        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 22114 bytes
+1676031       0x1992FF        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1349 bytes
+1677377       0x199841        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 625 bytes
+1677684       0x199974        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6967 bytes
+1683537       0x19B051        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 15936 bytes
+1688344       0x19C318        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 9347 bytes
+1691068       0x19CDBC        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 453 bytes
+1691312       0x19CEB0        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1474 bytes
+1692432       0x19D310        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4824 bytes
+1696851       0x19E453        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 890 bytes
+1697760       0x19E7E0        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6240 bytes
+1698983       0x19ECA7        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6498 bytes
+1705054       0x1A045E        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 12483 bytes
+1709534       0x1A15DE        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 14259 bytes
+1713739       0x1A264B        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1955 bytes
+1715296       0x1A2C60        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 949 bytes
+1715633       0x1A2DB1        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 5844 bytes
+1721088       0x1A4300        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6118 bytes
+1726092       0x1A568C        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 12546 bytes
+1729787       0x1A64FB        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 583 bytes
+1730084       0x1A6624        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 363 bytes
+1730473       0x1A67A9        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7408 bytes
+1733164       0x1A722C        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4111 bytes
+1736997       0x1A8125        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3759 bytes
+1740088       0x1A8D38        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1295 bytes
+1741025       0x1A90E1        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 9092 bytes
+1743996       0x1A9C7C        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 19591 bytes
+1749030       0x1AB026        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 329 bytes
+1749385       0x1AB189        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1608 bytes
+1749781       0x1AB315        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 8653 bytes
+1758111       0x1AD39F        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1092 bytes
+1758845       0x1AD67D        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1157 bytes
+1759648       0x1AD9A0        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1193 bytes
+1760486       0x1ADCE6        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1096 bytes
+1761226       0x1ADFCA        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6000 bytes
+1763394       0x1AE842        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1359 bytes
+1764205       0x1AEB6D        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 3164 bytes
+1765597       0x1AF0DD        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 11536 bytes
+1769431       0x1AFFD7        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 825 bytes
+1769974       0x1B01F6        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 10444 bytes
+1780011       0x1B292B        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 42061 bytes
+1790437       0x1B51E5        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1605 bytes
+1792019       0x1B5813        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 731 bytes
+1792337       0x1B5951        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7333 bytes
+1799329       0x1B74A1        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 17050 bytes
+1805213       0x1B8B9D        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 373 bytes
+1805614       0x1B8D2E        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6242 bytes
+1810611       0x1BA0B3        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 1910 bytes
+1812080       0x1BA670        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2067 bytes
+1813121       0x1BAA81        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 5931 bytes
+1814698       0x1BB0AA        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 225 bytes
+1814850       0x1BB142        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 7315 bytes
+1821144       0x1BC9D8        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2764 bytes
+1823497       0x1BD309        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 419 bytes
+1823947       0x1BD4CB        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4245 bytes
+1825524       0x1BDAF4        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 6553 bytes
+1827528       0x1BE2C8        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 466 bytes
+1827762       0x1BE3B2        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2205 bytes
+1829645       0x1BEB0D        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 2027 bytes
+1831328       0x1BF1A0        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 8658 bytes
+1839608       0x1C11F8        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 13639 bytes
+1844350       0x1C247E        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 4633 bytes
+1849030       0x1C36C6        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 18656 bytes
+1854290       0x1C4B52        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 952 bytes
+1854643       0x1C4CB3        LZMA compressed data, properties: 0x5A, dictionary size: 8388608 bytes, uncompressed size: 5993 bytes
+
+
+Scan Time:     2022-04-04 10:47:22
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/39A0
+MD5 Checksum:  ec4fba1e5a936c842ee1ea91ca6789c2
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+109792        0x1ACE0         U-Boot version string, "U-Boot 1.1.4 (May  8 2016 - 07:46:59)"
+109936        0x1AD70         CRC32 polynomial table, big endian
+111335        0x1B2E7         HTML document header
+111564        0x1B3CC         HTML document footer
+111895        0x1B517         HTML document header
+123786        0x1E38A         HTML document footer
+123857        0x1E3D1         PNG image, 111 x 13, 8-bit/color RGBA, non-interlaced
+124747        0x1E74B         Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:22
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/2B4AC
+MD5 Checksum:  a26046acdb2729cde979b969d2f33a56
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+44976         0xAFB0          U-Boot version string, "U-Boot 1.1.4 (May  8 2016 - 07:42:44)"
+45248         0xB0C0          CRC32 polynomial table, big endian
+
+
+Scan Time:     2022-04-04 10:47:22
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/32000
+MD5 Checksum:  71cc856522d129cd49b5b3c76e2063af
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+1853064       0x1C4688        Certificate in DER format (x509 v3), header length: 4, sequence length: 4
+1860352       0x1C6300        Certificate in DER format (x509 v3), header length: 4, sequence length: 4
+1880464       0x1CB190        VxWorks operating system version "5.5.1" , compiled: "Nov 15 2016, 11:52:02"
+1948956       0x1DBD1C        Copyright string: "Copyright(C) 2001-2011 by TP-LINK TECHNOLOGIES CO., LTD."
+1978592       0x1E30E0        VxWorks WIND kernel version "2.6"
+2026996       0x1EEDF4        HTML document header
+2027061       0x1EEE35        HTML document footer
+2046580       0x1F3A74        PEM certificate
+2046636       0x1F3AAC        PEM RSA private key
+2056492       0x1F612C        Base64 standard index table
+2091496       0x1FE9E8        CRC32 polynomial table, big endian
+2092520       0x1FEDE8        CRC32 polynomial table, big endian
+2093544       0x1FF1E8        CRC32 polynomial table, big endian
+2094568       0x1FF5E8        CRC32 polynomial table, big endian
+2115796       0x2048D4        XML document, version: "1.0"
+2135136       0x209460        SHA256 hash constants, big endian
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/E8040
+MD5 Checksum:  6f611466a9e78da3bf955a1db43d43fe
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PEM certificate
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/E84ED
+MD5 Checksum:  18516ca0f25e0c88a72cb3cffdc3547b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/E8AF8
+MD5 Checksum:  93433f03e2ad4b4a8fdf699e4e21400d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/E8BDB
+MD5 Checksum:  b3e35fbad9bd920417a78ca7027fc67f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/E8CE6
+MD5 Checksum:  5477f13c7a25befa4f3c8d39229e5ece
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/E938C
+MD5 Checksum:  92e4c23cdf263ff87de448df824ca0bc
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PEM RSA private key
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/E954F
+MD5 Checksum:  b76fdd5fa0379d80ba9a762e15968f8f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+1745          0x6D1           PEM certificate
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/E9B39
+MD5 Checksum:  0a4573ceec8c6f5e6318db35b9434b10
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F4068
+MD5 Checksum:  6a0ca0edcaeab3cc21b1eb367130cbcc
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F4533
+MD5 Checksum:  a2404a27419b3c796cd07392577a3178
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F4796
+MD5 Checksum:  b83d6a5be121caeb6e73c9f61e8b20dd
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F4CAB
+MD5 Checksum:  8664fa65651d1666eaf12e1ca68fa531
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F5208
+MD5 Checksum:  7118ee579f672464a84d4f67293f8214
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+19            0x13            HTML document header
+815           0x32F           HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F53AE
+MD5 Checksum:  dfa62e372bc5d145e30c2116d2947daa
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F5E56
+MD5 Checksum:  54ac6597e95415607ec457dde43974e4
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F6480
+MD5 Checksum:  76e7cca8f0d07639ce2431b9e1cf213a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F7162
+MD5 Checksum:  4c1a40fde5419d5d80db199ab5a0e316
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F8366
+MD5 Checksum:  3c656896a33a4e38d9935ab41ad77392
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/F8C8C
+MD5 Checksum:  38ae46b32257b4562de81c2976976269
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FA56C
+MD5 Checksum:  ecff4d354ff54c34875396a99b314ae8
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FBC0A
+MD5 Checksum:  4ab38f6e75876b22dd01f851a091d93e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FBF91
+MD5 Checksum:  423e97859f9417c58ca412fdc25215db
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             HTML document header
+71            0x47            HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FBFF3
+MD5 Checksum:  688c3e5b7e6d980a17b1dd7a978f0494
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FC1DC
+MD5 Checksum:  ce4013d7dcf6244f8de6842aee86a84a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FC3ED
+MD5 Checksum:  60117c7f9994e10496186c7438adcc34
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FC67C
+MD5 Checksum:  e117d6be7b1b7b676e6ecd565f524985
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FCA24
+MD5 Checksum:  2e01cc0aa790e1e09054623508d37d20
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FD1B3
+MD5 Checksum:  b052d52c331ccd61bac87e9462c3c626
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FD5A5
+MD5 Checksum:  c5bd3cd3a6203a702eba8ac45bbc3329
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FD9B0
+MD5 Checksum:  4c3f4f16aaf213d5533eae674204ae8c
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FE027
+MD5 Checksum:  492c4dff97266ccd338bd2cd8a24153a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FE760
+MD5 Checksum:  1aa0d4affc9c70e704ce3ada9bcf76d9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FED30
+MD5 Checksum:  304f34acf4f7d4fd356e77f704630141
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/FF0DA
+MD5 Checksum:  7d2915b895d476142312765a1571cb5f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1000F4
+MD5 Checksum:  90c9b73d15ea3148934975bd8d2b76cb
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/100688
+MD5 Checksum:  b2ad3ec42c6ce51f86421bbb66b7a3ac
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1008DC
+MD5 Checksum:  0cafc7f68a941c4b2a97e7cf584f1eb0
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:23
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/101169
+MD5 Checksum:  7bcfb6e0bd1e9741b32e9ebfd656f24f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/101A54
+MD5 Checksum:  97ccaf740a97abad9fa5766272ece7e1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1028BD
+MD5 Checksum:  a1dd94fc6fec9083ff5c95b68b6bc554
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+19            0x13            HTML document header
+812           0x32C           HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/102A9C
+MD5 Checksum:  83fc12e5ac2bf5c3c4761e1ccd0f1e76
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+19            0x13            HTML document header
+616           0x268           HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/102C10
+MD5 Checksum:  3e551b9c674b21bcee9591f5d4eef180
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1032F6
+MD5 Checksum:  f7d245d895cd1383f243ce51cc516aee
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/103B80
+MD5 Checksum:  dcf36c9aa2cb393971b9232b8a8a75e9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10437E
+MD5 Checksum:  cf2572d2e256a4e49459bda9b1fb4532
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/104535
+MD5 Checksum:  e85d2375705f8339991ad6b12701ba17
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/104985
+MD5 Checksum:  cd61e123f38c14d9465c217103b7c444
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/104E3D
+MD5 Checksum:  0c986f3eeeb9580eaab43406f12c07f3
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10525F
+MD5 Checksum:  400578d8919e1f27392015cb752887b5
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10578C
+MD5 Checksum:  c80e0cbf93a493529621299afe4de904
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/105EA7
+MD5 Checksum:  533a84b6a37ceba0f796f4c3f397cc80
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/106425
+MD5 Checksum:  3387675f3760ee69c5a103d33c9a3a8e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/106F41
+MD5 Checksum:  efb154efba913f3ce8aa371fb2c91e59
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/107754
+MD5 Checksum:  450d1718237c0150b6f27b9f60f6574f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/107E59
+MD5 Checksum:  19b8f409279083b45f7d603131715741
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/108391
+MD5 Checksum:  dc87b9530bc1f180b85838d6c213b88d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/108763
+MD5 Checksum:  845c06eaac277c54da0bb21108e2c699
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/108CA6
+MD5 Checksum:  40dafd5ed4273fa5666aa20875d1516f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/109739
+MD5 Checksum:  5aebc4bc8a98b6e9e5e4eb0db7db8fa3
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/109BC1
+MD5 Checksum:  3c24d3db18fe072c5c5d6c3d3b7a6e45
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10A151
+MD5 Checksum:  b0607fa05f301702de3ebcbd789cda53
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10A990
+MD5 Checksum:  ef31bd24ad8f079a8006f77447f3e6f2
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10ABD0
+MD5 Checksum:  09d51477891ec15c5de50e87f2fed55c
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10AF8E
+MD5 Checksum:  6b2ba1783ab968a2ae13c6899b382d35
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10B0F9
+MD5 Checksum:  940eb23104bf718514cfb520bd044924
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10B3E7
+MD5 Checksum:  bec5cdf1ac60f61370e278eafb0349c1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10B6FE
+MD5 Checksum:  66b06df27882e171278ee3f53a5dce6e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10BBF1
+MD5 Checksum:  051b76ab2b17d464c16079d640085c19
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10C333
+MD5 Checksum:  9fd4ae5bbc298e494727311218553272
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10CE67
+MD5 Checksum:  aac62dec54c81a7531f1c768c5b901b5
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10D0D3
+MD5 Checksum:  8954181a7a10291175ac9f5ae197126b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10D34C
+MD5 Checksum:  cc4c7191dc9aae09f9ced3b35c273da6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10D6C5
+MD5 Checksum:  38810cdf750ef37dd36806ac2cd77818
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10D7FE
+MD5 Checksum:  0d6a00dc8f41044b93477ab79a248cb7
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10DA0A
+MD5 Checksum:  e656e87730d8bf5f9f4c52549f906586
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/10F4BB
+MD5 Checksum:  dc894c5fc63faae83060f36bd723c8a6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/11444F
+MD5 Checksum:  48daba57f4a69180646f6e74244b2a3b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/114A06
+MD5 Checksum:  0302f983de2c2a7ffed610b251b55e76
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/11744A
+MD5 Checksum:  89582cd1aa7120621d919281fc0a5f59
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1185C2
+MD5 Checksum:  99a754c879adab99322fe789198f2cf9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/118B08
+MD5 Checksum:  a1171723bd4af3c3a98e448954587a83
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/119EC7
+MD5 Checksum:  6be47d88c3c6b8e8d8e595a91dd238ad
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 176 x 176, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/11BA6D
+MD5 Checksum:  234a3775fb377cc5bafe0fee60ec21df
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 102 x 103
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/120E71
+MD5 Checksum:  8324e5b914c0acfad0173cb39afc5187
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 200 x 200, 1-bit colormap, non-interlaced
+59            0x3B            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/12118B
+MD5 Checksum:  f98bfb11b81c16075ec59a5991cd0bc9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 100 x 70, 8-bit colormap, non-interlaced
+444           0x1BC           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/121607
+MD5 Checksum:  f786b7bd11490ffd76e7a0c1d10aa5c8
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 120 x 50, 8-bit colormap, non-interlaced
+577           0x241           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1219A3
+MD5 Checksum:  f047dd1fa88a2b3c912edfab0db251b8
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 193 x 76, 8-bit colormap, non-interlaced
+734           0x2DE           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/121EBA
+MD5 Checksum:  4c811f90fff12960c79fe55e66bdf7bc
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 84 x 31, 8-bit/color RGBA, non-interlaced
+890           0x37A           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/12266A
+MD5 Checksum:  ab3a94afc37cad9bb8d16d5c5caa065e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 101 x 100, 8-bit colormap, non-interlaced
+590           0x24E           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/122C36
+MD5 Checksum:  f2aafa00e839c5665eed58258e8aca99
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 29 x 29
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/123DA9
+MD5 Checksum:  74adbdcf9f71e57d2615331c483cc00e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 29 x 29
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/124F81
+MD5 Checksum:  8e1aa16968b819eaf604a57d9ed2b89b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 29 x 29
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/126111
+MD5 Checksum:  1c2d19fc5f2ea6bed08fb01e9b58c78f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 29 x 29
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1272A3
+MD5 Checksum:  89776ba9c3e376f1f664da71099b3128
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/127327
+MD5 Checksum:  e50188630a37c49efb62be7221b10b38
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 105 x 22, 8-bit colormap, non-interlaced
+672           0x2A0           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1275CE
+MD5 Checksum:  0c833427eaf874605bf3fe5703416798
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 201 x 62, 8-bit colormap, non-interlaced
+920           0x398           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/127A58
+MD5 Checksum:  9410e889b4682a659f78281e1a78f082
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 285 x 109, 8-bit colormap, non-interlaced
+912           0x390           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/12807A
+MD5 Checksum:  70a8b6361bb394c9c5e8c36eb0ee968a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 346 x 158, 8-bit colormap, non-interlaced
+1032          0x408           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/12881E
+MD5 Checksum:  ee860ae71df0a4eea1cf74deb7c56e89
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 100 x 100
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/12DCC1
+MD5 Checksum:  97497ba6d36762211f9fb62fdb3e9e5b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 95 x 12, 8-bit/color RGBA, non-interlaced
+992           0x3E0           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/12E0F0
+MD5 Checksum:  807638b916a2d7a8957f9280257a5e19
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 78 x 43, 8-bit colormap, non-interlaced
+682           0x2AA           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/12E5FD
+MD5 Checksum:  4c6c4e17d38e7c2fcb0da62dd22676d9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 85 x 49, 8-bit/color RGBA, non-interlaced
+976           0x3D0           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/12F082
+MD5 Checksum:  a577568f0a208ef8fa523cf82a8746bd
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 14 x 14, 8-bit/color RGBA, non-interlaced
+85            0x55            Zlib compressed data, best compression
+2755          0xAC3           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/12FC7D
+MD5 Checksum:  3168018e89619c8dfd095b9ac005e7e1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 75 x 64, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1305AF
+MD5 Checksum:  11e4daba627ec68c2107a29524a07e39
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 70 x 70, 8-bit colormap, non-interlaced
+780           0x30C           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/130ABE
+MD5 Checksum:  e84f305e197d1f8999fd3809e3fc49e7
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 295 x 301, 8-bit gray+alpha, non-interlaced
+41            0x29            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/13672B
+MD5 Checksum:  b25e3191f9c13a503a298a4e36feb4bb
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 496 x 308, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/142935
+MD5 Checksum:  ac50f4b17479de63b454ff051784d88a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 13 x 13, 8-bit colormap, non-interlaced
+260           0x104           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/142A5D
+MD5 Checksum:  1fbd53cd3bec1aa8639b83ecb00c1eed
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 15 x 15, 8-bit colormap, non-interlaced
+168           0xA8            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/142B85
+MD5 Checksum:  0254166dcbfe74c37387f1f0ae7dd179
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 13 x 14, 8-bit colormap, non-interlaced
+264           0x108           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/142CB6
+MD5 Checksum:  92f2a32b3c6ac85663a223b7a96eb3fd
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 14 x 14, 8-bit/color RGBA, non-interlaced
+976           0x3D0           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/14308A
+MD5 Checksum:  dd6ae25bef35c81c038695f5c2fda8e0
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 126 x 44, 4-bit colormap, non-interlaced
+128           0x80            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1434AB
+MD5 Checksum:  bd3d660a75ede7cddd5b1d1acab0091b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 122 x 40, 4-bit colormap, non-interlaced
+128           0x80            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/143845
+MD5 Checksum:  cb668f8d252630b35d6f162b85a735f5
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 56 x 28, 4-bit colormap, non-interlaced
+128           0x80            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/143A95
+MD5 Checksum:  871986bf63168101b8c63d09cbc2e892
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 292 x 184, 8-bit colormap, non-interlaced
+1044          0x414           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/144269
+MD5 Checksum:  3a5f8635d5742f70d854f89d8118c845
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 292 x 136, 8-bit colormap, non-interlaced
+1024          0x400           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/144970
+MD5 Checksum:  930389a5555dd1ebeffefc78c0331c22
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 67 x 26, 4-bit colormap, non-interlaced
+128           0x80            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/144BAC
+MD5 Checksum:  e0cd35f9d0eec8bcdb07eb1a07e0e1ec
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 67 x 26, 4-bit colormap, non-interlaced
+128           0x80            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/144DCF
+MD5 Checksum:  4e3cf4c0fa6f224c1b8d64216443f6b6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 14 x 14, 8-bit/color RGBA, non-interlaced
+78            0x4E            Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/144EFD
+MD5 Checksum:  22f6508ea6b0e145cf1df6d84063ea5a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 67 x 26, 8-bit/color RGBA, non-interlaced
+976           0x3D0           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1454A3
+MD5 Checksum:  6dd2fb74879ee92efb3756027b916ad3
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 84 x 33, 8-bit/color RGBA, non-interlaced
+976           0x3D0           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/145B9D
+MD5 Checksum:  c06319bb3b9b555cd431783a1bf6f72c
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 83 x 33, 8-bit/color RGBA, non-interlaced
+976           0x3D0           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1462B1
+MD5 Checksum:  a1adb8b1d996c65ae8b7ea0521397157
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 98 x 38, 8-bit/color RGBA, non-interlaced
+976           0x3D0           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/146A3C
+MD5 Checksum:  2696938e1bdf260b8cbeea0fd924542e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 75 x 63, 8-bit/color RGBA, non-interlaced
+976           0x3D0           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/147308
+MD5 Checksum:  47e8cdd9571fdb2d8e272c4d133da230
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 102 x 103
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/14D543
+MD5 Checksum:  57618d42ffd77fa5f06f98fa96e99256
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 101 x 100, 8-bit colormap, non-interlaced
+536           0x218           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/14DABF
+MD5 Checksum:  489ac9d1536873a68b78619b1c2a59c6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/14E4AC
+MD5 Checksum:  f76f917b8aa0b5c757094b41e1870faa
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/152F11
+MD5 Checksum:  7a1204e5a2fa2b020c53adc83d9b5ec1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/15396F
+MD5 Checksum:  63191e36f085d6d4b0a16278de6dbbb6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+4914          0x1332          HTML document header
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/15BB55
+MD5 Checksum:  0ecf60e8c29febf42b6201a6a34eaa42
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/15C044
+MD5 Checksum:  e48a7197db1a3ce79a81827f7780e4f8
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/178040
+MD5 Checksum:  917241ad5b07e757cf1b601dab1eb1e5
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/179E7B
+MD5 Checksum:  35b1721108fa73414817a403a51b36a8
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+57320         0xDFE8          XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/182966
+MD5 Checksum:  eba2185073f59b70b2aac4624f650789
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+149           0x95            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/182C19
+MD5 Checksum:  fb9b6bead4bb1b8f5c8697568b873b4d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/182DA9
+MD5 Checksum:  61f831b43c4da20a3174e752926fdf68
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 113, uncompressed size: 184, name: version.xml
+182           0xB6            Zip archive data, at least v2.0 to extract, compressed size: 1921, uncompressed size: 9072, name: index.html
+2171          0x87B           Zip archive data, at least v2.0 to extract, compressed size: 1034, uncompressed size: 2450, name: zh.json
+3270          0xCC6           Zip archive data, at least v2.0 to extract, compressed size: 4803, uncompressed size: 16566, name: ddns.min.js
+8142          0x1FCE          Zip archive data, at least v2.0 to extract, compressed size: 687, uncompressed size: 1805, name: ddns.min.css
+9300          0x2454          End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1850CF
+MD5 Checksum:  19981a365b5787561042767618ec230c
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18579A
+MD5 Checksum:  2f3ccaeb6929bbc25d7f3ded9f9cd108
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/185FDD
+MD5 Checksum:  4845ad57262e6c7e01c2145be640383b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18793A
+MD5 Checksum:  fa373370aa818de3abd1abb965d09197
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18A015
+MD5 Checksum:  b08dfeb21599532eb3ed4953d37ea1b4
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18A7C6
+MD5 Checksum:  9ff9427b229a701c90553906505706a2
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+158           0x9E            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18AA4A
+MD5 Checksum:  d7eeb29afbca5a279498a39678410f5f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18AB38
+MD5 Checksum:  020118027b7dc0daabfd0b98f49e3a15
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 996, uncompressed size: 2591, name: dmz.min.js
+1064          0x428           Zip archive data, at least v2.0 to extract, compressed size: 289, uncompressed size: 494, name: zh.json
+1418          0x58A           Zip archive data, at least v2.0 to extract, compressed size: 1008, uncompressed size: 3653, name: index.html
+2494          0x9BE           Zip archive data, at least v2.0 to extract, compressed size: 112, uncompressed size: 189, name: version.xml
+2993          0xBB1           End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18B5D7
+MD5 Checksum:  0a998017638ba12963fe1405e383127b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18C147
+MD5 Checksum:  ac3061950dd8508f52ca2c43816b85c2
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 20 x 20, 8-bit/color RGBA, interlaced
+962           0x3C2           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18C614
+MD5 Checksum:  7798e4d460391624b89691f41fc828d2
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18E206
+MD5 Checksum:  10def2936b844c3d03d23fee05e229c0
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 3443, uncompressed size: 12690, name: guest.min.js
+3513          0xDB9           Zip archive data, at least v2.0 to extract, compressed size: 115, uncompressed size: 192, name: version.xml
+3697          0xE71           Zip archive data, at least v2.0 to extract, compressed size: 253, uncompressed size: 436, name: guest.min.css
+4021          0xFB5           Zip archive data, at least v2.0 to extract, compressed size: 1743, uncompressed size: 10386, name: index.html
+5832          0x16C8          Zip archive data, at least v2.0 to extract, compressed size: 1082, uncompressed size: 2723, name: zh.json
+7382          0x1CD6          End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/18FD91
+MD5 Checksum:  c3251fa0bfb455e2ac32c2656a8900bb
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1921A0
+MD5 Checksum:  ab296c78c56570365edaf7a3a066aa67
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+470           0x1D6           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19256D
+MD5 Checksum:  6ff52452872dfb1b503001248711b9eb
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1926D6
+MD5 Checksum:  c75fcb2d9544228cf309ec5888557234
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/193B20
+MD5 Checksum:  d765418a5795cee6a5cc9f09e12b1d1d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/195E86
+MD5 Checksum:  647ba0c6da84c907d5e69e43ebbedd8d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 16 x 16, 8-bit/color RGBA, non-interlaced
+890           0x37A           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19612A
+MD5 Checksum:  f8b6808aa217b8bfd783e4819d245e0e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 16 x 16, 8-bit/color RGBA, non-interlaced
+890           0x37A           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1963DA
+MD5 Checksum:  c36cbb110e9bf1f67acdb1b12c57bff2
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 411, uncompressed size: 777, name: zh.json
+476           0x1DC           Zip archive data, at least v2.0 to extract, compressed size: 1310, uncompressed size: 7621, name: index.html
+1854          0x73E           Zip archive data, at least v2.0 to extract, compressed size: 1606, uncompressed size: 5005, name: ipmac.min.js
+3530          0xDCA           Zip archive data, at least v2.0 to extract, compressed size: 117, uncompressed size: 194, name: version.xml
+4036          0xFC4           End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19729A
+MD5 Checksum:  5a95e162e4960c3710454a27c2c6e732
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/197B35
+MD5 Checksum:  a1ebe0f3e114f78115e2473be7ea2e6f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1992FF
+MD5 Checksum:  c7b239424f1110e30a4a97e6971d5ef0
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+578           0x242           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/199841
+MD5 Checksum:  2d2866f6f264f4852eb006f69a832a7d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/199974
+MD5 Checksum:  70b23e03781fd0e7fa63b0d4ed4b50f1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19B051
+MD5 Checksum:  d3bed898b78521ea9795a10d948855a9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19C318
+MD5 Checksum:  3276e76fcefadd90270ae369b775492b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19CDBC
+MD5 Checksum:  056841ab8e3c1770c7a5a99623f2cf19
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19CEB0
+MD5 Checksum:  296ee4f8c1005c61a3482bc33ef6b1f6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 20 x 20, 8-bit/color RGBA, interlaced
+958           0x3BE           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19D310
+MD5 Checksum:  3c7fe9f1cae35eb0fd18c1c9266197a9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 1834, uncompressed size: 5835, name: permission.min.js
+1909          0x775           Zip archive data, at least v2.0 to extract, compressed size: 657, uncompressed size: 1410, name: zh.json
+2631          0xA47           Zip archive data, at least v2.0 to extract, compressed size: 1270, uncompressed size: 7431, name: index.html
+3969          0xF81           Zip archive data, at least v2.0 to extract, compressed size: 150, uncompressed size: 288, name: permission.min.css
+4195          0x1063          Zip archive data, at least v2.0 to extract, compressed size: 125, uncompressed size: 201, name: version.xml
+4802          0x12C2          End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19E453
+MD5 Checksum:  5655405b297ac132c024f1545f45146a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+392           0x188           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19E7E0
+MD5 Checksum:  56fead88b7710c678895ca171c771684
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/19ECA7
+MD5 Checksum:  9acdda7d1baa3b984f10de8157ec200e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit colormap, non-interlaced
+1170          0x492           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A045E
+MD5 Checksum:  b01eec7b48f23fb24677c31c075dddb9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A15DE
+MD5 Checksum:  b53e349dea3d173a74adf88ff9219cde
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A264B
+MD5 Checksum:  c72d30f2d300e5fc9cf718055608e178
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+1170          0x492           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A2C60
+MD5 Checksum:  bcacdb215fb0118733f15493327de785
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A2DB1
+MD5 Checksum:  154ff0a3ecb628660e4c9ad18f97fc02
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 110, uncompressed size: 149, name: version.xml
+179           0xB3            Zip archive data, at least v2.0 to extract, compressed size: 356, uncompressed size: 817, name: reboot_timer.min.css
+613           0x265           Zip archive data, at least v2.0 to extract, compressed size: 1267, uncompressed size: 5435, name: index.html
+1948          0x79C           Zip archive data, at least v2.0 to extract, compressed size: 2520, uncompressed size: 8647, name: reboot_timer.min.js
+4545          0x11C1          Zip archive data, at least v2.0 to extract, compressed size: 795, uncompressed size: 1862, name: zh.json
+5822          0x16BE          End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A4300
+MD5 Checksum:  9813f3bcfc25206a2a933f037ee7dd4f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A568C
+MD5 Checksum:  9d4ecf5c39b5aeb5c4d7c257c2f8c1b8
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A64FB
+MD5 Checksum:  162d51458a01833438ce9f7ee7b04fb7
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A6624
+MD5 Checksum:  93774b820c6cd43cd7b4dbb39f83cfa6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+161           0xA1            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A67A9
+MD5 Checksum:  59bae0da2185b4794a8e38c4f7aa0a39
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A722C
+MD5 Checksum:  f2cc3cd0ecbfcb3c608239944f753ed1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 1799, uncompressed size: 5620, name: vs.min.js
+1866          0x74A           Zip archive data, at least v2.0 to extract, compressed size: 441, uncompressed size: 921, name: zh.json
+2372          0x944           Zip archive data, at least v2.0 to extract, compressed size: 1145, uncompressed size: 6428, name: index.html
+3585          0xE01           Zip archive data, at least v2.0 to extract, compressed size: 118, uncompressed size: 195, name: version.xml
+4089          0xFF9           End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A8125
+MD5 Checksum:  6af9c43e132fc79cb96941a13cc96e98
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit colormap, non-interlaced
+950           0x3B6           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A8D38
+MD5 Checksum:  5b8e7f2d7738618fa1a6b82dba17a1da
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 13 x 13, 8-bit/color RGBA, non-interlaced
+962           0x3C2           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A90E1
+MD5 Checksum:  77cee6422fdb211c3dbf0b3910aef868
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:24
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1A9C7C
+MD5 Checksum:  4799e045105f751124a25aeab4d12fba
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1AB026
+MD5 Checksum:  64d5af836960871a0315c74569bbf4fa
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+143           0x8F            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1AB189
+MD5 Checksum:  817d7e790db39fbfcb88a2063624aeb5
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1AB315
+MD5 Checksum:  9bc69e543b74b758cdeddb44d5b01c26
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 1477, uncompressed size: 3823, name: zh.json
+1542          0x606           Zip archive data, at least v2.0 to extract, compressed size: 1867, uncompressed size: 12060, name: index.html
+3477          0xD95           Zip archive data, at least v2.0 to extract, compressed size: 4161, uncompressed size: 17856, name: wds.min.js
+7706          0x1E1A          Zip archive data, at least v2.0 to extract, compressed size: 267, uncompressed size: 516, name: wds.min.css
+8042          0x1F6A          Zip archive data, at least v2.0 to extract, compressed size: 121, uncompressed size: 192, name: version.xml
+8631          0x21B7          End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1AD39F
+MD5 Checksum:  1dc658360ab867d2bc811ba7459ed178
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 23 x 13, 8-bit/color RGBA, non-interlaced
+962           0x3C2           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1AD67D
+MD5 Checksum:  7a16b8745677df2208d109eaf130152b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 12 x 12, 8-bit/color RGBA, non-interlaced
+962           0x3C2           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1AD9A0
+MD5 Checksum:  1ed5728b5eb91ba0a76a086a787a3930
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 12 x 12, 8-bit/color RGBA, non-interlaced
+962           0x3C2           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1ADCE6
+MD5 Checksum:  d827151354dc329a88c6b2e36eb6fb81
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 23 x 13, 8-bit/color RGBA, non-interlaced
+962           0x3C2           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1ADFCA
+MD5 Checksum:  aac32ecae2db154c7f13b2bf4d916ce4
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1AE842
+MD5 Checksum:  218bf7a5cd7988ebbc081da7b7052e93
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1AEB6D
+MD5 Checksum:  2a49157d7425d71d836092dab4f10cf0
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1AF0DD
+MD5 Checksum:  f785d642b76b778e3389a0071d8b2bae
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1AFFD7
+MD5 Checksum:  58a601dbf68c8b0d8a88618f9c70dfbe
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1B01F6
+MD5 Checksum:  b16c1d5aa4a10ba00e31c69b90333762
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1B292B
+MD5 Checksum:  49d76c2249d9b51fd09b1610b9b70bef
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+37281         0x91A1          mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1B51E5
+MD5 Checksum:  61179feeba53a3d9675e39a28f20f6c0
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+718           0x2CE           Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1B5813
+MD5 Checksum:  3b56051c42476df08b0943f2aaf30b28
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1B5951
+MD5 Checksum:  e4c2889b4ed1a21ec1a79a1c3391a1e9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 1349, uncompressed size: 3012, name: zh.json
+1414          0x586           Zip archive data, at least v2.0 to extract, compressed size: 3230, uncompressed size: 10906, name: wac.min.js
+4712          0x1268          Zip archive data, at least v2.0 to extract, compressed size: 1646, uncompressed size: 6771, name: index.html
+6426          0x191A          Zip archive data, at least v2.0 to extract, compressed size: 224, uncompressed size: 497, name: wac.min.css
+6719          0x1A3F          Zip archive data, at least v2.0 to extract, compressed size: 124, uncompressed size: 166, name: version.xml
+7311          0x1C8F          End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1B74A1
+MD5 Checksum:  c826642e1fc83b2465da71e887071ab1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1B8B9D
+MD5 Checksum:  e0af6246503a68dba470ed01a3acd4d1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+176           0xB0            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1B8D2E
+MD5 Checksum:  71d5858259baca32eb78901d412ca446
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BA0B3
+MD5 Checksum:  525fae7374c9b9f16805db34631cfe5c
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 75, uncompressed size: 125, name: zh.json
+140           0x8C            Zip archive data, at least v2.0 to extract, compressed size: 480, uncompressed size: 1508, name: index.html
+688           0x2B0           Zip archive data, at least v2.0 to extract, compressed size: 67, uncompressed size: 71, name: isolate.min.css
+828           0x33C           Zip archive data, at least v2.0 to extract, compressed size: 401, uncompressed size: 846, name: isolate.min.js
+1301          0x515           Zip archive data, at least v2.0 to extract, compressed size: 111, uncompressed size: 188, name: version.xml
+1888          0x760           End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BA670
+MD5 Checksum:  39651e2e0aebda7419d0629cbbfc00e9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BAA81
+MD5 Checksum:  201058086186cca55b65b94a8776143d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BB0AA
+MD5 Checksum:  e2294964d1acd6343c78ed26f4d8c990
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BB142
+MD5 Checksum:  ab4899dc28b55a0606bdaf67c7b2ef3a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit/color RGBA, non-interlaced
+41            0x29            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BC9D8
+MD5 Checksum:  cb1a0319ca283e3f13ce3b1f86ec8ff4
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 216, uncompressed size: 302, name: zh.json
+281           0x119           Zip archive data, at least v2.0 to extract, compressed size: 838, uncompressed size: 2993, name: power.min.js
+1189          0x4A5           Zip archive data, at least v2.0 to extract, compressed size: 159, uncompressed size: 292, name: power.min.css
+1419          0x58B           Zip archive data, at least v2.0 to extract, compressed size: 668, uncompressed size: 2622, name: index.html
+2155          0x86B           Zip archive data, at least v2.0 to extract, compressed size: 115, uncompressed size: 192, name: version.xml
+2742          0xAB6           End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BD309
+MD5 Checksum:  dd9d02e1c5c2c4296263caa24c1c4f13
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit colormap, non-interlaced
+179           0xB3            Zlib compressed data, compressed
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BD4CB
+MD5 Checksum:  b12e6e8321c8652ed9e44278cf723303
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BDAF4
+MD5 Checksum:  652c7435c84e57612ae2c2b10dbd7325
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BE2C8
+MD5 Checksum:  acb564dfd8106b9c21c557b2bc88485d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BE3B2
+MD5 Checksum:  bf50b2ec5f470f75bd1e3147aed855f2
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 38 x 38, 8-bit/color RGBA, non-interlaced
+890           0x37A           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BEB0D
+MD5 Checksum:  9685d38b594a7aaddccfc9554820b8bd
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 30 x 30, 8-bit/color RGBA, interlaced
+958           0x3BE           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1BF1A0
+MD5 Checksum:  56d6b1bda3e56ffc60a78575b6cb0ef3
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 300 x 300, 8-bit colormap, non-interlaced
+1094          0x446           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1C11F8
+MD5 Checksum:  ae390dcdf5a7914a626defaf3837375e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1C247E
+MD5 Checksum:  c845f3cc100fe08ca1941a0765502bf3
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             PNG image, 80 x 80, 8-bit/color RGBA, non-interlaced
+85            0x55            Zlib compressed data, best compression
+2755          0xAC3           Zlib compressed data, best compression
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1C36C6
+MD5 Checksum:  04b0216cd19677fdb9ff7f7fd20c974c
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             ELF, 32-bit MSB relocatable, MIPS, version 1 (SYSV)
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1C4B52
+MD5 Checksum:  be91af9c9c5f4d5712b90be8d6b2be92
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/1C4CB3
+MD5 Checksum:  620bae2e1c12555288fca1259c986a40
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 117, uncompressed size: 155, name: version.xml
+186           0xBA            Zip archive data, at least v2.0 to extract, compressed size: 1250, uncompressed size: 5564, name: index.html
+1504          0x5E0           Zip archive data, at least v2.0 to extract, compressed size: 864, uncompressed size: 2106, name: zh.json
+2433          0x981           Zip archive data, at least v2.0 to extract, compressed size: 339, uncompressed size: 950, name: wlan_timer.min.css
+2848          0xB20           Zip archive data, at least v2.0 to extract, compressed size: 2635, uncompressed size: 9167, name: wlan_timer.min.js
+5971          0x1753          End of Zip archive, footer length: 22
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_39A0.extracted/1E74B
+MD5 Checksum:  d4f0a4b1604760d0ebb0c4bbc740e4c1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_119EC7.extracted/29
+MD5 Checksum:  5e2e622e13eddc63da5afa53a4e510e2
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_120E71.extracted/3B
+MD5 Checksum:  e584c581d4298a5d81a396c327b6bb0d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_12118B.extracted/1BC
+MD5 Checksum:  785d61d028f68911017e8038761a055c
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_121607.extracted/241
+MD5 Checksum:  5725ee2c2ba9411ba9b0157209cbde2a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1219A3.extracted/2DE
+MD5 Checksum:  5ac596047bcc942af5d06b5c4eedb533
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_121EBA.extracted/37A
+MD5 Checksum:  a57ff16596399cb53d7f993b769705fb
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_12266A.extracted/24E
+MD5 Checksum:  303740d9aaadbaa409234977d3b9f297
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_127327.extracted/2A0
+MD5 Checksum:  0fc3c565bc4d907e260f72cda2a930a9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1275CE.extracted/398
+MD5 Checksum:  e66c54d44971f908ba0dfb446182dbdd
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_127A58.extracted/390
+MD5 Checksum:  354b576980bc4b681fa2fa501914caab
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_12807A.extracted/408
+MD5 Checksum:  fbbda68005c3d2bb0da63287062a837d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_12DCC1.extracted/3E0
+MD5 Checksum:  c30ab3927b736952c46ad8f1213a8721
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_12E0F0.extracted/2AA
+MD5 Checksum:  c0b3257c3bb85d97838eed739e5d79f3
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_12E5FD.extracted/3D0
+MD5 Checksum:  d53f84f8fa80c34f4c68d5c2438a5b3a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_12F082.extracted/55
+MD5 Checksum:  1d3fda2edb4a89ab60a23c5f7c7d81dd
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+344           0x158           Copyright string: "Copyright (c) 1998 Hewlett-Packard Company"
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_12F082.extracted/AC3
+MD5 Checksum:  0183cb0f2f6fc0b4378101fed2abe5b6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_12FC7D.extracted/29
+MD5 Checksum:  42fecf42d2c2e10d49445a4f7791ddea
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+14413         0x384D          MySQL ISAM compressed data file Version 1
+18139         0x46DB          MySQL MISAM index file Version 4
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1305AF.extracted/30C
+MD5 Checksum:  4ef35ca1e4600aad956606ff9d01b7bf
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_130ABE.extracted/29
+MD5 Checksum:  de4a92cf7061c0e4cb3362db5d7f8364
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+53295         0xD02F          Intel x86 or x64 microcode, sig 0x0000fcf7, pf_mask 0x00, 1B01-04-07, rev 0x10000, size 2048
+58025         0xE2A9          Intel x86 or x64 microcode, sig 0x0000fbfd, pf_mask 0x00, 1FFE-05-03, rev 0x10001, size 2048
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_13672B.extracted/29
+MD5 Checksum:  63c12d15f6a476d0374db03cac8c11ef
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_142935.extracted/104
+MD5 Checksum:  83e35b2761691d4177bacfd913d24ee9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_142A5D.extracted/A8
+MD5 Checksum:  3ca16b74e9f33524d1cdf81283861c4c
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_142B85.extracted/108
+MD5 Checksum:  c62ed6b346472f9c72296225a3be66a4
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_142CB6.extracted/3D0
+MD5 Checksum:  2f71984095ca14ae42428b6822ddccf9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_14308A.extracted/80
+MD5 Checksum:  8a4c97daa8d2d49a9d0220bebc5051d1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1434AB.extracted/80
+MD5 Checksum:  b211144b3440e158338348a68ae68d94
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_143845.extracted/80
+MD5 Checksum:  a7dd5afcc20c49dc373bf276007af81d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_143A95.extracted/414
+MD5 Checksum:  99f08f4e977c3bad608214f2c83c9ff6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_144269.extracted/400
+MD5 Checksum:  ca4c3ef3a4524c5a4104c9ae535aec9f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_144970.extracted/80
+MD5 Checksum:  0ae8e144a28d403dcb4d7daa10050e6f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_144BAC.extracted/80
+MD5 Checksum:  0ebd02b45a24e7089cad62425e0df402
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_144DCF.extracted/4E
+MD5 Checksum:  da65174d8f480e3f87d25257d01fc468
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:25
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_144EFD.extracted/3D0
+MD5 Checksum:  a9049142aa95fb07f029c295fabbacfa
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1454A3.extracted/3D0
+MD5 Checksum:  a9a5f1791d9f615c27a9d7c8465c13e5
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_145B9D.extracted/3D0
+MD5 Checksum:  87652f7a91fa39e02ae2bf88752735a6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1462B1.extracted/3D0
+MD5 Checksum:  e3aceefa08a01fbe934b3903bad33791
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_146A3C.extracted/3D0
+MD5 Checksum:  68425eb63bc9bb299597404ac15d2eff
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_14D543.extracted/218
+MD5 Checksum:  61b6726b3b0af9f3591efffb5a45ea6e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_178040.extracted/29
+MD5 Checksum:  7d80f434cd5939919dd1d82948e264ff
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_182966.extracted/95
+MD5 Checksum:  f638c39147ba90b60ed833c819e45dd4
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_182DA9.extracted/version.xml
+MD5 Checksum:  8ef14b7fed11c59d2f40b6daec61de85
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_182DA9.extracted/zh.json
+MD5 Checksum:  cd4f55dca8033f405b03d6dd41a687c3
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_182DA9.extracted/ddns.min.css
+MD5 Checksum:  8dd30b810f9d895cff8fc4b2953805e0
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_182DA9.extracted/index.html
+MD5 Checksum:  82e0e19bfaa9ab6839205f9f9010064b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+9064          0x2368          HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_182DA9.extracted/ddns.min.js
+MD5 Checksum:  2277c2a649de78d8685c80abf0139e3a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18793A.extracted/29
+MD5 Checksum:  68c10a2ef0d405f4e44353c4a77de90b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18A7C6.extracted/9E
+MD5 Checksum:  81f50d082571105f87941d2953187421
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18AB38.extracted/zh.json
+MD5 Checksum:  8274f3960084695e1cb3f89617fd6190
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18AB38.extracted/version.xml
+MD5 Checksum:  124abba3887bc1aeed538bf4afd3ed0b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18AB38.extracted/dmz.min.js
+MD5 Checksum:  dc408debecd531465f85f2a1df61ed7c
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18AB38.extracted/index.html
+MD5 Checksum:  d455120c997e6d23e62da70f8e614b78
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+3645          0xE3D           HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18C147.extracted/3C2
+MD5 Checksum:  02b1d006d81f7cebbd632104ab06c193
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18C614.extracted/29
+MD5 Checksum:  804d85e984b361bdccc3906d09455403
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18E206.extracted/version.xml
+MD5 Checksum:  68ed1be26e67adafa624aaa1d21c7fbd
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18E206.extracted/zh.json
+MD5 Checksum:  f5445dcaea09fb7426231dee6fc98262
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18E206.extracted/guest.min.css
+MD5 Checksum:  2cb18a5498442119a0d5061f1fd4f7f4
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18E206.extracted/index.html
+MD5 Checksum:  e3361e403087b12edfc9af1f19932ae8
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+10378         0x288A          HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_18E206.extracted/guest.min.js
+MD5 Checksum:  8791fd342d9be0e2b7c0a353f42d0b22
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1921A0.extracted/1D6
+MD5 Checksum:  9c7fa20101fe3b4f2747c31e729b48ce
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_193B20.extracted/29
+MD5 Checksum:  90797054e710f4ffdb235affca2fcf3a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_195E86.extracted/37A
+MD5 Checksum:  f6cbe32091eb99597fd225d320097f85
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_19612A.extracted/37A
+MD5 Checksum:  79c029497e0e93a36da1d6b1e7a4d248
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1963DA.extracted/zh.json
+MD5 Checksum:  1a33a5d9e32ba04a981737379e693232
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1963DA.extracted/version.xml
+MD5 Checksum:  f6d925a8d9e93ffd21f37bd1f1344617
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1963DA.extracted/index.html
+MD5 Checksum:  c3a616141f5d5d6eb5904cffc7e98bb0
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+7613          0x1DBD          HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1963DA.extracted/ipmac.min.js
+MD5 Checksum:  d23f7be0fb70e26031a7e252d4be1d3c
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1992FF.extracted/242
+MD5 Checksum:  dd4ae591cf02ea4dfd82290eaee46571
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:26
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_199974.extracted/29
+MD5 Checksum:  d76b7e5935c117ac2df9e0ea13b562e7
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_19CEB0.extracted/3BE
+MD5 Checksum:  fb99a751b11a1701af950d3fea855050
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_19D310.extracted/zh.json
+MD5 Checksum:  7350a6a4ea07da0d8b8b0e8e307bcb5d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_19D310.extracted/version.xml
+MD5 Checksum:  04535c35db0ee2d02e9ab10f2907dd14
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_19D310.extracted/permission.min.css
+MD5 Checksum:  50f07c81c98854a6edfd64595ea1f041
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_19D310.extracted/index.html
+MD5 Checksum:  23437fdf59703061cdb840f81d9adf14
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+7423          0x1CFF          HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_19D310.extracted/permission.min.js
+MD5 Checksum:  e3b4d5f5b3ec82276c3b30eefe9a8c24
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_19E453.extracted/188
+MD5 Checksum:  97431e5b37ed652c052209b879d603d6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_19ECA7.extracted/492
+MD5 Checksum:  2a69379ad64085bef1fca5af54a798dc
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A264B.extracted/492
+MD5 Checksum:  d1412d1f69eb00978e9acf6a6ea0cbb3
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A2DB1.extracted/version.xml
+MD5 Checksum:  15dba9688771a104815ca3b451bea32e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A2DB1.extracted/zh.json
+MD5 Checksum:  fea6a0be6dad77583ccb82f23c00b532
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A2DB1.extracted/reboot_timer.min.js
+MD5 Checksum:  e2570ac3d180433f00621a38252e68b6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A2DB1.extracted/index.html
+MD5 Checksum:  ffc570f611eb76cf4de383fc89fc8374
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+5427          0x1533          HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A2DB1.extracted/reboot_timer.min.css
+MD5 Checksum:  ef8a5a2dcbbc04bf04bf333d1409e72b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A4300.extracted/29
+MD5 Checksum:  865b9e589af0581866a67032682cbdee
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A6624.extracted/A1
+MD5 Checksum:  2ea97d8b8de5ea0eb4e05aae768e7520
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A722C.extracted/zh.json
+MD5 Checksum:  40afe4b4bfbeea6f4246b525b833fac4
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A722C.extracted/version.xml
+MD5 Checksum:  421e1562c6bdd180be1d388003d64970
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A722C.extracted/index.html
+MD5 Checksum:  57eba6ad6933587731443360b6e6cea2
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+6420          0x1914          HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A722C.extracted/vs.min.js
+MD5 Checksum:  2d3bf47ec5028ce959b104757fd0b4ec
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A8125.extracted/3B6
+MD5 Checksum:  def5348ec9d7117a5158a8004219e763
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1A8D38.extracted/3C2
+MD5 Checksum:  319138d21c284ca79df277c7e96e7bf6
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+157           0x9D            mcrypt 2.2 encrypted data, algorithm: blowfish-448, mode: CBC, keymode: 8bit
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1AB026.extracted/8F
+MD5 Checksum:  ba4d101205d430f7c55c156377c2e87b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1AB315.extracted/zh.json
+MD5 Checksum:  dc992c4a0b10833dea8ee9ad3e2ad549
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1AB315.extracted/version.xml
+MD5 Checksum:  88a4cb99ee2e3e9bd7c663f157f52ceb
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1AB315.extracted/wds.min.js
+MD5 Checksum:  2968e303199a5d7645a40db2a7dc85f3
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1AB315.extracted/index.html
+MD5 Checksum:  25053705a32c451c78ebe089d0dac873
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+12052         0x2F14          HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1AB315.extracted/wds.min.css
+MD5 Checksum:  d191309b7faa449d2e13ebf6f571ba2b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1AD39F.extracted/3C2
+MD5 Checksum:  a642eb72f1ad2c996d2899c18a335dad
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1AD67D.extracted/3C2
+MD5 Checksum:  f4b965526c665f5e7e803d87cd396ad7
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1AD9A0.extracted/3C2
+MD5 Checksum:  27a46b453b1a7625b9b34b6c35869194
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1ADCE6.extracted/3C2
+MD5 Checksum:  a4bf28b67d30e289db6df1bcde42048b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1B01F6.extracted/29
+MD5 Checksum:  a45f2feac4d57344941e16c8f77c690f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1B51E5.extracted/2CE
+MD5 Checksum:  7dca31c39fb5ac540921e406148864da
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1B5951.extracted/zh.json
+MD5 Checksum:  29c69d77280029fd1a3c27cea37746e0
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1B5951.extracted/version.xml
+MD5 Checksum:  28e047eca1a1e04cb4b1e55d648ee6f0
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1B5951.extracted/index.html
+MD5 Checksum:  3d1d12ff27b5a41811e9d3ad35af5f4e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+17            0x11            HTML document header
+6762          0x1A6A          HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1B5951.extracted/wac.min.css
+MD5 Checksum:  a3aab4b8b4b3ec320bec93d16318bf0d
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1B5951.extracted/wac.min.js
+MD5 Checksum:  a2c1f89492ef8b210940b54f0e022bae
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1B8B9D.extracted/B0
+MD5 Checksum:  4ea7bc701694ea763af5cebe8b12f2c5
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:27
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1B8D2E.extracted/29
+MD5 Checksum:  3ce8701965932b6b18c42d8d9c9710e1
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BA0B3.extracted/zh.json
+MD5 Checksum:  d86aa2ce6fdc170129cbb17231dec57e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BA0B3.extracted/version.xml
+MD5 Checksum:  46c880feeafa3b558aa8d7d8ee31bc12
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BA0B3.extracted/index.html
+MD5 Checksum:  55853dddef874c81f72e84c2897e887a
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+1499          0x5DB           HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BA0B3.extracted/isolate.min.js
+MD5 Checksum:  f581f7049295a405156611bb8a1f567b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BA0B3.extracted/isolate.min.css
+MD5 Checksum:  29222fa78203141aec9c7c8184fa355b
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BB142.extracted/29
+MD5 Checksum:  2ba74c00a009d13834dba9bd4a5bd670
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BC9D8.extracted/zh.json
+MD5 Checksum:  287cfa11ea0f52892c5a36b64372e096
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BC9D8.extracted/version.xml
+MD5 Checksum:  71edfdca2da382fa6b71d97a1d6cf39e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BC9D8.extracted/power.min.js
+MD5 Checksum:  1043c690894eba680191a14c28a2f878
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BC9D8.extracted/power.min.css
+MD5 Checksum:  71071d9f4f4fb02f22b1950c6913e218
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BC9D8.extracted/index.html
+MD5 Checksum:  8a474abe55b5d9b3c6aa76e20191d16f
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+2614          0xA36           HTML document footer
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BD309.extracted/B3
+MD5 Checksum:  4e6f296529e1533bb15e7c4365946593
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BE3B2.extracted/37A
+MD5 Checksum:  db962839d47778d436ac02056d591bef
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BEB0D.extracted/3BE
+MD5 Checksum:  ade3a2746ff9466c109bfc2f713b6cd8
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1BF1A0.extracted/446
+MD5 Checksum:  28dc6983d1ffe12285331e79482034eb
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1C247E.extracted/55
+MD5 Checksum:  1d3fda2edb4a89ab60a23c5f7c7d81dd
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+344           0x158           Copyright string: "Copyright (c) 1998 Hewlett-Packard Company"
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1C247E.extracted/AC3
+MD5 Checksum:  6ea821b389252e45f358755e4848ebad
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1C4CB3.extracted/version.xml
+MD5 Checksum:  f183eb452a1ba48fbfbf68c87212ac4e
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             XML document, version: "1.0"
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1C4CB3.extracted/zh.json
+MD5 Checksum:  0ecc22642dd48ff9152928b9bcd8b655
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1C4CB3.extracted/wlan_timer.min.css
+MD5 Checksum:  a9b3578aab509d2010afcca8c5c39b76
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1C4CB3.extracted/wlan_timer.min.js
+MD5 Checksum:  d97e0f97174ee8e2c62e694bbe5dfbfb
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+68            0x44            Copyright string: "Copyright (c) 2014 TP-LINK Technologies Co., Ltd."
+83            0x53            TP-Link firmware header, firmware version: 26229.28259.29801, image version: " Co., Ltd.", product ID: 0x40617574, product version: 1752134202, kernel load address: 0x3D3D3D3D, kernel entry point: 0x3D3D3D3D, kernel offset: 1027423549, kernel length: 1027423549, rootfs offset: 1027423549, rootfs length: 1027423549, bootloader offset: 1027423530, bootloader length: 789187105
+
+
+Scan Time:     2022-04-04 10:47:28
+Target File:   /home/s-b312/Documents/work/WR886N/_read3.bin.extracted/_1C4CB3.extracted/index.html
+MD5 Checksum:  d38ba7c970ce60315827115c2a41e6e2
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+16            0x10            HTML document header
+5556          0x15B4          HTML document footer
+
