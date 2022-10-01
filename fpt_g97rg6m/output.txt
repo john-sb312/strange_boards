@@ -1,0 +1,646 @@
+
+SoC Preloader 1.3.0.4.25190.REL_NA.svn2846.lzma (Thu Apr 23 17:46:54 CST 2015)
+II: Stack @ 0x9fc1fd18 (parameter 736B)
+II: Console... OK
+II: PLL is set by SW: RLX5281: 600MHz; RLX5181: 500MHz; MEM: 300MHz; LX: 200MHz
+II: DRAM is set by TAK software calibration...
+bit:00, max_r_s(0), max_r_l(25), max_w_s(0), max_w_len(31)
+bit:01, max_r_s(0), max_r_l(29), max_w_s(0), max_w_len(31)
+bit:02, max_r_s(0), max_r_l(25), max_w_s(0), max_w_len(31)
+bit:03, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:04, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:05, max_r_s(0), max_r_l(25), max_w_s(0), max_w_len(31)
+bit:06, max_r_s(0), max_r_l(29), max_w_s(0), max_w_len(31)
+bit:07, max_r_s(0), max_r_l(25), max_w_s(0), max_w_len(31)
+bit:08, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:09, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(27)
+bit:10, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:11, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(27)
+bit:12, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(25)
+bit:13, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:14, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(27)
+bit:15, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(29)
+bit:16, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:17, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:18, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:19, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:20, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:21, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:22, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:23, max_r_s(0), max_r_l(29), max_w_s(0), max_w_len(31)
+bit:24, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:25, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(29)
+bit:26, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:27, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(27)
+bit:28, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(27)
+bit:29, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+bit:30, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(29)
+bit:31, max_r_s(0), max_r_l(31), max_w_s(0), max_w_len(31)
+PASSED
+DRCKO: 0000030b
+II: Flash... OK
+start dual uboot
+uboot-1 checksum in ram =4f489dbd
+uboot-1 checksum in flash =4f489dbd
+uboot1 ok 
+CIG preloader Version 0.9.36.28
+
+
+CIG 3.6.5
+
+U-Boot 2011.12 (Feb 04 2018 - 16:41:37)
+
+Board: RTL8696
+CPU: RLX5281 600.00 MHz, DSP: RLX5181 500.00 MHz, , DDR3 300MHz, LX:200.00 MHz 
+DRAM:  256 MB
+eeprom device not exists
+NAND:  board_nand_init()
+rtk_nand_read_id id_chain is 9590da2c
+nand: Manufacture ID=0x2c, Chip ID=0xda, 3thID=0x90, 4thID=0x95, 5thID=0x06, 6thID=0xf4
+this->pagemask is 131071
+this->chip_shift is 28
+parameters.bbt_valid is 1
+256 MiB
+[Eeprom1]BSP_EepromRead Eepdata crc check pass.chksum = 0xa3f4ae7e,calc = 0xa3f4ae7e
+Eepdata crc check pass.
+
+--- jffs2_part_info: partition number 3 for device nand0 (cig-nand)
+ Magic = 0x68737173! 
+Net:   
+
+ swCore_init 6266..
+
+force all ports to 100M full
+RTL8696GMAC
+Mac: 00:19:c7:00:00:01
+
+EEPROM version: 0x0003
+
+
+--- jffs2_part_info: partition number 1 for device nand0 (cig-nand)
+Scanning JFFS2 FS:   .   done.
+
+find_inode failed for name=.factory_uboot
+
+load: Failed to find inode
+
+jffs2_1pass_load size=0
+bootdelay2=0
+**************************************
+*                                    *
+*  KEY -- Enter console terminal     *
+*                                    *
+**************************************
+waiting for your select ...
+Using RTL8696GMAC device
+
+--- jffs2_part_info: partition number 3 for device nand0 (cig-nand)
+squashfs compression id=2!
+
+Root Filesystem crc check successfully!
+
+
+NAND read: device 0 offset 0x5f00000, size 0x40
+ 64 bytes read: OK
+hcrc:8fefcd89, now:8fefcd89
+
+NAND read: device 0 offset 0x5f00000, size 0x1cd23d
+ 1888829 bytes read: OK
+dcrc:b196d51b, now:b196d51b
+
+--- jffs2_part_info: partition number 3 for device nand0 (cig-nand)
+ Magic = 0x68737173! 
+## Booting kernel from Legacy Image at 81ff0000 ...
+hcrc:8fefcd89, now:8fefcd89
+   Image Name:   Linux Kernel Image
+   Created:      2019-11-12   7:24:30 UTC
+   Image Type:   MIPS Linux Kernel Image (gzip compressed)
+   Data Size:    1888765 Bytes = 1.8 MB
+   Load Address: 80000000
+   Entry Point:  80000000
+   Verifying Checksum ... dcrc:b196d51b, now:b196d51b
+OK
+   Uncompressing Kernel Image ... OK
+
+Starting kernel ...
+
+[bsp_prom_memmap]add_memory_region(0, 190840832, BOOT_MEM_RAM)
+Linux version 2.6.30.9-cig-4 (lixuefei@sh) (gcc version 4.4.6 (Realtek RSDK-1.5.6p2) ) #84 Tue Nov 12 11:22:46 CST 2019
+CPU revision is: 0000dc02
+Determined physical RAM map:
+ memory: 0b600000 @ 00000000 (usable)
+Compiled soc.h version=0x00000924
+sram_parameters.soc.header_ver=0x00000924
+Zone PFN ranges:
+  Normal   0x00000000 -> 0x0000b600
+  HighMem  0x0000b600 -> 0x0000b600
+Movable zone start PFN for each node
+early_node_map[1] active PFN ranges
+    0: 0x00000000 -> 0x0000b600
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 46228
+Kernel command line: console=ttyS0,115200 mem=248M root=/dev/mtdblock3  mtdparts=nand:768K@0x80000(Boot1),0x200000@0x200000(Config1),28M@0x600000(ImageA),28M@0x3000000(ImageB),3M@0x5c00000(KernelA),768K@0x140000(Boot2),0x200000@0x400000(Config2),14M@0x2200000(Imagec1),14M@0x4c00000(Imagec2),1M@0x5a00000(eeprom1),1M@0x5b00000(eeprom2),3M@0x5f00000(KernelB),16M@0x6200000(framework1),16M@0x7200000(framework2),64M@0x8200000(apps),32M@0xc200000(UserRW) rootfstype=squashfs reset=0 5srst=0 cali_wifi=0 MIB_MAJOR=0xcb hasEeprom=0 MIB_MINOR=0x2
+root_dev_setup line 179 root: /dev/mtdblock3
+board major is 0xcb
+icache: 64kB/32B, dcache: 32kB/32B, scache: 0kB/0B
+NR_IRQS:128
+PID hash table entries: 1024 (order: 10, 4096 bytes)
+console [ttyS0] enabled
+Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+allocated 931840 bytes of page_cgroup
+please try cgroup_disable=memory option if you don't want
+Memory: 174020k/186368k available (2896k kernel code, 11992k reserved, 953k data, 116k init, 0k highmem)
+Calibrating delay loop... 595.96 BogoMIPS (lpj=297984)
+Mount-cache hash table entries: 512
+Initializing cgroup subsys ns
+Initializing cgroup subsys cpuacct
+Initializing cgroup subsys memory
+Initializing cgroup subsys devices
+Initializing cgroup subsys freezer
+IMEM section size = 0xb5c
+net_namespace: 1020 bytes
+NET: Registered protocol family 16
+rtl86xx_PCIE_reset_procedure-189 PCIE_gpio_RST=6
+8686 25Mhz
+Find Port_num=1, Vender_Device_ID=0x56168C
+<<<<<Register 2nd PCI Controller>>>>>
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+pci 0000:00:00.0: PME# supported from D0 D1 D3hot
+pci 0000:00:00.0: PME# disabled
+pci 0000:01:00.0: PME# supported from D0 D3hot
+pci 0000:01:00.0: PME# disabled
+pci 0000:00:00.0: PCI bridge, secondary bus 0000:01
+pci 0000:00:00.0:   IO window: disabled
+pci 0000:00:00.0:   MEM window: 0x1a000000-0x1a1fffff
+pci 0000:00:00.0:   PREFETCH window: disabled
+PCIe Slot: 0	 Pin: 1	Dev->Bus->Number: 0
+PCIe Slot: 0	 Pin: 1	Dev->Bus->Number: 1
+Sangoma WANPIPE Router v1.1 (c) 1995-2000 Sangoma Technologies Inc.
+NET: Registered protocol family 2
+IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+TCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+TCP: Hash tables configured (established 8192 bind 8192)
+TCP reno registered
+NET: Registered protocol family 1
+Realtek GPIO Driver for Flash Reload Default
+=============Enter: luna_uart1_pinmux=============
+SOC_BOND_ID=0x0000000b
+GPIO    setting/0xbb0000f0 0x00009041
+LED     setting/0xbb023014 0x00020000
+IO mode setting/0xbb023018 0x00062030
+Disabled GPIO/LED pin-mux with UART1.
+=============Exit: luna_uart1_pinmux=============
+netlog: listening on port 4660
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+JFFS2 version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+fuse init (API version 7.11)
+msgmni has been set to 340
+alg: No test for stdrng (krng)
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+SOC_ID 0x6266
+CHIP_907   0x000b
+aipc: (0545)aipc_zone_set  CPU zone config:
+aipc: (0546)aipc_zone_set    C0DOR0=00000000 C0DMAR0=0b5fffff
+aipc: (0547)aipc_zone_set    C0DOR1=7b700000 C0DMAR1=008fffff
+aipc: (0549)aipc_zone_set  DSP zone config:
+aipc: (0550)aipc_zone_set    C1DOR0=0b700000 C1DMAR0=048fffff
+aipc: (0551)aipc_zone_set    C1DOR1=7b600000 C1DMAR1=000fffff
+aipc: register chrdev(254,0)
+aipc: create device successed
+aipc: start aipc irq init
+aipc: Request IRQ for IPC OK
+aipc: init done
+Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+serial8250: ttyS0 at MMIO 0x0 (irq = 49) is a 16550A
+loop: module loaded
+Driver 'sd' needs updating - please use bus_type methods
+PPP generic driver version 2.4.2
+PPP BSD Compression module registered
+MPPE/MPPC encryption/compression module registered
+NET: Registered protocol family 24
+flash device: 0x2000000 at 0xbd000000
+init_rtl8672_map: probe failed! mcr=0x22001de0
+usbcore: registered new interface driver alauda
+Realtek Luna NAND Flash Driver Rev:06:39:30 (ccwei0908)
+device_size is fc7c2000
+[rtk_nand_scan, line 2077] page_shift=11, phy_erase_shift=17, oob_shift=6, chip_shift=28
+rtk_nand_scan(2079): chunk size=800,oob=40 mtd=8b0b9800(8b0b9814)
+flash_info list
+flash_info.num_block : 2048
+flash_info.num_page_per_block : 64
+flash_info.page_per_chunk : 1
+flash_info.bbi_dma_offset : 2000
+flash_info.bbi_raw_offset : 2048
+flash_info.bbi_swap_offset : 23
+flash_info.page_size : 2048
+flash_info.addr_cycles : 5
+pblr_start_block : 1
+num_pblr_block : 2
+chunk size is 2048
+flash_info_num_chunk_per_block is 64
+display bbt
+master->name nand
+cmd: cmdlinepart
+16 cmdlinepart partitions found on MTD device nand
+RTK: using dynamic nand partition
+Creating 16 MTD partitions on "nand":
+0x000000080000-0x000000140000 : "Boot1"
+0x000000200000-0x000000400000 : "Config1"
+0x000000600000-0x000002200000 : "ImageA"
+0x000003000000-0x000004c00000 : "ImageB"
+0x000005c00000-0x000005f00000 : "KernelA"
+0x000000140000-0x000000200000 : "Boot2"
+0x000000400000-0x000000600000 : "Config2"
+0x000002200000-0x000003000000 : "Imagec1"
+0x000004c00000-0x000005a00000 : "Imagec2"
+0x000005a00000-0x000005b00000 : "eeprom1"
+0x000005b00000-0x000005c00000 : "eeprom2"
+0x000005f00000-0x000006200000 : "KernelB"
+0x000006200000-0x000007200000 : "framework1"
+0x000007200000-0x000008200000 : "framework2"
+0x000008200000-0x00000c200000 : "apps"
+0x00000c200000-0x00000e200000 : "UserRW"
+Realtek Nand Flash Driver is successfully installing.
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+xhci_rtl8672_init:879
+xhci_rtl8672_init:899  xhci_rtl8672_init SUCCESS!!!
+read_reg(0xb8000600)=0x7fbb00c0
+[set_usbphy_rle0371] read_reg(0xb8000600)=0x7fbb00c0
+Start of setting U3 Phy parameters
+End of setting U3 Phy parameters
+######### 0xb8000600=c000bb7f ###########
+b8040000=20009600 b800300c=0 xhci_usb_hcd_probe_rtl8672 813
+rtl8672-xhci rtl8672-xhci.0: xHCI Host Controller
+rtl8672-xhci rtl8672-xhci.0: new USB bus registered, assigned bus number 1
+Realtek IC reset patch!..............................
+rtl8672-xhci rtl8672-xhci.0: irq 13, io mem 0xb8040000
+usb usb1: config 1 interface 0 altsetting 0 endpoint 0x81 has no SuperSpeed companion descriptor
+usb_new_device:2079 udev 1, busnum 1, minor = 0
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0003
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: xHCI Host Controller
+usb usb1: Manufacturer: Linux 2.6.30.9-cig-4 xhci_hcd
+usb usb1: SerialNumber: usb_lexra
+usb usb1: configuration #1 chosen from 1 choice
+hub 1-0:1.0: USB hub found
+Hub is SuperSpeed[3]!!
+Hub is SuperSpeed[3]!!
+hub 1-0:1.0: 2 ports detected
+#@# xhci_hub_control(214) wIndex 0x0 0x2a0
+#@# xhci_hub_control(234) wIndex 0x0 0x2a0
+#### REALTEK PATCH ####  xhci_hub_control(237) hack for usb3 portsc
+#@# xhci_hub_control(243) wIndex 0x0 0x2a0
+#@# xhci_hub_control(254) wIndex 0x0 0x2a0
+#@# xhci_hub_control(214) wIndex 0x1 0x2a0
+#@# xhci_hub_control(234) wIndex 0x1 0x2a0
+#### REALTEK PATCH ####  xhci_hub_control(237) hack for usb3 portsc
+#@# xhci_hub_control(243) wIndex 0x1 0x2a0
+#@# xhci_hub_control(254) wIndex 0x1 0x2a0
+b8040000=20009600 b800300c=0 xhci_usb_hcd_probe_rtl8672 816 retval=0
+rtl8672-ehci rtl8672-ehci: EHCI Host Controller
+rtl8672-ehci rtl8672-ehci: new USB bus registered, assigned bus number 2
+rtl8672-ehci rtl8672-ehci: irq 14, io mem 0xb8021000
+rtl8672-ehci rtl8672-ehci: USB 0.0 started, EHCI 1.00
+usb_new_device:2079 udev 1, busnum 2, minor = 128
+usb usb2: New USB device found, idVendor=1d6b, idProduct=0003
+usb usb2: New USB device strings: Mfr=6, Product=2, SerialNumber=3
+usb usb2: Product: EHCI Host Controller
+usb usb2: SerialNumber: Linux 2.6.30.9-cig-4 ehci_hcd
+usb usb2: configuration #1 chosen from 2 choices
+hub 2-0:1.0: USB hub found
+Hub is not SuperSpeed[2]!!
+Hub is not SuperSpeed[2]!!
+hub 2-0:1.0: 1 port detected
+rtl8672_hcd_cs_init: register rtl8672_ehci ok!
+rtl8672-ohci rtl8672-ohci: OHCI Host Controller
+rtl8672-ohci rtl8672-ohci: new USB bus registered, assigned bus number 3
+rtl8672-ohci rtl8672-ohci: irq 14, io mem 0xb8020000
+usb_new_device:2079 udev 1, busnum 3, minor = 256
+usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb3: Product: OHCI Host Controller
+usb usb3: Manufacturer: Linux 2.6.30.9-cig-4 ohci_hcd
+usb usb3: SerialNumber: usb_lexra
+usb usb3: configuration #1 chosen from 1 choice
+hub 3-0:1.0: USB hub found
+Hub is not SuperSpeed[1001]!!
+Hub is not SuperSpeed[1001]!!
+hub 3-0:1.0: 1 port detected
+rtl8672_hcd_cs_init: register rtl8672_ohci ok!
+usbcore: registered new interface driver cdc_acm
+cdc_acm: v0.26:USB Abstract Control Model driver for USB modems and ISDN adapters
+usbcore: registered new interface driver usblp
+Hub is SuperSpeed[3]!!
+Hub is SuperSpeed[3]!!
+usbcore: registered new interface driver usbserial
+USB Serial support registered for generic
+usbcore: registered new interface driver usbserial_generic
+usbserial: USB Serial Driver core
+USB Serial support registered for cp2101
+usbcore: registered new interface driver cp2101
+cp210x: v0.08:Silicon Labs CP2101/CP2102 RS232 serial adaptor driver
+nf_conntrack version 0.5.0 (2912 buckets, 11648 max)
+CONFIG_NF_CT_ACCT is deprecated and will be removed soon. Please use
+nf_conntrack.acct=1 kernel paramater, acct=1 nf_conntrack module option or
+sysctl net.netfilter.nf_conntrack_acct=1 to enable it.
+IPv4 over IPv4 tunneling driver
+GRE over IPv4 demultiplexor driver<6>TCP cubic registered
+NET: Registered protocol family 17
+Bridge firewalling registered
+Ebtables v2.0 registered
+802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+All bugs added by David S. Miller <davem@redhat.com>
+CPU0 Zone0 : 0x00000000,   0x0b5fffff
+CPU0 Zone1 : 0x7b700000,   0x008fffff
+CPU0 Zone2 : 0x00000000,   0x000fffff
+CPU1 Zone0 : 0x0b700000,   0x048fffff
+CPU1 Zone1 : 0x7b600000,   0x000fffff
+CPU1 Zone2 : 0x00000000,   0x000fffff
+Unmapped Memory 0 :  0xb8001300 =  0x1fc00001
+Unmapped Memory 1 :  0xb8001310 =  0x1fc08001
+Unmapped Memory 2 :  0xb8001320 =  0x1fc10001
+Unmapped Memory 3 :  0xb8001330 =  0x0
+Hub is not SuperSpeed[2]!!
+vwlan: version 0.1.0
+RTL9600 Ethernet driver v1.0.0 (Oct 17, 2015)[Dual Band Disable]
+TX[1024,0,16,0,16] , RX[1024,256,256,0,0,0]
+eth0: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+eth0.2: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+eth0.3: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+eth0.4: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+eth0.5: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+nas0: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+pon0: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+wlan1: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+vwlan: RTL-8686 at 0xb8012000, 00:00:00:01:00:02, IRQ 26
+RTL8686 GMAC Probing..
+====init_priv_eth_skb_buf enter:MAX_ETH_SKB_NUM = 2096====
+====init_priv_eth_skb_proc enter====
+first entry: 0, portmask 127, rx: 802cbedc
+priority: 0, portmask 127, rx: 802cbedc
+insert here, priority: 2, portmask 127, rx: 801e34a8
+register rtl_bgm_rx hook function successful!
+
+priority: 2, portmask 127, rx: 801e34a8
+insert here, priority: 2, portmask 127, rx: 802cbc34
+register re8670_rx_slave_skb hook function successful!
+
+priority: 2, portmask 127, rx: 802cbc34
+priority: 2, portmask 127, rx: 801e34a8
+priority: 0, portmask 127, rx: 802cbedc
+insert here, priority: 1, portmask 127, rx: 801e33a0
+register rtl_enet_rx hook function successful!
+
+Hub is not SuperSpeed[1001]!!
+VFS: Mounted root (squashfs filesystem) readonly on device 31:3.
+Freeing unused kernel memory: 116k freed
+
+
+
+JFFS2 doesn't use OOB.
+
+ #mount rwdir (ont.mib) ok 
+grep: /mnt/rwdir/.startup: No such file or directory
+sh: 5000: unknown operand
+JFFS2 doesn't use OOB.
+ #mount rwdir2 (ont.mib) ok 
+JFFS2 doesn't use OOB.
+ #mount midware ok 
+
+
+
+
+/
+
+------------wifi work on normal mode.------------------
+
+
+
+HTC Service:0x0300 ep:1 TX flow control disabled
+HTC Service:0x0100 ep:2 TX flow control disabled
+ssp attached memory at 2ACB7000
+ONT>timer attached memory at 2ACB7000
+Starting Application: 0x00002000, /bin/TimerMgr................Done. elapsed time:(29)ms
+
+log attached memory at 2ACB7000
+Starting Application: 0x00001000, /bin/LogMgr................Done. elapsed time:(78)ms
+
+
+
+Update timer: curTime=00005ab9, gTmrTimerMsCounter=00000000
+
+WIFI signal detect remaining time:28777000 ms
+
+mmr attached memory at 2ACB7000
+provinceid is 0x0
+find the bosa[8].
+Starting Application: 0x00007000, /bin/MiscMgr................Done. elapsed time:(1779)ms
+
+VOS_SpawnTask SSP_UpgradeBoot
+sn:FPTT18a02b88
+
+major ID[0xcb] minor ID[0x2]
+
+Starting Application: 0x00003000, /bin/MecMgr................ssp_UpgradeBoot
+access /lib/bu.en fail, return 
+mec attached memory at 2AD1A000
+VOS_XML_Init(): 
+
+Load XML OK from file /tmp/default_rg.xmlVOS_XML_Init(): 
+
+Load XML OK from file Done. elapsed time:(1170)ms
+
+pmr attached memory at 2ACB7000
+Starting Application: 0x00004000, /bin/PonMgr................Done. elapsed time:(126)ms
+
+net attached memory at 2AD6A000
+VOS_RegisterEventListener:2577, Init event socket 12
+
+vos_OnKernelEvent:2509, Start receving event on socket 12
+
+Starting Application: 0x00009000, /bin/NetMgr................Done. elapsed time:(446)ms
+
+emr attached memory at 2ACB7000
+Starting Application: 0x00005000, /bin/EthMgr................Done. elapsed time:(219)ms
+
+tr069Mgr attached memory at 2ADFD000
+CfgDIR = /etc/tr069cfg
+cd /tmp/cpe3
+dir = data
+dir = filetrans
+dir = options
+dir = parameter
+cdir = /tmp/cpe3
+init tr069_initCapturePacketsState
+Starting Application: 0x0000d000, /usr/sbin/tr069Mgr................Done. elapsed time:(3064)ms
+
+web attached memory at 2ADFD000
+cp -af /tmp/web/html/fpt/* /tmp/web/html/
+ln -sf /tmp/web/html/images/logo_fpt.png /tmp/web/html/images/logo.png
+Starting Application: 0x0000c000, /usr/sbin/WebMgr................Done. elapsed time:(4040)ms
+
+
+
+aipc: write image successful. size=4429824 rc=4429824 wc=4429824 da=0xb0500000 remain=0
+
+
+
+start slave CPU
+iptables: No chain/target/match by that name.
+iptables: No chain/target/match by that name.
+iptables: No chain/target/match by that name.
+iptables: No chain/target/match by that name.
+iptables: No chain/target/match by that name.
+ifconfig: SIOCSIFMTU: No such device
+Preparing stress ...
+
+iptables: Bad rule (does a matching rule exist in that chain?).
+conntrack v0.9.14 (conntrack-tools): 0 flow entries have been deleted.
+iptables: Bad rule (does a matching rule exist in that chain?).
+
+
+
+
+
+/tmp/runtime_rg.xmlback image file magic is 0x68737173
+
+INFO: ALL APPs are ready.
+
+init all param done
+
+OntSwVer  : R4.2.98.068
+
+Build Date: 2019-11-26 11:32:52
+Major     : 0x00cb
+
+Minor     : 0x02
+
+HwVer     : 0x01
+
+Customer  : CIG
+
+PRODUCT Type = rgu
+SS  Type     = noss
+DSP Type     = nodsp
+WIFI Type    = qca
+XDSL Type    = nodsl 
+
+ONT>enable
+
+
+[H[J#ONT>help
+  Description: CLI Root
+
+    +traffic             Service CLI menu    
+
+    +system              System CLI menu     
+
+#ONT>system
+#ONT/system>shell
+#ONT/system/shell>ls /
+[1;34mbin[0m      [1;34mhome[0m     [1;36mlinuxrc[0m  [1;34mroot[0m     [1;36mtmp[0m      [1;34mvar[0m
+[1;34mdev[0m      [1;34mimage[0m    [1;34mmnt[0m      [1;34msbin[0m     [1;32muImage[0m   [1;34mweb[0m
+[1;34metc[0m      [1;34mlib[0m      [1;34mproc[0m     [1;34msys[0m      [1;34musr[0m
+#ONT/system/shell>cat /proc/cpuinfo  [2D  [2D  [2D  [2Dinfo
+system type		: RTL8672
+processor		: 0
+cpu model		: 56322
+BogoMIPS		: 595.96
+tlb_entries		: 64
+mips16 implemented	: yes
+#ONT/system/shell>ls /proc
+[1;34m1[0m                 [1;34m510[0m               [0;0mathnodefixedrate[0m  [0;0mmodules[0m
+[1;34m100[0m               [1;34m528[0m               [0;0mathrtscts[0m         [1;36mmounts[0m
+[1;34m101[0m               [1;34m529[0m               [0;0mathversion[0m        [0;0mmtd[0m
+[1;34m103[0m               [1;34m536[0m               [0;0mbuddyinfo[0m         [0;0mnandinfo[0m
+[1;34m1098[0m              [1;34m537[0m               [1;34mbus[0m               [1;36mnet[0m
+[1;34m1122[0m              [1;34m538[0m               [0;0mcgroups[0m           [0;0mpagetypeinfo[0m
+[1;34m1146[0m              [1;34m539[0m               [0;0mcigkversion[0m       [0;0mpartitions[0m
+[1;34m1147[0m              [1;34m540[0m               [0;0mcmdline[0m           [0;0mpower_flag[0m
+[1;34m1244[0m              [1;34m559[0m               [0;0mcpuinfo[0m           [0;0mprebver[0m
+[1;34m1245[0m              [1;34m560[0m               [0;0mcrypto[0m            [0;0mpriv_eth_skb[0m
+[1;34m187[0m               [1;34m561[0m               [0;0mdevices[0m           [1;34mqca_rgw_wifi[0m
+[1;34m2[0m                 [1;34m562[0m               [0;0mdiskstats[0m         [0;0mrstbn[0m
+[1;34m289[0m               [1;34m563[0m               [1;34mdriver[0m            [1;34mrtl8686gmac[0m
+[1;34m290[0m               [1;34m566[0m               [0;0mexecdomains[0m       [1;34mscsi[0m
+[1;34m3[0m                 [1;34m605[0m               [0;0mfilesystems[0m       [1;36mself[0m
+[1;34m313[0m               [1;34m606[0m               [0;0mfnatconfig[0m        [0;0mslabinfo[0m
+[1;34m317[0m               [1;34m66[0m                [0;0mfnatshow[0m          [0;0mstat[0m
+[1;34m319[0m               [1;34m720[0m               [1;34mfs[0m                [1;34msys[0m
+[1;34m331[0m               [1;34m730[0m               [0;0minternet_flag[0m     [1;34msysvipc[0m
+[1;34m4[0m                 [1;34m748[0m               [0;0minterrupts[0m        [0;0mtimer_list[0m
+[1;34m478[0m               [1;34m75[0m                [0;0miomem[0m             [1;34mtty[0m
+[1;34m482[0m               [1;34m751[0m               [0;0mioports[0m           [0;0muptime[0m
+[1;34m483[0m               [1;34m752[0m               [1;34mirq[0m               [0;0mversion[0m
+[1;34m484[0m               [1;34m8[0m                 [0;0mkallsyms[0m          [0;0mvmallocinfo[0m
+[1;34m485[0m               [1;34m93[0m                [0;0mkmsg[0m              [0;0mvmstat[0m
+[1;34m486[0m               [1;34m966[0m               [0;0mkpagecount[0m        [0;0mvwlan[0m
+[1;34m487[0m               [1;34m967[0m               [0;0mkpageflags[0m        [0;0mwifi_init_result[0m
+[1;34m497[0m               [1;34m98[0m                [0;0mled_fxs[0m           [1;34mwlan1[0m
+[1;34m498[0m               [1;34m99[0m                [0;0mload_default[0m      [0;0mwrap0[0m
+[1;34m499[0m               [1;34mU3DBG[0m             [0;0mload_reboot[0m       [0;0myaffs[0m
+[1;34m5[0m                 [1;34maipc_dev[0m          [0;0mloadavg[0m           [0;0mzoneinfo[0m
+[1;34m500[0m               [1;34math4[0m              [0;0mlocks[0m
+[1;34m501[0m               [0;0mathdebug[0m          [0;0mmeminfo[0m
+[1;34m502[0m               [0;0mathignoredfs[0m      [0;0mmisc[0m
+#ONT/system/shell>cat p  [2D/proc   [2D/meminfo
+MemTotal:         174492 kB
+MemFree:           70096 kB
+Buffers:           11212 kB
+Cached:            44052 kB
+SwapCached:            0 kB
+Active:            18856 kB
+Inactive:          47516 kB
+Active(anon):      12704 kB
+Inactive(anon):        0 kB
+Active(file):       6152 kB
+Inactive(file):    47516 kB
+HighTotal:             0 kB
+HighFree:              0 kB
+LowTotal:         174492 kB
+LowFree:           70096 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:         12720 kB
+Mapped:            12428 kB
+Slab:              19508 kB
+SReclaimable:       2196 kB
+SUnreclaim:        17312 kB
+PageTables:          436 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:       87244 kB
+Committed_AS:      41780 kB
+VmallocTotal:    1015800 kB
+VmallocUsed:       13684 kB
+VmallocChunk:     999668 kB
+#ONT/system/shell>]  [2Dcat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 000c0000 00020000 "Boot1"
+mtd1: 00200000 00020000 "Config1"
+mtd2: 01c00000 00020000 "ImageA"
+mtd3: 01c00000 00020000 "ImageB"
+mtd4: 00300000 00020000 "KernelA"
+mtd5: 000c0000 00020000 "Boot2"
+mtd6: 00200000 00020000 "Config2"
+mtd7: 00e00000 00020000 "Imagec1"
+mtd8: 00e00000 00020000 "Imagec2"
+mtd9: 00100000 00020000 "eeprom1"
+mtd10: 00100000 00020000 "eeprom2"
+mtd11: 00300000 00020000 "KernelB"
+mtd12: 01000000 00020000 "framework1"
+mtd13: 01000000 00020000 "framework2"
+mtd14: 04000000 00020000 "apps"
+mtd15: 02000000 00020000 "UserRW"
+#ONT/system/shell>
